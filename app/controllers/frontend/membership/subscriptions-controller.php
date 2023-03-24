@@ -111,19 +111,8 @@ $meta_key = \Voxel\Stripe::is_test_mode() ? 'voxel:test_plan' : 'voxel:plan';
 				$subscription = \Stripe\Subscription::update( $membership->get_subscription_id(), [
 					'cancel_at_period_end' => true,
 				] );
-				$next_plan_key = 'plan-gratuit';
-				$meta_key = \Voxel\Stripe::is_test_mode() ? 'voxel:test_plan' : 'voxel:plan';
-				update_user_meta( $user->get_id(), $meta_key, wp_slash( wp_json_encode( [
-					'plan' => $next_plan_key,
-					'type' => 'payment',
-					'status' => 'succeeded',
-					'created' => \Voxel\utc()->format( 'Y-m-d H:i:s' ),
-				] ) ) );
-				
-				do_action( 'voxel/membership/pricing-plan-updated', $user, $user->get_membership(), $user->get_membership( $refresh_cache = true ) );
-				// Assign the new plan to the user
+				do_action( 'voxel/membership/subscription-updated', $subscription );
 			}
-			
 
 			return wp_send_json( [
 				'success' => true,
