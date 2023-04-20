@@ -88,6 +88,7 @@ class Search_Form extends Base_Widget {
 				'vx_target' => 'elementor-widget-ts-map',
 				'vx_side' => 'left',
 				'condition' => [ 'ts_on_submit' => 'post-to-feed' ],
+				'reload' => 'editor',
 			] );
 
 			$this->add_control( 'ts_update_url', [
@@ -580,6 +581,11 @@ class Search_Form extends Base_Widget {
 				]
 			);
 
+			$this->add_control( 'form_toggle_apply', [
+				'type' => \Elementor\Controls_Manager::RAW_HTML,
+				'raw' => '<a href="#" onclick="voxel_reload_editor(); return false;" class="elementor-button">Apply changes</a>',
+			] );
+
 			$this->add_control(
 				'ts_sf_filter_wrap',
 				[
@@ -745,6 +751,10 @@ class Search_Form extends Base_Widget {
 				]
 			);
 
+			$this->add_control( 'mf_switcher_apply', [
+				'type' => \Elementor\Controls_Manager::RAW_HTML,
+				'raw' => '<a href="#" onclick="voxel_reload_editor(); return false;" class="elementor-button">Apply changes</a>',
+			] );
 
 		$this->end_controls_section();
 
@@ -4536,6 +4546,7 @@ class Search_Form extends Base_Widget {
 				'tablet' => false,
 				'mobile' => false,
 			],
+			'autocomplete' => $this->_get_autocomplete_config(),
 		];
 
 		if ( $this->get_settings_for_display( 'ts_on_submit' ) === 'submit-to-archive' ) {
@@ -4693,5 +4704,19 @@ class Search_Form extends Base_Widget {
 
 	public function _update_url() {
 		return $this->get_settings_for_display('ts_update_url') === 'yes';
+	}
+
+	public function _get_autocomplete_config() {
+		if ( \Voxel\get( 'settings.maps.provider' ) === 'mapbox' ) {
+			return [
+				'countries' => array_filter( (array) \Voxel\get( 'settings.maps.mapbox.autocomplete.countries' ) ),
+				'feature_types' => array_filter( (array) \Voxel\get( 'settings.maps.mapbox.autocomplete.feature_types' ) ),
+			];
+		} else {
+			return [
+				'countries' => array_filter( (array) \Voxel\get( 'settings.maps.google_maps.autocomplete.countries' ) ),
+				'feature_types' => array_filter( (array) \Voxel\get( 'settings.maps.google_maps.autocomplete.feature_types' ) ),
+			];
+		}
 	}
 }

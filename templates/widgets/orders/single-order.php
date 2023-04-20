@@ -44,7 +44,7 @@
 										</li>
 										<li>
 											<small><?= _x( 'Price', 'single order', 'voxel' ) ?></small>
-											<p>{{ pricing.total }} <span v-if="pricing.period">/ {{ pricing.period }}</span></p>
+											<p>{{ order.price.amount }} <span v-if="order.price.period">/ {{ order.price.period }}</span></p>
 										</li>
 									</ul>
 								</div>

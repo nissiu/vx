@@ -6,7 +6,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-03-19 22:27+0000\n"
+"POT-Creation-Date: 2023-04-08 19:04+0000\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -34,7 +34,7 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: app/widgets/advanced-list.php:59, app/widgets/advanced-list.php:83, app/widgets/login.php:1312, app/widgets/navbar.php:385, app/widgets/user-bar.php:91
+#: app/widgets/advanced-list.php:59, app/widgets/advanced-list.php:84, app/widgets/login.php:1312, app/widgets/navbar.php:385, app/widgets/user-bar.php:91
 msgid "Link"
 msgstr ""
 
@@ -78,379 +78,387 @@ msgstr ""
 msgid "Back to top"
 msgstr ""
 
-#: app/widgets/advanced-list.php:75
+#: app/widgets/advanced-list.php:70
+msgid "Scroll to section"
+msgstr ""
+
+#: app/widgets/advanced-list.php:76
 msgid "Addition ID"
 msgstr ""
 
-#: app/widgets/advanced-list.php:85, app/widgets/navbar.php:387, app/widgets/user-bar.php:94
+#: app/widgets/advanced-list.php:86, app/widgets/navbar.php:387, app/widgets/user-bar.php:94
 msgid "https://your-link.com"
 msgstr ""
 
-#: app/widgets/advanced-list.php:99, app/widgets/advanced-list.php:128, app/widgets/advanced-list.php:158, app/widgets/create-post.php:933, app/widgets/orders.php:540, app/widgets/pricing-plan.php:1369, app/widgets/timeline.php:1262, app/widgets/timeline.php:1932
+#: app/widgets/advanced-list.php:98
+msgid "Section ID"
+msgstr ""
+
+#: app/widgets/advanced-list.php:106, app/widgets/advanced-list.php:135, app/widgets/advanced-list.php:165, app/widgets/create-post.php:933, app/widgets/orders.php:540, app/widgets/pricing-plan.php:1369, app/widgets/timeline.php:1262, app/widgets/timeline.php:1932
 msgid "Text"
 msgstr ""
 
-#: app/widgets/advanced-list.php:101, app/widgets/advanced-list.php:130, app/widgets/advanced-list.php:160, app/widgets/navbar.php:369
+#: app/widgets/advanced-list.php:108, app/widgets/advanced-list.php:137, app/widgets/advanced-list.php:167, app/widgets/navbar.php:369
 msgid "Action"
 msgstr ""
 
-#: app/widgets/advanced-list.php:102, app/widgets/advanced-list.php:131, app/widgets/advanced-list.php:161, app/widgets/navbar.php:370
+#: app/widgets/advanced-list.php:109, app/widgets/advanced-list.php:138, app/widgets/advanced-list.php:168, app/widgets/navbar.php:370
 msgid "Action title"
 msgstr ""
 
-#: app/widgets/advanced-list.php:118
+#: app/widgets/advanced-list.php:125
 msgid "Active state"
 msgstr ""
 
-#: app/widgets/advanced-list.php:148
+#: app/widgets/advanced-list.php:155
 msgid "Intermediate state"
 msgstr ""
 
-#: app/widgets/advanced-list.php:178
+#: app/widgets/advanced-list.php:185
 msgid "Custom style"
 msgstr ""
 
-#: app/widgets/advanced-list.php:179
+#: app/widgets/advanced-list.php:186
 msgid "Use custom styling for this specific item only, overwrites default style"
 msgstr ""
 
-#: app/widgets/advanced-list.php:181, app/widgets/navbar.php:402
+#: app/widgets/advanced-list.php:188, app/widgets/navbar.php:402
 msgid "On"
 msgstr ""
 
-#: app/widgets/advanced-list.php:182, app/widgets/navbar.php:403
+#: app/widgets/advanced-list.php:189, app/widgets/navbar.php:403
 msgid "Off"
 msgstr ""
 
-#: app/widgets/advanced-list.php:202
+#: app/widgets/advanced-list.php:209
 msgid "Colors"
 msgstr ""
 
-#: app/widgets/advanced-list.php:212, app/widgets/advanced-list.php:866, app/widgets/advanced-list.php:1778, app/widgets/advanced-list.php:1876, app/widgets/bar-chart.php:133, app/widgets/bar-chart.php:506, app/widgets/bar-chart.php:616, app/widgets/bar-chart.php:737, app/widgets/bar-chart.php:1007, app/widgets/booking-calendar.php:326, app/widgets/booking-calendar.php:406, app/widgets/booking-calendar.php:461, app/widgets/booking-calendar.php:546, app/widgets/booking-calendar.php:567, app/widgets/booking-calendar.php:987, app/widgets/booking-calendar.php:1259, app/widgets/create-post.php:987, app/widgets/create-post.php:1034, app/widgets/create-post.php:1096, app/widgets/create-post.php:1143, app/widgets/create-post.php:1402, app/widgets/create-post.php:1734, app/widgets/create-post.php:1814, app/widgets/create-post.php:1852, app/widgets/create-post.php:2037, app/widgets/create-post.php:2143, app/widgets/create-post.php:2276, app/widgets/create-post.php:2471, app/widgets/create-post.php:2569, app/widgets/create-post.php:3838, app/widgets/create-post.php:3905, app/widgets/create-post.php:4867, app/widgets/create-post.php:5023, app/widgets/create-post.php:5117, app/widgets/create-post.php:5337, app/widgets/create-post.php:5404, app/widgets/create-post.php:5534, app/widgets/create-post.php:5601, app/widgets/current-plan.php:294, app/widgets/current-plan.php:414, app/widgets/current-plan.php:547, app/widgets/current-plan.php:683, app/widgets/gallery.php:816, app/widgets/gallery.php:900, app/widgets/login.php:278, app/widgets/login.php:414, app/widgets/login.php:531, app/widgets/login.php:667, app/widgets/login.php:784, app/widgets/login.php:920, app/widgets/map.php:430, app/widgets/map.php:442, app/widgets/messages.php:744, app/widgets/messages.php:1500, app/widgets/messages.php:1567, app/widgets/orders.php:113, app/widgets/orders.php:193, app/widgets/orders.php:248, app/widgets/orders.php:900, app/widgets/orders.php:1211, app/widgets/orders.php:1311, app/widgets/orders.php:1920, app/widgets/orders.php:2023, app/widgets/orders.php:3133, app/widgets/orders.php:3283, app/widgets/popup-kit.php:387, app/widgets/popup-kit.php:493, app/widgets/popup-kit.php:699, app/widgets/popup-kit.php:1087, app/widgets/popup-kit.php:1152, app/widgets/popup-kit.php:1293, app/widgets/popup-kit.php:1486, app/widgets/post-feed.php:399, app/widgets/post-feed.php:602, app/widgets/post-feed.php:746, app/widgets/post-feed.php:842, app/widgets/post-feed.php:1052, app/widgets/post-feed.php:1149, app/widgets/pricing-plan.php:646, app/widgets/pricing-plan.php:756, app/widgets/pricing-plan.php:897, app/widgets/pricing-plan.php:1028, app/widgets/pricing-plan.php:1144, app/widgets/pricing-plan.php:1275, app/widgets/product-form.php:432, app/widgets/product-form.php:756, app/widgets/product-form.php:943, app/widgets/product-form.php:1041, app/widgets/product-form.php:1193, app/widgets/product-form.php:1442, app/widgets/product-form.php:1512, app/widgets/product-form.php:1657, app/widgets/product-form.php:1763, app/widgets/product-form.php:2020, app/widgets/product-form.php:2169, app/widgets/product-form.php:2552, app/widgets/product-form.php:2617, app/widgets/qr-tag-handler.php:248, app/widgets/qr-tag-handler.php:360, app/widgets/quick-search.php:259, app/widgets/quick-search.php:422, app/widgets/quick-search.php:509, app/widgets/quick-search.php:625, app/widgets/quick-search.php:789, app/widgets/quick-search.php:899, app/widgets/review-stats.php:138, app/widgets/review-stats.php:196, app/widgets/review-stats.php:249, app/widgets/review-stats.php:302, app/widgets/review-stats.php:355, app/widgets/review-stats.php:409, app/widgets/search-form.php:1309, app/widgets/search-form.php:1504, app/widgets/search-form.php:1602, app/widgets/search-form.php:3637, app/widgets/search-form.php:3754, app/widgets/search-form.php:3814, app/widgets/search-form.php:3974, app/widgets/search-form.php:4310, app/widgets/stripe-account.php:212, app/widgets/stripe-account.php:311, app/widgets/stripe-account.php:446, app/widgets/stripe-account.php:583, app/widgets/timeline.php:473, app/widgets/timeline.php:583, app/widgets/timeline.php:743, app/widgets/timeline.php:919, app/widgets/timeline.php:1070, app/widgets/timeline.php:1590, app/widgets/timeline.php:1641, app/widgets/timeline.php:1692, app/widgets/timeline.php:1743, app/widgets/timeline.php:1794, app/widgets/timeline.php:1940, app/widgets/timeline.php:2016, app/widgets/timeline.php:2300, app/widgets/timeline.php:2386, app/widgets/timeline.php:2532, app/widgets/timeline.php:2618, app/widgets/user-bar.php:972, app/widgets/work-hours.php:342, app/widgets/work-hours.php:446, app/widgets/option-groups/file-field.php:177, app/widgets/option-groups/file-field.php:283, app/widgets/option-groups/file-field.php:489, app/widgets/option-groups/popup-controller.php:143, app/widgets/option-groups/popup-controller.php:185
+#: app/widgets/advanced-list.php:219, app/widgets/advanced-list.php:873, app/widgets/advanced-list.php:1785, app/widgets/advanced-list.php:1883, app/widgets/bar-chart.php:133, app/widgets/bar-chart.php:506, app/widgets/bar-chart.php:616, app/widgets/bar-chart.php:737, app/widgets/bar-chart.php:1007, app/widgets/booking-calendar.php:326, app/widgets/booking-calendar.php:406, app/widgets/booking-calendar.php:461, app/widgets/booking-calendar.php:546, app/widgets/booking-calendar.php:567, app/widgets/booking-calendar.php:987, app/widgets/booking-calendar.php:1259, app/widgets/create-post.php:987, app/widgets/create-post.php:1034, app/widgets/create-post.php:1096, app/widgets/create-post.php:1143, app/widgets/create-post.php:1402, app/widgets/create-post.php:1734, app/widgets/create-post.php:1814, app/widgets/create-post.php:1852, app/widgets/create-post.php:2037, app/widgets/create-post.php:2143, app/widgets/create-post.php:2276, app/widgets/create-post.php:2471, app/widgets/create-post.php:2569, app/widgets/create-post.php:3838, app/widgets/create-post.php:3905, app/widgets/create-post.php:4867, app/widgets/create-post.php:5023, app/widgets/create-post.php:5117, app/widgets/create-post.php:5337, app/widgets/create-post.php:5404, app/widgets/create-post.php:5534, app/widgets/create-post.php:5601, app/widgets/current-plan.php:294, app/widgets/current-plan.php:414, app/widgets/current-plan.php:547, app/widgets/current-plan.php:683, app/widgets/gallery.php:830, app/widgets/gallery.php:914, app/widgets/login.php:278, app/widgets/login.php:414, app/widgets/login.php:531, app/widgets/login.php:667, app/widgets/login.php:784, app/widgets/login.php:920, app/widgets/map.php:431, app/widgets/map.php:443, app/widgets/messages.php:744, app/widgets/messages.php:1500, app/widgets/messages.php:1567, app/widgets/orders.php:113, app/widgets/orders.php:193, app/widgets/orders.php:248, app/widgets/orders.php:900, app/widgets/orders.php:1211, app/widgets/orders.php:1311, app/widgets/orders.php:1920, app/widgets/orders.php:2023, app/widgets/orders.php:3133, app/widgets/orders.php:3283, app/widgets/popup-kit.php:387, app/widgets/popup-kit.php:493, app/widgets/popup-kit.php:699, app/widgets/popup-kit.php:1087, app/widgets/popup-kit.php:1152, app/widgets/popup-kit.php:1293, app/widgets/popup-kit.php:1486, app/widgets/post-feed.php:399, app/widgets/post-feed.php:602, app/widgets/post-feed.php:746, app/widgets/post-feed.php:842, app/widgets/post-feed.php:1052, app/widgets/post-feed.php:1149, app/widgets/pricing-plan.php:646, app/widgets/pricing-plan.php:756, app/widgets/pricing-plan.php:897, app/widgets/pricing-plan.php:1028, app/widgets/pricing-plan.php:1144, app/widgets/pricing-plan.php:1275, app/widgets/product-form.php:432, app/widgets/product-form.php:756, app/widgets/product-form.php:943, app/widgets/product-form.php:1041, app/widgets/product-form.php:1193, app/widgets/product-form.php:1442, app/widgets/product-form.php:1512, app/widgets/product-form.php:1657, app/widgets/product-form.php:1763, app/widgets/product-form.php:2020, app/widgets/product-form.php:2169, app/widgets/product-form.php:2552, app/widgets/product-form.php:2617, app/widgets/qr-tag-handler.php:248, app/widgets/qr-tag-handler.php:360, app/widgets/quick-search.php:259, app/widgets/quick-search.php:422, app/widgets/quick-search.php:509, app/widgets/quick-search.php:625, app/widgets/quick-search.php:789, app/widgets/quick-search.php:899, app/widgets/review-stats.php:138, app/widgets/review-stats.php:196, app/widgets/review-stats.php:249, app/widgets/review-stats.php:302, app/widgets/review-stats.php:355, app/widgets/review-stats.php:409, app/widgets/search-form.php:1319, app/widgets/search-form.php:1514, app/widgets/search-form.php:1612, app/widgets/search-form.php:3647, app/widgets/search-form.php:3764, app/widgets/search-form.php:3824, app/widgets/search-form.php:3984, app/widgets/search-form.php:4320, app/widgets/stripe-account.php:212, app/widgets/stripe-account.php:311, app/widgets/stripe-account.php:446, app/widgets/stripe-account.php:583, app/widgets/timeline.php:473, app/widgets/timeline.php:583, app/widgets/timeline.php:743, app/widgets/timeline.php:919, app/widgets/timeline.php:1070, app/widgets/timeline.php:1590, app/widgets/timeline.php:1641, app/widgets/timeline.php:1692, app/widgets/timeline.php:1743, app/widgets/timeline.php:1794, app/widgets/timeline.php:1940, app/widgets/timeline.php:2016, app/widgets/timeline.php:2300, app/widgets/timeline.php:2386, app/widgets/timeline.php:2532, app/widgets/timeline.php:2618, app/widgets/user-bar.php:972, app/widgets/work-hours.php:342, app/widgets/work-hours.php:446, app/widgets/option-groups/file-field.php:177, app/widgets/option-groups/file-field.php:283, app/widgets/option-groups/file-field.php:489, app/widgets/option-groups/popup-controller.php:143, app/widgets/option-groups/popup-controller.php:185
 msgid "Text color"
 msgstr ""
 
-#: app/widgets/advanced-list.php:224, app/widgets/advanced-list.php:1078
+#: app/widgets/advanced-list.php:231, app/widgets/advanced-list.php:1085
 msgid "Text color (Hover)"
 msgstr ""
 
-#: app/widgets/advanced-list.php:236, app/widgets/advanced-list.php:1161
+#: app/widgets/advanced-list.php:243, app/widgets/advanced-list.php:1168
 msgid "Text color (Active)"
 msgstr ""
 
-#: app/widgets/advanced-list.php:248, app/widgets/advanced-list.php:878, app/widgets/bar-chart.php:250, app/widgets/bar-chart.php:292, app/widgets/booking-calendar.php:523, app/widgets/booking-calendar.php:632, app/widgets/create-post.php:308, app/widgets/create-post.php:1439, app/widgets/create-post.php:1695, app/widgets/create-post.php:1773, app/widgets/create-post.php:1865, app/widgets/create-post.php:2063, app/widgets/create-post.php:2263, app/widgets/create-post.php:2459, app/widgets/create-post.php:5036, app/widgets/create-post.php:5129, app/widgets/current-plan.php:591, app/widgets/current-plan.php:695, app/widgets/gallery.php:765, app/widgets/gallery.php:877, app/widgets/login.php:322, app/widgets/login.php:426, app/widgets/login.php:575, app/widgets/login.php:679, app/widgets/login.php:828, app/widgets/login.php:932, app/widgets/map.php:274, app/widgets/map.php:892, app/widgets/messages.php:87, app/widgets/messages.php:956, app/widgets/messages.php:988, app/widgets/messages.php:1020, app/widgets/navbar.php:486, app/widgets/navbar.php:810, app/widgets/navbar.php:918, app/widgets/orders.php:316, app/widgets/orders.php:380, app/widgets/orders.php:1224, app/widgets/orders.php:1324, app/widgets/orders.php:1933, app/widgets/orders.php:2036, app/widgets/orders.php:2186, app/widgets/orders.php:2437, app/widgets/orders.php:2495, app/widgets/orders.php:3120, app/widgets/orders.php:3295, app/widgets/popup-kit.php:1269, app/widgets/popup-kit.php:1365, app/widgets/popup-kit.php:1535, app/widgets/post-feed.php:759, app/widgets/post-feed.php:855, app/widgets/post-feed.php:1065, app/widgets/post-feed.php:1162, app/widgets/pricing-plan.php:941, app/widgets/pricing-plan.php:1040, app/widgets/pricing-plan.php:1188, app/widgets/pricing-plan.php:1287, app/widgets/product-form.php:292, app/widgets/product-form.php:743, app/widgets/product-form.php:931, app/widgets/product-form.php:1230, app/widgets/product-form.php:1399, app/widgets/product-form.php:1469, app/widgets/product-form.php:1605, app/widgets/product-form.php:1739, app/widgets/product-form.php:1897, app/widgets/product-form.php:2033, app/widgets/qr-tag-handler.php:261, app/widgets/qr-tag-handler.php:372, app/widgets/quick-search.php:246, app/widgets/quick-search.php:410, app/widgets/quick-search.php:638, app/widgets/search-form.php:961, app/widgets/search-form.php:1296, app/widgets/search-form.php:1492, app/widgets/search-form.php:1821, app/widgets/search-form.php:1944, app/widgets/search-form.php:1978, app/widgets/search-form.php:2138, app/widgets/search-form.php:2276, app/widgets/search-form.php:3662, app/widgets/search-form.php:3766, app/widgets/search-form.php:3826, app/widgets/search-form.php:3987, app/widgets/search-form.php:4148, app/widgets/search-form.php:4322, app/widgets/stripe-account.php:490, app/widgets/stripe-account.php:595, app/widgets/timeline.php:730, app/widgets/timeline.php:931, app/widgets/timeline.php:1567, app/widgets/timeline.php:1618, app/widgets/timeline.php:1669, app/widgets/timeline.php:1720, app/widgets/timeline.php:1771, app/widgets/timeline.php:2175, app/widgets/timeline.php:2288, app/widgets/timeline.php:2374, app/widgets/timeline.php:2520, app/widgets/timeline.php:2606, app/widgets/timeline.php:2757
+#: app/widgets/advanced-list.php:255, app/widgets/advanced-list.php:885, app/widgets/bar-chart.php:250, app/widgets/bar-chart.php:292, app/widgets/booking-calendar.php:523, app/widgets/booking-calendar.php:632, app/widgets/create-post.php:308, app/widgets/create-post.php:1439, app/widgets/create-post.php:1695, app/widgets/create-post.php:1773, app/widgets/create-post.php:1865, app/widgets/create-post.php:2063, app/widgets/create-post.php:2263, app/widgets/create-post.php:2459, app/widgets/create-post.php:5036, app/widgets/create-post.php:5129, app/widgets/current-plan.php:591, app/widgets/current-plan.php:695, app/widgets/gallery.php:779, app/widgets/gallery.php:891, app/widgets/login.php:322, app/widgets/login.php:426, app/widgets/login.php:575, app/widgets/login.php:679, app/widgets/login.php:828, app/widgets/login.php:932, app/widgets/map.php:275, app/widgets/map.php:927, app/widgets/messages.php:87, app/widgets/messages.php:956, app/widgets/messages.php:988, app/widgets/messages.php:1020, app/widgets/navbar.php:486, app/widgets/navbar.php:810, app/widgets/navbar.php:918, app/widgets/orders.php:316, app/widgets/orders.php:380, app/widgets/orders.php:1224, app/widgets/orders.php:1324, app/widgets/orders.php:1933, app/widgets/orders.php:2036, app/widgets/orders.php:2186, app/widgets/orders.php:2437, app/widgets/orders.php:2495, app/widgets/orders.php:3120, app/widgets/orders.php:3295, app/widgets/popup-kit.php:1269, app/widgets/popup-kit.php:1365, app/widgets/popup-kit.php:1535, app/widgets/post-feed.php:759, app/widgets/post-feed.php:855, app/widgets/post-feed.php:1065, app/widgets/post-feed.php:1162, app/widgets/pricing-plan.php:941, app/widgets/pricing-plan.php:1040, app/widgets/pricing-plan.php:1188, app/widgets/pricing-plan.php:1287, app/widgets/product-form.php:292, app/widgets/product-form.php:743, app/widgets/product-form.php:931, app/widgets/product-form.php:1230, app/widgets/product-form.php:1399, app/widgets/product-form.php:1469, app/widgets/product-form.php:1605, app/widgets/product-form.php:1739, app/widgets/product-form.php:1897, app/widgets/product-form.php:2033, app/widgets/qr-tag-handler.php:261, app/widgets/qr-tag-handler.php:372, app/widgets/quick-search.php:246, app/widgets/quick-search.php:410, app/widgets/quick-search.php:638, app/widgets/search-form.php:971, app/widgets/search-form.php:1306, app/widgets/search-form.php:1502, app/widgets/search-form.php:1831, app/widgets/search-form.php:1954, app/widgets/search-form.php:1988, app/widgets/search-form.php:2148, app/widgets/search-form.php:2286, app/widgets/search-form.php:3672, app/widgets/search-form.php:3776, app/widgets/search-form.php:3836, app/widgets/search-form.php:3997, app/widgets/search-form.php:4158, app/widgets/search-form.php:4332, app/widgets/stripe-account.php:490, app/widgets/stripe-account.php:595, app/widgets/timeline.php:730, app/widgets/timeline.php:931, app/widgets/timeline.php:1567, app/widgets/timeline.php:1618, app/widgets/timeline.php:1669, app/widgets/timeline.php:1720, app/widgets/timeline.php:1771, app/widgets/timeline.php:2175, app/widgets/timeline.php:2288, app/widgets/timeline.php:2374, app/widgets/timeline.php:2520, app/widgets/timeline.php:2606, app/widgets/timeline.php:2757
 msgid "Background color"
 msgstr ""
 
-#: app/widgets/advanced-list.php:262, app/widgets/advanced-list.php:1089, app/widgets/bar-chart.php:261, app/widgets/map.php:904
+#: app/widgets/advanced-list.php:269, app/widgets/advanced-list.php:1096, app/widgets/bar-chart.php:261, app/widgets/map.php:939
 msgid "Background color (Hover)"
 msgstr ""
 
-#: app/widgets/advanced-list.php:274, app/widgets/advanced-list.php:1172, app/widgets/map.php:286, app/widgets/map.php:916
+#: app/widgets/advanced-list.php:281, app/widgets/advanced-list.php:1179, app/widgets/map.php:287, app/widgets/map.php:951
 msgid "Background color (Active)"
 msgstr ""
 
-#: app/widgets/advanced-list.php:286, app/widgets/advanced-list.php:789, app/widgets/advanced-list.php:799, app/widgets/advanced-list.php:933, app/widgets/advanced-list.php:1493, app/widgets/bar-chart.php:174, app/widgets/bar-chart.php:305, app/widgets/bar-chart.php:555, app/widgets/booking-calendar.php:192, app/widgets/booking-calendar.php:683, app/widgets/create-post.php:902, app/widgets/create-post.php:1456, app/widgets/create-post.php:1972, app/widgets/create-post.php:2095, app/widgets/create-post.php:2289, app/widgets/create-post.php:3104, app/widgets/create-post.php:3201, app/widgets/create-post.php:3556, app/widgets/create-post.php:4255, app/widgets/create-post.php:4982, app/widgets/current-plan.php:87, app/widgets/current-plan.php:604, app/widgets/gallery.php:724, app/widgets/login.php:335, app/widgets/login.php:588, app/widgets/login.php:841, app/widgets/login.php:1059, app/widgets/map.php:301, app/widgets/map.php:929, app/widgets/messages.php:100, app/widgets/messages.php:416, app/widgets/navbar.php:522, app/widgets/orders.php:329, app/widgets/orders.php:1175, app/widgets/orders.php:1884, app/widgets/orders.php:2198, app/widgets/orders.php:2651, app/widgets/orders.php:3158, app/widgets/popup-kit.php:347, app/widgets/popup-kit.php:1334, app/widgets/popup-kit.php:1518, app/widgets/popup-kit.php:1527, app/widgets/post-feed.php:714, app/widgets/post-feed.php:1020, app/widgets/pricing-plan.php:146, app/widgets/pricing-plan.php:695, app/widgets/pricing-plan.php:954, app/widgets/pricing-plan.php:1201, app/widgets/product-form.php:346, app/widgets/product-form.php:769, app/widgets/product-form.php:1267, app/widgets/product-form.php:1618, app/widgets/product-form.php:1945, app/widgets/qr-tag-handler.php:207, app/widgets/quick-search.php:272, app/widgets/quick-search.php:838, app/widgets/search-form.php:973, app/widgets/search-form.php:1322, app/widgets/search-form.php:1813, app/widgets/search-form.php:2182, app/widgets/search-form.php:2320, app/widgets/search-form.php:3432, app/widgets/search-form.php:3529, app/widgets/search-form.php:3675, app/widgets/search-form.php:4196, app/widgets/stripe-account.php:96, app/widgets/stripe-account.php:503, app/widgets/timeline.php:522, app/widgets/timeline.php:768, app/widgets/timeline.php:2257, app/widgets/timeline.php:2485, app/widgets/timeline.php:2740, app/widgets/timeline.php:2749, app/widgets/work-hours.php:74, app/widgets/option-groups/file-field.php:137, app/widgets/option-groups/popup-checkbox.php:63, app/widgets/option-groups/popup-controller.php:155, app/widgets/option-groups/popup-controller.php:197, app/widgets/option-groups/popup-general.php:90, app/widgets/option-groups/popup-radio.php:63
+#: app/widgets/advanced-list.php:293, app/widgets/advanced-list.php:796, app/widgets/advanced-list.php:806, app/widgets/advanced-list.php:940, app/widgets/advanced-list.php:1500, app/widgets/bar-chart.php:174, app/widgets/bar-chart.php:305, app/widgets/bar-chart.php:555, app/widgets/booking-calendar.php:192, app/widgets/booking-calendar.php:683, app/widgets/create-post.php:902, app/widgets/create-post.php:1456, app/widgets/create-post.php:1972, app/widgets/create-post.php:2095, app/widgets/create-post.php:2289, app/widgets/create-post.php:3104, app/widgets/create-post.php:3201, app/widgets/create-post.php:3556, app/widgets/create-post.php:4255, app/widgets/create-post.php:4982, app/widgets/current-plan.php:87, app/widgets/current-plan.php:604, app/widgets/gallery.php:738, app/widgets/login.php:335, app/widgets/login.php:588, app/widgets/login.php:841, app/widgets/login.php:1059, app/widgets/map.php:302, app/widgets/map.php:964, app/widgets/messages.php:100, app/widgets/messages.php:416, app/widgets/navbar.php:522, app/widgets/orders.php:329, app/widgets/orders.php:1175, app/widgets/orders.php:1884, app/widgets/orders.php:2198, app/widgets/orders.php:2651, app/widgets/orders.php:3158, app/widgets/popup-kit.php:347, app/widgets/popup-kit.php:1334, app/widgets/popup-kit.php:1518, app/widgets/popup-kit.php:1527, app/widgets/post-feed.php:714, app/widgets/post-feed.php:1020, app/widgets/pricing-plan.php:146, app/widgets/pricing-plan.php:695, app/widgets/pricing-plan.php:954, app/widgets/pricing-plan.php:1201, app/widgets/product-form.php:346, app/widgets/product-form.php:769, app/widgets/product-form.php:1267, app/widgets/product-form.php:1618, app/widgets/product-form.php:1945, app/widgets/qr-tag-handler.php:207, app/widgets/quick-search.php:272, app/widgets/quick-search.php:838, app/widgets/search-form.php:983, app/widgets/search-form.php:1332, app/widgets/search-form.php:1823, app/widgets/search-form.php:2192, app/widgets/search-form.php:2330, app/widgets/search-form.php:3442, app/widgets/search-form.php:3539, app/widgets/search-form.php:3685, app/widgets/search-form.php:4206, app/widgets/stripe-account.php:96, app/widgets/stripe-account.php:503, app/widgets/timeline.php:522, app/widgets/timeline.php:768, app/widgets/timeline.php:2257, app/widgets/timeline.php:2485, app/widgets/timeline.php:2740, app/widgets/timeline.php:2749, app/widgets/work-hours.php:74, app/widgets/option-groups/file-field.php:137, app/widgets/option-groups/popup-checkbox.php:63, app/widgets/option-groups/popup-controller.php:155, app/widgets/option-groups/popup-controller.php:197, app/widgets/option-groups/popup-general.php:90, app/widgets/option-groups/popup-radio.php:63
 msgid "Border"
 msgstr ""
 
-#: app/widgets/advanced-list.php:296, app/widgets/advanced-list.php:807, app/widgets/advanced-list.php:941, app/widgets/advanced-list.php:1501, app/widgets/bar-chart.php:575, app/widgets/booking-calendar.php:201, app/widgets/booking-calendar.php:692, app/widgets/booking-calendar.php:755, app/widgets/booking-calendar.php:893, app/widgets/create-post.php:328, app/widgets/create-post.php:498, app/widgets/create-post.php:910, app/widgets/create-post.php:1510, app/widgets/create-post.php:1581, app/widgets/create-post.php:1877, app/widgets/create-post.php:1998, app/widgets/create-post.php:2103, app/widgets/create-post.php:2300, app/widgets/create-post.php:2727, app/widgets/create-post.php:3564, app/widgets/create-post.php:4183, app/widgets/create-post.php:4263, app/widgets/create-post.php:4543, app/widgets/create-post.php:4844, app/widgets/create-post.php:4990, app/widgets/current-plan.php:96, app/widgets/current-plan.php:520, app/widgets/gallery.php:669, app/widgets/gallery.php:732, app/widgets/login.php:251, app/widgets/login.php:504, app/widgets/login.php:757, app/widgets/login.php:1018, app/widgets/map.php:138, app/widgets/map.php:321, app/widgets/map.php:937, app/widgets/messages.php:109, app/widgets/messages.php:330, app/widgets/messages.php:396, app/widgets/messages.php:927, app/widgets/messages.php:1120, app/widgets/navbar.php:530, app/widgets/navbar.php:1264, app/widgets/orders.php:337, app/widgets/orders.php:517, app/widgets/orders.php:782, app/widgets/orders.php:1183, app/widgets/orders.php:1892, app/widgets/orders.php:2134, app/widgets/orders.php:2206, app/widgets/orders.php:2290, app/widgets/orders.php:2660, app/widgets/orders.php:3169, app/widgets/orders.php:3449, app/widgets/popup-kit.php:355, app/widgets/popup-kit.php:409, app/widgets/popup-kit.php:571, app/widgets/popup-kit.php:1561, app/widgets/post-feed.php:722, app/widgets/post-feed.php:1028, app/widgets/pricing-plan.php:155, app/widgets/pricing-plan.php:715, app/widgets/pricing-plan.php:870, app/widgets/pricing-plan.php:1117, app/widgets/product-form.php:354, app/widgets/product-form.php:780, app/widgets/product-form.php:1309, app/widgets/product-form.php:1364, app/widgets/product-form.php:1638, app/widgets/product-form.php:1953, app/widgets/qr-tag-handler.php:215, app/widgets/quick-search.php:283, app/widgets/quick-search.php:650, app/widgets/quick-search.php:858, app/widgets/quick-search.php:1251, app/widgets/search-form.php:981, app/widgets/search-form.php:1333, app/widgets/search-form.php:1762, app/widgets/search-form.php:2190, app/widgets/search-form.php:2328, app/widgets/search-form.php:2568, app/widgets/search-form.php:3610, app/widgets/search-form.php:4204, app/widgets/stripe-account.php:105, app/widgets/stripe-account.php:419, app/widgets/timeline.php:321, app/widgets/timeline.php:542, app/widgets/timeline.php:779, app/widgets/timeline.php:2156, app/widgets/timeline.php:2265, app/widgets/timeline.php:2493, app/widgets/timeline.php:2783, app/widgets/work-hours.php:82, app/widgets/option-groups/file-field.php:145, app/widgets/option-groups/file-field.php:199, app/widgets/option-groups/file-field.php:361, app/widgets/option-groups/popup-calendar.php:329, app/widgets/option-groups/popup-controller.php:88, app/widgets/option-groups/popup-conversation.php:111, app/widgets/option-groups/popup-general.php:98, app/widgets/option-groups/popup-menu.php:111, app/widgets/option-groups/popup-notifications.php:160
+#: app/widgets/advanced-list.php:303, app/widgets/advanced-list.php:814, app/widgets/advanced-list.php:948, app/widgets/advanced-list.php:1508, app/widgets/bar-chart.php:575, app/widgets/booking-calendar.php:201, app/widgets/booking-calendar.php:692, app/widgets/booking-calendar.php:755, app/widgets/booking-calendar.php:893, app/widgets/create-post.php:328, app/widgets/create-post.php:498, app/widgets/create-post.php:910, app/widgets/create-post.php:1510, app/widgets/create-post.php:1581, app/widgets/create-post.php:1877, app/widgets/create-post.php:1998, app/widgets/create-post.php:2103, app/widgets/create-post.php:2300, app/widgets/create-post.php:2727, app/widgets/create-post.php:3564, app/widgets/create-post.php:4183, app/widgets/create-post.php:4263, app/widgets/create-post.php:4543, app/widgets/create-post.php:4844, app/widgets/create-post.php:4990, app/widgets/current-plan.php:96, app/widgets/current-plan.php:520, app/widgets/gallery.php:683, app/widgets/gallery.php:746, app/widgets/login.php:251, app/widgets/login.php:504, app/widgets/login.php:757, app/widgets/login.php:1018, app/widgets/map.php:139, app/widgets/map.php:322, app/widgets/map.php:972, app/widgets/messages.php:109, app/widgets/messages.php:330, app/widgets/messages.php:396, app/widgets/messages.php:927, app/widgets/messages.php:1120, app/widgets/navbar.php:530, app/widgets/navbar.php:1264, app/widgets/orders.php:337, app/widgets/orders.php:517, app/widgets/orders.php:782, app/widgets/orders.php:1183, app/widgets/orders.php:1892, app/widgets/orders.php:2134, app/widgets/orders.php:2206, app/widgets/orders.php:2290, app/widgets/orders.php:2660, app/widgets/orders.php:3169, app/widgets/orders.php:3449, app/widgets/popup-kit.php:355, app/widgets/popup-kit.php:409, app/widgets/popup-kit.php:571, app/widgets/popup-kit.php:1561, app/widgets/post-feed.php:722, app/widgets/post-feed.php:1028, app/widgets/pricing-plan.php:155, app/widgets/pricing-plan.php:715, app/widgets/pricing-plan.php:870, app/widgets/pricing-plan.php:1117, app/widgets/product-form.php:354, app/widgets/product-form.php:780, app/widgets/product-form.php:1309, app/widgets/product-form.php:1364, app/widgets/product-form.php:1638, app/widgets/product-form.php:1953, app/widgets/qr-tag-handler.php:215, app/widgets/quick-search.php:283, app/widgets/quick-search.php:650, app/widgets/quick-search.php:858, app/widgets/quick-search.php:1251, app/widgets/search-form.php:991, app/widgets/search-form.php:1343, app/widgets/search-form.php:1772, app/widgets/search-form.php:2200, app/widgets/search-form.php:2338, app/widgets/search-form.php:2578, app/widgets/search-form.php:3620, app/widgets/search-form.php:4214, app/widgets/stripe-account.php:105, app/widgets/stripe-account.php:419, app/widgets/timeline.php:321, app/widgets/timeline.php:542, app/widgets/timeline.php:779, app/widgets/timeline.php:2156, app/widgets/timeline.php:2265, app/widgets/timeline.php:2493, app/widgets/timeline.php:2783, app/widgets/work-hours.php:82, app/widgets/option-groups/file-field.php:145, app/widgets/option-groups/file-field.php:199, app/widgets/option-groups/file-field.php:361, app/widgets/option-groups/popup-calendar.php:329, app/widgets/option-groups/popup-controller.php:88, app/widgets/option-groups/popup-conversation.php:111, app/widgets/option-groups/popup-general.php:98, app/widgets/option-groups/popup-menu.php:111, app/widgets/option-groups/popup-notifications.php:160
 msgid "Border radius"
 msgstr ""
 
-#: app/widgets/advanced-list.php:316, app/widgets/bar-chart.php:642, app/widgets/create-post.php:1708, app/widgets/create-post.php:1786, app/widgets/create-post.php:2157, app/widgets/create-post.php:2483, app/widgets/create-post.php:2594, app/widgets/create-post.php:3695, app/widgets/create-post.php:3892, app/widgets/create-post.php:5141, app/widgets/create-post.php:5391, app/widgets/create-post.php:5588, app/widgets/current-plan.php:707, app/widgets/login.php:438, app/widgets/login.php:691, app/widgets/login.php:944, app/widgets/messages.php:516, app/widgets/messages.php:1554, app/widgets/navbar.php:821, app/widgets/navbar.php:929, app/widgets/orders.php:391, app/widgets/orders.php:2829, app/widgets/orders.php:3307, app/widgets/popup-kit.php:686, app/widgets/popup-kit.php:1139, app/widgets/pricing-plan.php:782, app/widgets/pricing-plan.php:1052, app/widgets/pricing-plan.php:1299, app/widgets/product-form.php:955, app/widgets/product-form.php:1066, app/widgets/product-form.php:1413, app/widgets/product-form.php:1483, app/widgets/product-form.php:1751, app/widgets/product-form.php:2045, app/widgets/product-form.php:2604, app/widgets/qr-tag-handler.php:384, app/widgets/quick-search.php:434, app/widgets/quick-search.php:534, app/widgets/quick-search.php:925, app/widgets/search-form.php:1516, app/widgets/search-form.php:1627, app/widgets/search-form.php:1956, app/widgets/search-form.php:1990, app/widgets/search-form.php:3778, app/widgets/search-form.php:3838, app/widgets/search-form.php:4334, app/widgets/stripe-account.php:607, app/widgets/timeline.php:609, app/widgets/timeline.php:943, app/widgets/timeline.php:2398, app/widgets/timeline.php:2630, app/widgets/option-groups/file-field.php:476, app/widgets/option-groups/popup-controller.php:253, app/widgets/option-groups/popup-controller.php:295
+#: app/widgets/advanced-list.php:323, app/widgets/bar-chart.php:642, app/widgets/create-post.php:1708, app/widgets/create-post.php:1786, app/widgets/create-post.php:2157, app/widgets/create-post.php:2483, app/widgets/create-post.php:2594, app/widgets/create-post.php:3695, app/widgets/create-post.php:3892, app/widgets/create-post.php:5141, app/widgets/create-post.php:5391, app/widgets/create-post.php:5588, app/widgets/current-plan.php:707, app/widgets/login.php:438, app/widgets/login.php:691, app/widgets/login.php:944, app/widgets/messages.php:516, app/widgets/messages.php:1554, app/widgets/navbar.php:821, app/widgets/navbar.php:929, app/widgets/orders.php:391, app/widgets/orders.php:2829, app/widgets/orders.php:3307, app/widgets/popup-kit.php:686, app/widgets/popup-kit.php:1139, app/widgets/pricing-plan.php:782, app/widgets/pricing-plan.php:1052, app/widgets/pricing-plan.php:1299, app/widgets/product-form.php:955, app/widgets/product-form.php:1066, app/widgets/product-form.php:1413, app/widgets/product-form.php:1483, app/widgets/product-form.php:1751, app/widgets/product-form.php:2045, app/widgets/product-form.php:2604, app/widgets/qr-tag-handler.php:384, app/widgets/quick-search.php:434, app/widgets/quick-search.php:534, app/widgets/quick-search.php:925, app/widgets/search-form.php:1526, app/widgets/search-form.php:1637, app/widgets/search-form.php:1966, app/widgets/search-form.php:2000, app/widgets/search-form.php:3788, app/widgets/search-form.php:3848, app/widgets/search-form.php:4344, app/widgets/stripe-account.php:607, app/widgets/timeline.php:609, app/widgets/timeline.php:943, app/widgets/timeline.php:2398, app/widgets/timeline.php:2630, app/widgets/option-groups/file-field.php:476, app/widgets/option-groups/popup-controller.php:253, app/widgets/option-groups/popup-controller.php:295
 msgid "Border color"
 msgstr ""
 
-#: app/widgets/advanced-list.php:328, app/widgets/advanced-list.php:1067, app/widgets/product-form.php:1626
+#: app/widgets/advanced-list.php:335, app/widgets/advanced-list.php:1074, app/widgets/product-form.php:1626
 msgid "Border color (Hover)"
 msgstr ""
 
-#: app/widgets/advanced-list.php:340, app/widgets/advanced-list.php:1183
+#: app/widgets/advanced-list.php:347, app/widgets/advanced-list.php:1190
 msgid "Border color (Active)"
 msgstr ""
 
-#: app/widgets/advanced-list.php:356, app/widgets/advanced-list.php:889, app/widgets/create-post.php:2830, app/widgets/navbar.php:1364, app/widgets/quick-search.php:1351, app/widgets/search-form.php:2671, app/widgets/option-groups/popup-menu.php:211
+#: app/widgets/advanced-list.php:363, app/widgets/advanced-list.php:896, app/widgets/create-post.php:2830, app/widgets/navbar.php:1364, app/widgets/quick-search.php:1351, app/widgets/search-form.php:2681, app/widgets/option-groups/popup-menu.php:211
 msgid "Icon container"
 msgstr ""
 
-#: app/widgets/advanced-list.php:366, app/widgets/advanced-list.php:913, app/widgets/create-post.php:2839, app/widgets/messages.php:311, app/widgets/messages.php:377, app/widgets/navbar.php:1374, app/widgets/orders.php:2418, app/widgets/popup-kit.php:594, app/widgets/quick-search.php:1361, app/widgets/search-form.php:2680, app/widgets/option-groups/file-field.php:384, app/widgets/option-groups/popup-menu.php:221
+#: app/widgets/advanced-list.php:373, app/widgets/advanced-list.php:920, app/widgets/create-post.php:2839, app/widgets/messages.php:311, app/widgets/messages.php:377, app/widgets/navbar.php:1374, app/widgets/orders.php:2418, app/widgets/popup-kit.php:594, app/widgets/quick-search.php:1361, app/widgets/search-form.php:2690, app/widgets/option-groups/file-field.php:384, app/widgets/option-groups/popup-menu.php:221
 msgid "Size"
 msgstr ""
 
-#: app/widgets/advanced-list.php:386, app/widgets/advanced-list.php:898, app/widgets/bar-chart.php:530, app/widgets/bar-chart.php:666, app/widgets/create-post.php:2131, app/widgets/create-post.php:2557, app/widgets/create-post.php:2859, app/widgets/create-post.php:3542, app/widgets/create-post.php:4241, app/widgets/create-post.php:4402, app/widgets/create-post.php:4473, app/widgets/create-post.php:4821, app/widgets/current-plan.php:119, app/widgets/messages.php:434, app/widgets/messages.php:484, app/widgets/navbar.php:1394, app/widgets/orders.php:978, app/widgets/orders.php:1014, app/widgets/orders.php:1050, app/widgets/orders.php:1085, app/widgets/orders.php:1763, app/widgets/orders.php:2639, app/widgets/popup-kit.php:333, app/widgets/popup-kit.php:432, app/widgets/popup-kit.php:515, app/widgets/post-feed.php:502, app/widgets/pricing-plan.php:178, app/widgets/pricing-plan.php:670, app/widgets/pricing-plan.php:806, app/widgets/product-form.php:1029, app/widgets/quick-search.php:497, app/widgets/quick-search.php:813, app/widgets/quick-search.php:949, app/widgets/quick-search.php:1381, app/widgets/search-form.php:1590, app/widgets/search-form.php:2700, app/widgets/stripe-account.php:128, app/widgets/timeline.php:497, app/widgets/timeline.php:633, app/widgets/work-hours.php:130, app/widgets/work-hours.php:226, app/widgets/option-groups/file-field.php:123, app/widgets/option-groups/file-field.php:222, app/widgets/option-groups/file-field.php:305, app/widgets/option-groups/popup-calendar.php:170, app/widgets/option-groups/popup-calendar.php:206, app/widgets/option-groups/popup-calendar.php:241, app/widgets/option-groups/popup-calendar.php:307, app/widgets/option-groups/popup-controller.php:132, app/widgets/option-groups/popup-controller.php:174, app/widgets/option-groups/popup-controller.php:231, app/widgets/option-groups/popup-controller.php:273, app/widgets/option-groups/popup-general.php:34, app/widgets/option-groups/popup-menu.php:241, app/widgets/option-groups/popup-notifications.php:202, app/widgets/option-groups/popup-notifications.php:297
+#: app/widgets/advanced-list.php:393, app/widgets/advanced-list.php:905, app/widgets/bar-chart.php:530, app/widgets/bar-chart.php:666, app/widgets/create-post.php:2131, app/widgets/create-post.php:2557, app/widgets/create-post.php:2859, app/widgets/create-post.php:3542, app/widgets/create-post.php:4241, app/widgets/create-post.php:4402, app/widgets/create-post.php:4473, app/widgets/create-post.php:4821, app/widgets/current-plan.php:119, app/widgets/messages.php:434, app/widgets/messages.php:484, app/widgets/navbar.php:1394, app/widgets/orders.php:978, app/widgets/orders.php:1014, app/widgets/orders.php:1050, app/widgets/orders.php:1085, app/widgets/orders.php:1763, app/widgets/orders.php:2639, app/widgets/popup-kit.php:333, app/widgets/popup-kit.php:432, app/widgets/popup-kit.php:515, app/widgets/post-feed.php:502, app/widgets/pricing-plan.php:178, app/widgets/pricing-plan.php:670, app/widgets/pricing-plan.php:806, app/widgets/product-form.php:1029, app/widgets/quick-search.php:497, app/widgets/quick-search.php:813, app/widgets/quick-search.php:949, app/widgets/quick-search.php:1381, app/widgets/search-form.php:1600, app/widgets/search-form.php:2710, app/widgets/stripe-account.php:128, app/widgets/timeline.php:497, app/widgets/timeline.php:633, app/widgets/work-hours.php:130, app/widgets/work-hours.php:226, app/widgets/option-groups/file-field.php:123, app/widgets/option-groups/file-field.php:222, app/widgets/option-groups/file-field.php:305, app/widgets/option-groups/popup-calendar.php:170, app/widgets/option-groups/popup-calendar.php:206, app/widgets/option-groups/popup-calendar.php:241, app/widgets/option-groups/popup-calendar.php:307, app/widgets/option-groups/popup-controller.php:132, app/widgets/option-groups/popup-controller.php:174, app/widgets/option-groups/popup-controller.php:231, app/widgets/option-groups/popup-controller.php:273, app/widgets/option-groups/popup-general.php:34, app/widgets/option-groups/popup-menu.php:241, app/widgets/option-groups/popup-notifications.php:202, app/widgets/option-groups/popup-notifications.php:297
 msgid "Background"
 msgstr ""
 
-#: app/widgets/advanced-list.php:398, app/widgets/advanced-list.php:1109, app/widgets/create-post.php:4416, app/widgets/create-post.php:4487, app/widgets/popup-kit.php:528, app/widgets/option-groups/file-field.php:318, app/widgets/option-groups/popup-calendar.php:132
+#: app/widgets/advanced-list.php:405, app/widgets/advanced-list.php:1116, app/widgets/create-post.php:4416, app/widgets/create-post.php:4487, app/widgets/popup-kit.php:528, app/widgets/option-groups/file-field.php:318, app/widgets/option-groups/popup-calendar.php:132
 msgid "Background (Hover)"
 msgstr ""
 
-#: app/widgets/advanced-list.php:410, app/widgets/advanced-list.php:1203, app/widgets/create-post.php:3279, app/widgets/login.php:1514, app/widgets/product-form.php:2104
+#: app/widgets/advanced-list.php:417, app/widgets/advanced-list.php:1210, app/widgets/create-post.php:3279, app/widgets/login.php:1514, app/widgets/product-form.php:2104
 msgid "Background (Active)"
 msgstr ""
 
-#: app/widgets/advanced-list.php:422, app/widgets/advanced-list.php:964, app/widgets/create-post.php:2378, app/widgets/create-post.php:2895, app/widgets/create-post.php:3672, app/widgets/create-post.php:5084, app/widgets/create-post.php:5237, app/widgets/current-plan.php:637, app/widgets/login.php:368, app/widgets/login.php:621, app/widgets/login.php:874, app/widgets/post-feed.php:1116, app/widgets/product-form.php:854, app/widgets/product-form.php:1976, app/widgets/qr-tag-handler.php:313, app/widgets/quick-search.php:365, app/widgets/search-form.php:1411, app/widgets/search-form.php:2222, app/widgets/search-form.php:2360, app/widgets/search-form.php:2736, app/widgets/search-form.php:3708, app/widgets/search-form.php:4236, app/widgets/option-groups/popup-head.php:75
+#: app/widgets/advanced-list.php:429, app/widgets/advanced-list.php:971, app/widgets/create-post.php:2378, app/widgets/create-post.php:2895, app/widgets/create-post.php:3672, app/widgets/create-post.php:5084, app/widgets/create-post.php:5237, app/widgets/current-plan.php:637, app/widgets/login.php:368, app/widgets/login.php:621, app/widgets/login.php:874, app/widgets/post-feed.php:1116, app/widgets/product-form.php:854, app/widgets/product-form.php:1976, app/widgets/qr-tag-handler.php:313, app/widgets/quick-search.php:365, app/widgets/search-form.php:1421, app/widgets/search-form.php:2232, app/widgets/search-form.php:2370, app/widgets/search-form.php:2746, app/widgets/search-form.php:3718, app/widgets/search-form.php:4246, app/widgets/option-groups/popup-head.php:75
 msgid "Icon/Text spacing"
 msgstr ""
 
-#: app/widgets/advanced-list.php:450, app/widgets/advanced-list.php:987, app/widgets/advanced-list.php:1100, app/widgets/advanced-list.php:1194, app/widgets/create-post.php:847, app/widgets/create-post.php:2781, app/widgets/create-post.php:5672, app/widgets/navbar.php:1319, app/widgets/orders.php:2238, app/widgets/qr-tag-handler.php:73, app/widgets/quick-search.php:1306, app/widgets/search-form.php:2622, app/widgets/template-tabs.php:63, app/widgets/option-groups/popup-menu.php:166
+#: app/widgets/advanced-list.php:457, app/widgets/advanced-list.php:994, app/widgets/advanced-list.php:1107, app/widgets/advanced-list.php:1201, app/widgets/create-post.php:847, app/widgets/create-post.php:2781, app/widgets/create-post.php:5672, app/widgets/navbar.php:1319, app/widgets/orders.php:2238, app/widgets/qr-tag-handler.php:73, app/widgets/quick-search.php:1306, app/widgets/search-form.php:2632, app/widgets/template-tabs.php:64, app/widgets/option-groups/popup-menu.php:166
 msgid "Icon"
 msgstr ""
 
-#: app/widgets/advanced-list.php:460, app/widgets/advanced-list.php:997, app/widgets/advanced-list.php:1540, app/widgets/advanced-list.php:1693, app/widgets/advanced-list.php:1745, app/widgets/bar-chart.php:965, app/widgets/booking-calendar.php:945, app/widgets/create-post.php:880, app/widgets/create-post.php:1640, app/widgets/create-post.php:2350, app/widgets/create-post.php:2806, app/widgets/create-post.php:3639, app/widgets/create-post.php:4904, app/widgets/create-post.php:5050, app/widgets/create-post.php:5681, app/widgets/current-plan.php:348, app/widgets/current-plan.php:613, app/widgets/gallery.php:796, app/widgets/login.php:344, app/widgets/login.php:597, app/widgets/login.php:850, app/widgets/login.php:1396, app/widgets/map.php:364, app/widgets/map.php:1017, app/widgets/messages.php:661, app/widgets/messages.php:1595, app/widgets/navbar.php:698, app/widgets/navbar.php:1343, app/widgets/orders.php:740, app/widgets/orders.php:858, app/widgets/orders.php:1238, app/widgets/orders.php:1947, app/widgets/orders.php:2093, app/widgets/orders.php:2247, app/widgets/orders.php:2535, app/widgets/orders.php:2748, app/widgets/orders.php:3218, app/widgets/popup-kit.php:109, app/widgets/popup-kit.php:309, app/widgets/popup-kit.php:460, app/widgets/popup-kit.php:613, app/widgets/popup-kit.php:1427, app/widgets/post-feed.php:560, app/widgets/post-feed.php:773, app/widgets/post-feed.php:1079, app/widgets/pricing-plan.php:486, app/widgets/pricing-plan.php:963, app/widgets/pricing-plan.php:1210, app/widgets/product-form.php:447, app/widgets/product-form.php:830, app/widgets/product-form.php:1691, app/widgets/product-form.php:1838, app/widgets/qr-tag-handler.php:82, app/widgets/qr-tag-handler.php:275, app/widgets/quick-search.php:337, app/widgets/quick-search.php:1330, app/widgets/review-stats.php:87, app/widgets/search-form.php:1383, app/widgets/search-form.php:1874, app/widgets/search-form.php:2082, app/widgets/search-form.php:2647, app/widgets/search-form.php:2937, app/widgets/search-form.php:3684, app/widgets/search-form.php:4255, app/widgets/stripe-account.php:245, app/widgets/stripe-account.php:512, app/widgets/timeline.php:828, app/widgets/timeline.php:1028, app/widgets/timeline.php:1853, app/widgets/timeline.php:2325, app/widgets/timeline.php:2557, app/widgets/timeline.php:2671, app/widgets/user-bar.php:712, app/widgets/work-hours.php:142, app/widgets/option-groups/file-field.php:99, app/widgets/option-groups/file-field.php:250, app/widgets/option-groups/file-field.php:403, app/widgets/option-groups/popup-conversation.php:201, app/widgets/option-groups/popup-head.php:55, app/widgets/option-groups/popup-menu.php:190, app/widgets/option-groups/popup-notifications.php:119
+#: app/widgets/advanced-list.php:467, app/widgets/advanced-list.php:1004, app/widgets/advanced-list.php:1547, app/widgets/advanced-list.php:1700, app/widgets/advanced-list.php:1752, app/widgets/bar-chart.php:965, app/widgets/booking-calendar.php:945, app/widgets/create-post.php:880, app/widgets/create-post.php:1640, app/widgets/create-post.php:2350, app/widgets/create-post.php:2806, app/widgets/create-post.php:3639, app/widgets/create-post.php:4904, app/widgets/create-post.php:5050, app/widgets/create-post.php:5681, app/widgets/current-plan.php:348, app/widgets/current-plan.php:613, app/widgets/gallery.php:810, app/widgets/login.php:344, app/widgets/login.php:597, app/widgets/login.php:850, app/widgets/login.php:1396, app/widgets/map.php:365, app/widgets/map.php:1052, app/widgets/messages.php:661, app/widgets/messages.php:1595, app/widgets/navbar.php:698, app/widgets/navbar.php:1343, app/widgets/orders.php:740, app/widgets/orders.php:858, app/widgets/orders.php:1238, app/widgets/orders.php:1947, app/widgets/orders.php:2093, app/widgets/orders.php:2247, app/widgets/orders.php:2535, app/widgets/orders.php:2748, app/widgets/orders.php:3218, app/widgets/popup-kit.php:109, app/widgets/popup-kit.php:309, app/widgets/popup-kit.php:460, app/widgets/popup-kit.php:613, app/widgets/popup-kit.php:1427, app/widgets/post-feed.php:560, app/widgets/post-feed.php:773, app/widgets/post-feed.php:1079, app/widgets/pricing-plan.php:486, app/widgets/pricing-plan.php:963, app/widgets/pricing-plan.php:1210, app/widgets/product-form.php:447, app/widgets/product-form.php:830, app/widgets/product-form.php:1691, app/widgets/product-form.php:1838, app/widgets/qr-tag-handler.php:82, app/widgets/qr-tag-handler.php:275, app/widgets/quick-search.php:337, app/widgets/quick-search.php:1330, app/widgets/review-stats.php:87, app/widgets/search-form.php:1393, app/widgets/search-form.php:1884, app/widgets/search-form.php:2092, app/widgets/search-form.php:2657, app/widgets/search-form.php:2947, app/widgets/search-form.php:3694, app/widgets/search-form.php:4265, app/widgets/stripe-account.php:245, app/widgets/stripe-account.php:512, app/widgets/timeline.php:828, app/widgets/timeline.php:1028, app/widgets/timeline.php:1853, app/widgets/timeline.php:2325, app/widgets/timeline.php:2557, app/widgets/timeline.php:2671, app/widgets/user-bar.php:712, app/widgets/work-hours.php:142, app/widgets/option-groups/file-field.php:99, app/widgets/option-groups/file-field.php:250, app/widgets/option-groups/file-field.php:403, app/widgets/option-groups/popup-conversation.php:201, app/widgets/option-groups/popup-head.php:55, app/widgets/option-groups/popup-menu.php:190, app/widgets/option-groups/popup-notifications.php:119
 msgid "Icon size"
 msgstr ""
 
-#: app/widgets/advanced-list.php:481, app/widgets/advanced-list.php:1021, app/widgets/orders.php:2736, app/widgets/popup-kit.php:1447
+#: app/widgets/advanced-list.php:488, app/widgets/advanced-list.php:1028, app/widgets/orders.php:2736, app/widgets/popup-kit.php:1447
 msgid "Icon Color"
 msgstr ""
 
-#: app/widgets/advanced-list.php:494, app/widgets/advanced-list.php:1120
+#: app/widgets/advanced-list.php:501, app/widgets/advanced-list.php:1127
 msgid "Icon Color (Hover)"
 msgstr ""
 
-#: app/widgets/advanced-list.php:507, app/widgets/advanced-list.php:1214
+#: app/widgets/advanced-list.php:514, app/widgets/advanced-list.php:1221
 msgid "Icon Color (Active)"
 msgstr ""
 
-#: app/widgets/advanced-list.php:521, app/widgets/navbar.php:415, app/widgets/pricing-plan.php:89, app/widgets/user-bar.php:386
+#: app/widgets/advanced-list.php:528, app/widgets/navbar.php:415, app/widgets/pricing-plan.php:89, app/widgets/user-bar.php:386
 msgid "Items"
 msgstr ""
 
-#: app/widgets/advanced-list.php:532, app/widgets/bar-chart.php:50, app/widgets/bar-chart.php:869, app/widgets/booking-calendar.php:32, app/widgets/booking-calendar.php:1391, app/widgets/create-post.php:78, app/widgets/create-post.php:2328, app/widgets/current-plan.php:32, app/widgets/login.php:100, app/widgets/messages.php:1696, app/widgets/navbar.php:285, app/widgets/post-feed.php:309, app/widgets/pricing-plan.php:1331, app/widgets/product-form.php:153, app/widgets/product-form.php:808, app/widgets/quick-search.php:114, app/widgets/quick-search.php:315, app/widgets/search-form.php:754, app/widgets/search-form.php:1361, app/widgets/stripe-account.php:32, app/widgets/user-bar.php:397, app/widgets/work-hours.php:460
+#: app/widgets/advanced-list.php:539, app/widgets/bar-chart.php:50, app/widgets/bar-chart.php:869, app/widgets/booking-calendar.php:32, app/widgets/booking-calendar.php:1391, app/widgets/create-post.php:78, app/widgets/create-post.php:2328, app/widgets/current-plan.php:32, app/widgets/login.php:100, app/widgets/messages.php:1696, app/widgets/navbar.php:285, app/widgets/post-feed.php:309, app/widgets/pricing-plan.php:1331, app/widgets/product-form.php:153, app/widgets/product-form.php:808, app/widgets/quick-search.php:114, app/widgets/quick-search.php:315, app/widgets/search-form.php:764, app/widgets/search-form.php:1371, app/widgets/stripe-account.php:32, app/widgets/user-bar.php:397, app/widgets/work-hours.php:460
 msgid "Icons"
 msgstr ""
 
-#: app/widgets/advanced-list.php:577, app/widgets/navbar.php:1163, app/widgets/quick-search.php:1151, app/widgets/option-groups/popup-menu.php:38
+#: app/widgets/advanced-list.php:584, app/widgets/navbar.php:1163, app/widgets/quick-search.php:1151, app/widgets/option-groups/popup-menu.php:38
 msgid "List"
 msgstr ""
 
-#: app/widgets/advanced-list.php:583
+#: app/widgets/advanced-list.php:590
 msgid "Enable CSS grid"
 msgstr ""
 
-#: app/widgets/advanced-list.php:595, app/widgets/create-post.php:4768, app/widgets/current-plan.php:448, app/widgets/gallery.php:99, app/widgets/popup-kit.php:230, app/widgets/popup-kit.php:1398, app/widgets/popup-kit.php:1410, app/widgets/post-feed.php:213, app/widgets/pricing-plan.php:109, app/widgets/product-form.php:1541, app/widgets/review-stats.php:40, app/widgets/stripe-account.php:345, app/widgets/option-groups/file-field.php:38
+#: app/widgets/advanced-list.php:602, app/widgets/create-post.php:4768, app/widgets/current-plan.php:448, app/widgets/gallery.php:99, app/widgets/popup-kit.php:230, app/widgets/popup-kit.php:1398, app/widgets/popup-kit.php:1410, app/widgets/post-feed.php:213, app/widgets/pricing-plan.php:109, app/widgets/product-form.php:1541, app/widgets/review-stats.php:40, app/widgets/stripe-account.php:345, app/widgets/option-groups/file-field.php:38
 msgid "Number of columns"
 msgstr ""
 
-#: app/widgets/advanced-list.php:615
+#: app/widgets/advanced-list.php:622
 msgid "Grid gap"
 msgstr ""
 
-#: app/widgets/advanced-list.php:637, app/widgets/post-feed.php:189
+#: app/widgets/advanced-list.php:644, app/widgets/post-feed.php:189
 msgid "Item width"
 msgstr ""
 
-#: app/widgets/advanced-list.php:641, app/widgets/popup-kit.php:1402
+#: app/widgets/advanced-list.php:648, app/widgets/popup-kit.php:1402
 msgid "Auto"
 msgstr ""
 
-#: app/widgets/advanced-list.php:642
+#: app/widgets/advanced-list.php:649
 msgid "Custom item width"
 msgstr ""
 
-#: app/widgets/advanced-list.php:652
+#: app/widgets/advanced-list.php:659
 msgid "Width (px)"
 msgstr ""
 
-#: app/widgets/advanced-list.php:672, app/widgets/bar-chart.php:436, app/widgets/map.php:601, app/widgets/map.php:854, app/widgets/navbar.php:191, app/widgets/orders.php:3343, app/widgets/post-feed.php:411, app/widgets/post-feed.php:920, app/widgets/post-feed.php:1230, app/widgets/pricing-plan.php:576, app/widgets/product-form.php:1588, app/widgets/quick-search.php:726, app/widgets/ring-chart.php:41, app/widgets/search-form.php:4096, app/widgets/timeline.php:409
+#: app/widgets/advanced-list.php:679, app/widgets/bar-chart.php:436, app/widgets/map.php:636, app/widgets/map.php:889, app/widgets/navbar.php:191, app/widgets/orders.php:3343, app/widgets/post-feed.php:411, app/widgets/post-feed.php:920, app/widgets/post-feed.php:1230, app/widgets/pricing-plan.php:576, app/widgets/product-form.php:1588, app/widgets/quick-search.php:726, app/widgets/ring-chart.php:41, app/widgets/search-form.php:4106, app/widgets/timeline.php:409
 msgid "Justify"
 msgstr ""
 
-#: app/widgets/advanced-list.php:676, app/widgets/advanced-list.php:731, app/widgets/bar-chart.php:440, app/widgets/create-post.php:5642, app/widgets/create-post.php:5659, app/widgets/current-plan.php:153, app/widgets/current-plan.php:271, app/widgets/login.php:1357, app/widgets/login.php:1374, app/widgets/map.php:604, app/widgets/map.php:857, app/widgets/navbar.php:196, app/widgets/orders.php:3346, app/widgets/post-feed.php:414, app/widgets/post-feed.php:923, app/widgets/post-feed.php:1233, app/widgets/pricing-plan.php:299, app/widgets/pricing-plan.php:367, app/widgets/pricing-plan.php:417, app/widgets/pricing-plan.php:580, app/widgets/product-form.php:1591, app/widgets/qr-tag-handler.php:43, app/widgets/qr-tag-handler.php:60, app/widgets/quick-search.php:730, app/widgets/ring-chart.php:45, app/widgets/search-form.php:4099, app/widgets/timeline.php:413, app/widgets/user-bar.php:491, app/widgets/user-bar.php:540
+#: app/widgets/advanced-list.php:683, app/widgets/advanced-list.php:738, app/widgets/bar-chart.php:440, app/widgets/create-post.php:5642, app/widgets/create-post.php:5659, app/widgets/current-plan.php:153, app/widgets/current-plan.php:271, app/widgets/login.php:1357, app/widgets/login.php:1374, app/widgets/map.php:639, app/widgets/map.php:892, app/widgets/navbar.php:196, app/widgets/orders.php:3346, app/widgets/post-feed.php:414, app/widgets/post-feed.php:923, app/widgets/post-feed.php:1233, app/widgets/pricing-plan.php:299, app/widgets/pricing-plan.php:367, app/widgets/pricing-plan.php:417, app/widgets/pricing-plan.php:580, app/widgets/product-form.php:1591, app/widgets/qr-tag-handler.php:43, app/widgets/qr-tag-handler.php:60, app/widgets/quick-search.php:730, app/widgets/ring-chart.php:45, app/widgets/search-form.php:4109, app/widgets/timeline.php:413, app/widgets/user-bar.php:491, app/widgets/user-bar.php:540
 msgid "Left"
 msgstr ""
 
-#: app/widgets/advanced-list.php:677, app/widgets/advanced-list.php:732, app/widgets/bar-chart.php:441, app/widgets/create-post.php:5643, app/widgets/create-post.php:5660, app/widgets/current-plan.php:154, app/widgets/current-plan.php:272, app/widgets/login.php:1358, app/widgets/login.php:1375, app/widgets/map.php:605, app/widgets/map.php:858, app/widgets/navbar.php:197, app/widgets/orders.php:3347, app/widgets/post-feed.php:415, app/widgets/post-feed.php:924, app/widgets/post-feed.php:1234, app/widgets/pricing-plan.php:300, app/widgets/pricing-plan.php:368, app/widgets/pricing-plan.php:418, app/widgets/pricing-plan.php:581, app/widgets/product-form.php:1592, app/widgets/qr-tag-handler.php:44, app/widgets/qr-tag-handler.php:61, app/widgets/quick-search.php:731, app/widgets/ring-chart.php:46, app/widgets/search-form.php:4100, app/widgets/timeline.php:414, app/widgets/user-bar.php:492, app/widgets/user-bar.php:541
+#: app/widgets/advanced-list.php:684, app/widgets/advanced-list.php:739, app/widgets/bar-chart.php:441, app/widgets/create-post.php:5643, app/widgets/create-post.php:5660, app/widgets/current-plan.php:154, app/widgets/current-plan.php:272, app/widgets/login.php:1358, app/widgets/login.php:1375, app/widgets/map.php:640, app/widgets/map.php:893, app/widgets/navbar.php:197, app/widgets/orders.php:3347, app/widgets/post-feed.php:415, app/widgets/post-feed.php:924, app/widgets/post-feed.php:1234, app/widgets/pricing-plan.php:300, app/widgets/pricing-plan.php:368, app/widgets/pricing-plan.php:418, app/widgets/pricing-plan.php:581, app/widgets/product-form.php:1592, app/widgets/qr-tag-handler.php:44, app/widgets/qr-tag-handler.php:61, app/widgets/quick-search.php:731, app/widgets/ring-chart.php:46, app/widgets/search-form.php:4110, app/widgets/timeline.php:414, app/widgets/user-bar.php:492, app/widgets/user-bar.php:541
 msgid "Center"
 msgstr ""
 
-#: app/widgets/advanced-list.php:678, app/widgets/advanced-list.php:733, app/widgets/bar-chart.php:442, app/widgets/create-post.php:5644, app/widgets/create-post.php:5661, app/widgets/current-plan.php:155, app/widgets/current-plan.php:273, app/widgets/login.php:1359, app/widgets/login.php:1376, app/widgets/map.php:606, app/widgets/map.php:859, app/widgets/navbar.php:198, app/widgets/orders.php:3348, app/widgets/post-feed.php:416, app/widgets/post-feed.php:925, app/widgets/post-feed.php:1235, app/widgets/pricing-plan.php:301, app/widgets/pricing-plan.php:369, app/widgets/pricing-plan.php:419, app/widgets/pricing-plan.php:582, app/widgets/product-form.php:1593, app/widgets/qr-tag-handler.php:45, app/widgets/qr-tag-handler.php:62, app/widgets/quick-search.php:732, app/widgets/ring-chart.php:47, app/widgets/search-form.php:4101, app/widgets/timeline.php:415, app/widgets/user-bar.php:493, app/widgets/user-bar.php:542
+#: app/widgets/advanced-list.php:685, app/widgets/advanced-list.php:740, app/widgets/bar-chart.php:442, app/widgets/create-post.php:5644, app/widgets/create-post.php:5661, app/widgets/current-plan.php:155, app/widgets/current-plan.php:273, app/widgets/login.php:1359, app/widgets/login.php:1376, app/widgets/map.php:641, app/widgets/map.php:894, app/widgets/navbar.php:198, app/widgets/orders.php:3348, app/widgets/post-feed.php:416, app/widgets/post-feed.php:925, app/widgets/post-feed.php:1235, app/widgets/pricing-plan.php:301, app/widgets/pricing-plan.php:369, app/widgets/pricing-plan.php:419, app/widgets/pricing-plan.php:582, app/widgets/product-form.php:1593, app/widgets/qr-tag-handler.php:45, app/widgets/qr-tag-handler.php:62, app/widgets/quick-search.php:732, app/widgets/ring-chart.php:47, app/widgets/search-form.php:4111, app/widgets/timeline.php:415, app/widgets/user-bar.php:493, app/widgets/user-bar.php:542
 msgid "Right"
 msgstr ""
 
-#: app/widgets/advanced-list.php:679, app/widgets/bar-chart.php:443, app/widgets/navbar.php:199, app/widgets/orders.php:3349, app/widgets/post-feed.php:417, app/widgets/post-feed.php:926, app/widgets/post-feed.php:1236, app/widgets/pricing-plan.php:583, app/widgets/quick-search.php:733, app/widgets/timeline.php:416, app/widgets/user-bar.php:494
+#: app/widgets/advanced-list.php:686, app/widgets/bar-chart.php:443, app/widgets/navbar.php:199, app/widgets/orders.php:3349, app/widgets/post-feed.php:417, app/widgets/post-feed.php:926, app/widgets/post-feed.php:1236, app/widgets/pricing-plan.php:583, app/widgets/quick-search.php:733, app/widgets/timeline.php:416, app/widgets/user-bar.php:494
 msgid "Space between"
 msgstr ""
 
-#: app/widgets/advanced-list.php:680, app/widgets/bar-chart.php:444, app/widgets/navbar.php:200, app/widgets/orders.php:3350, app/widgets/post-feed.php:418, app/widgets/post-feed.php:927, app/widgets/post-feed.php:1237, app/widgets/pricing-plan.php:584, app/widgets/quick-search.php:734, app/widgets/timeline.php:417, app/widgets/user-bar.php:495
+#: app/widgets/advanced-list.php:687, app/widgets/bar-chart.php:444, app/widgets/navbar.php:200, app/widgets/orders.php:3350, app/widgets/post-feed.php:418, app/widgets/post-feed.php:927, app/widgets/post-feed.php:1237, app/widgets/pricing-plan.php:584, app/widgets/quick-search.php:734, app/widgets/timeline.php:417, app/widgets/user-bar.php:495
 msgid "Space around"
 msgstr ""
 
-#: app/widgets/advanced-list.php:697, app/widgets/advanced-list.php:1450, app/widgets/create-post.php:2681, app/widgets/search-form.php:2522
+#: app/widgets/advanced-list.php:704, app/widgets/advanced-list.php:1457, app/widgets/create-post.php:2681, app/widgets/search-form.php:2532
 msgid "List item"
 msgstr ""
 
-#: app/widgets/advanced-list.php:711, app/widgets/advanced-list.php:1386, app/widgets/bar-chart.php:419, app/widgets/bar-chart.php:711, app/widgets/booking-calendar.php:261, app/widgets/booking-calendar.php:1018, app/widgets/booking-calendar.php:1223, app/widgets/create-post.php:618, app/widgets/create-post.php:838, app/widgets/create-post.php:1351, app/widgets/create-post.php:2187, app/widgets/create-post.php:2670, app/widgets/create-post.php:3321, app/widgets/create-post.php:3742, app/widgets/create-post.php:3941, app/widgets/create-post.php:4579, app/widgets/create-post.php:4940, app/widgets/create-post.php:5195, app/widgets/create-post.php:5438, app/widgets/current-plan.php:501, app/widgets/gallery.php:627, app/widgets/login.php:232, app/widgets/login.php:485, app/widgets/login.php:738, app/widgets/login.php:991, app/widgets/map.php:638, app/widgets/messages.php:201, app/widgets/messages.php:1248, app/widgets/messages.php:1404, app/widgets/navbar.php:449, app/widgets/navbar.php:1155, app/widgets/orders.php:48, app/widgets/orders.php:297, app/widgets/orders.php:462, app/widgets/orders.php:1113, app/widgets/orders.php:1419, app/widgets/orders.php:1835, app/widgets/orders.php:2882, app/widgets/orders.php:3068, app/widgets/popup-kit.php:223, app/widgets/popup-kit.php:968, app/widgets/popup-kit.php:1220, app/widgets/post-feed.php:644, app/widgets/post-feed.php:899, app/widgets/post-feed.php:1207, app/widgets/pricing-plan.php:545, app/widgets/pricing-plan.php:851, app/widgets/pricing-plan.php:1098, app/widgets/product-form.php:676, app/widgets/product-form.php:1142, app/widgets/product-form.php:1819, app/widgets/product-form.php:2220, app/widgets/product-form.php:2431, app/widgets/qr-tag-handler.php:165, app/widgets/quick-search.php:166, app/widgets/quick-search.php:718, app/widgets/quick-search.php:1144, app/widgets/search-form.php:1220, app/widgets/search-form.php:1703, app/widgets/search-form.php:2022, app/widgets/search-form.php:2511, app/widgets/search-form.php:3037, app/widgets/search-form.php:3591, app/widgets/search-form.php:4038, app/widgets/stripe-account.php:400, app/widgets/timeline.php:372, app/widgets/timeline.php:678, app/widgets/timeline.php:1835, app/widgets/timeline.php:2204, app/widgets/timeline.php:2432, app/widgets/user-bar.php:480, app/widgets/work-hours.php:491, app/widgets/option-groups/file-field.php:31, app/widgets/option-groups/popup-controller.php:30, app/widgets/option-groups/popup-icon-button.php:30, app/widgets/option-groups/popup-menu.php:30, app/widgets/option-groups/popup-notifications.php:29
+#: app/widgets/advanced-list.php:718, app/widgets/advanced-list.php:1393, app/widgets/bar-chart.php:419, app/widgets/bar-chart.php:711, app/widgets/booking-calendar.php:261, app/widgets/booking-calendar.php:1018, app/widgets/booking-calendar.php:1223, app/widgets/create-post.php:618, app/widgets/create-post.php:838, app/widgets/create-post.php:1351, app/widgets/create-post.php:2187, app/widgets/create-post.php:2670, app/widgets/create-post.php:3321, app/widgets/create-post.php:3742, app/widgets/create-post.php:3941, app/widgets/create-post.php:4579, app/widgets/create-post.php:4940, app/widgets/create-post.php:5195, app/widgets/create-post.php:5438, app/widgets/current-plan.php:501, app/widgets/gallery.php:641, app/widgets/login.php:232, app/widgets/login.php:485, app/widgets/login.php:738, app/widgets/login.php:991, app/widgets/map.php:673, app/widgets/messages.php:201, app/widgets/messages.php:1248, app/widgets/messages.php:1404, app/widgets/navbar.php:449, app/widgets/navbar.php:1155, app/widgets/orders.php:48, app/widgets/orders.php:297, app/widgets/orders.php:462, app/widgets/orders.php:1113, app/widgets/orders.php:1419, app/widgets/orders.php:1835, app/widgets/orders.php:2882, app/widgets/orders.php:3068, app/widgets/popup-kit.php:223, app/widgets/popup-kit.php:968, app/widgets/popup-kit.php:1220, app/widgets/post-feed.php:644, app/widgets/post-feed.php:899, app/widgets/post-feed.php:1207, app/widgets/pricing-plan.php:545, app/widgets/pricing-plan.php:851, app/widgets/pricing-plan.php:1098, app/widgets/product-form.php:676, app/widgets/product-form.php:1142, app/widgets/product-form.php:1819, app/widgets/product-form.php:2220, app/widgets/product-form.php:2431, app/widgets/qr-tag-handler.php:165, app/widgets/quick-search.php:166, app/widgets/quick-search.php:718, app/widgets/quick-search.php:1144, app/widgets/search-form.php:1230, app/widgets/search-form.php:1713, app/widgets/search-form.php:2032, app/widgets/search-form.php:2521, app/widgets/search-form.php:3047, app/widgets/search-form.php:3601, app/widgets/search-form.php:4048, app/widgets/stripe-account.php:400, app/widgets/timeline.php:372, app/widgets/timeline.php:678, app/widgets/timeline.php:1835, app/widgets/timeline.php:2204, app/widgets/timeline.php:2432, app/widgets/user-bar.php:480, app/widgets/work-hours.php:491, app/widgets/option-groups/file-field.php:31, app/widgets/option-groups/popup-controller.php:30, app/widgets/option-groups/popup-icon-button.php:30, app/widgets/option-groups/popup-menu.php:30, app/widgets/option-groups/popup-notifications.php:29
 msgid "Normal"
 msgstr ""
 
-#: app/widgets/advanced-list.php:718, app/widgets/create-post.php:1430, app/widgets/gallery.php:613, app/widgets/login.php:30, app/widgets/login.php:142, app/widgets/messages.php:31, app/widgets/messages.php:209, app/widgets/pricing-plan.php:101, app/widgets/product-form.php:1221, app/widgets/product-form.php:1826, app/widgets/search-form.php:2029, app/widgets/template-tabs.php:29, app/widgets/timeline.php:1449, app/widgets/work-hours.php:32, app/widgets/option-groups/popup-controller.php:37, app/widgets/option-groups/popup-general.php:24
+#: app/widgets/advanced-list.php:725, app/widgets/create-post.php:1430, app/widgets/gallery.php:627, app/widgets/login.php:30, app/widgets/login.php:142, app/widgets/messages.php:31, app/widgets/messages.php:209, app/widgets/pricing-plan.php:101, app/widgets/product-form.php:1221, app/widgets/product-form.php:1826, app/widgets/search-form.php:2039, app/widgets/template-tabs.php:29, app/widgets/timeline.php:1449, app/widgets/work-hours.php:32, app/widgets/option-groups/popup-controller.php:37, app/widgets/option-groups/popup-general.php:24
 msgid "General"
 msgstr ""
 
-#: app/widgets/advanced-list.php:727
+#: app/widgets/advanced-list.php:734
 msgid "Justify content"
 msgstr ""
 
-#: app/widgets/advanced-list.php:745, app/widgets/bar-chart.php:456, app/widgets/booking-calendar.php:511, app/widgets/booking-calendar.php:601, app/widgets/booking-calendar.php:670, app/widgets/booking-calendar.php:1229, app/widgets/create-post.php:1475, app/widgets/create-post.php:1546, app/widgets/create-post.php:1613, app/widgets/create-post.php:2075, app/widgets/create-post.php:2215, app/widgets/create-post.php:3523, app/widgets/create-post.php:3606, app/widgets/create-post.php:4807, app/widgets/current-plan.php:336, app/widgets/current-plan.php:559, app/widgets/login.php:290, app/widgets/login.php:543, app/widgets/login.php:796, app/widgets/map.php:262, app/widgets/map.php:880, app/widgets/messages.php:218, app/widgets/messages.php:906, app/widgets/navbar.php:509, app/widgets/orders.php:304, app/widgets/orders.php:709, app/widgets/orders.php:1142, app/widgets/orders.php:1851, app/widgets/orders.php:2081, app/widgets/orders.php:2173, app/widgets/orders.php:2702, app/widgets/orders.php:3077, app/widgets/popup-kit.php:97, app/widgets/post-feed.php:662, app/widgets/post-feed.php:908, app/widgets/post-feed.php:948, app/widgets/post-feed.php:1216, app/widgets/pricing-plan.php:596, app/widgets/pricing-plan.php:909, app/widgets/pricing-plan.php:1156, app/widgets/product-form.php:324, app/widgets/product-form.php:695, app/widgets/product-form.php:1252, app/widgets/product-form.php:1576, app/widgets/quick-search.php:194, app/widgets/quick-search.php:604, app/widgets/quick-search.php:746, app/widgets/search-form.php:1248, app/widgets/search-form.php:1799, app/widgets/search-form.php:3649, app/widgets/stripe-account.php:233, app/widgets/stripe-account.php:458, app/widgets/timeline.php:429, app/widgets/timeline.php:687, app/widgets/timeline.php:2144, app/widgets/user-bar.php:567, app/widgets/work-hours.php:204, app/widgets/work-hours.php:289
+#: app/widgets/advanced-list.php:752, app/widgets/bar-chart.php:456, app/widgets/booking-calendar.php:511, app/widgets/booking-calendar.php:601, app/widgets/booking-calendar.php:670, app/widgets/booking-calendar.php:1229, app/widgets/create-post.php:1475, app/widgets/create-post.php:1546, app/widgets/create-post.php:1613, app/widgets/create-post.php:2075, app/widgets/create-post.php:2215, app/widgets/create-post.php:3523, app/widgets/create-post.php:3606, app/widgets/create-post.php:4807, app/widgets/current-plan.php:336, app/widgets/current-plan.php:559, app/widgets/login.php:290, app/widgets/login.php:543, app/widgets/login.php:796, app/widgets/map.php:263, app/widgets/map.php:915, app/widgets/messages.php:218, app/widgets/messages.php:906, app/widgets/navbar.php:509, app/widgets/orders.php:304, app/widgets/orders.php:709, app/widgets/orders.php:1142, app/widgets/orders.php:1851, app/widgets/orders.php:2081, app/widgets/orders.php:2173, app/widgets/orders.php:2702, app/widgets/orders.php:3077, app/widgets/popup-kit.php:97, app/widgets/post-feed.php:662, app/widgets/post-feed.php:908, app/widgets/post-feed.php:948, app/widgets/post-feed.php:1216, app/widgets/pricing-plan.php:596, app/widgets/pricing-plan.php:909, app/widgets/pricing-plan.php:1156, app/widgets/product-form.php:324, app/widgets/product-form.php:695, app/widgets/product-form.php:1252, app/widgets/product-form.php:1576, app/widgets/quick-search.php:194, app/widgets/quick-search.php:604, app/widgets/quick-search.php:746, app/widgets/search-form.php:1258, app/widgets/search-form.php:1809, app/widgets/search-form.php:3659, app/widgets/stripe-account.php:233, app/widgets/stripe-account.php:458, app/widgets/timeline.php:429, app/widgets/timeline.php:687, app/widgets/timeline.php:2144, app/widgets/user-bar.php:567, app/widgets/work-hours.php:204, app/widgets/work-hours.php:289
 msgid "Padding"
 msgstr ""
 
-#: app/widgets/advanced-list.php:757, app/widgets/bar-chart.php:468, app/widgets/map.php:835, app/widgets/navbar.php:497, app/widgets/orders.php:1121, app/widgets/pricing-plan.php:608, app/widgets/quick-search.php:758, app/widgets/timeline.php:387, app/widgets/timeline.php:441, app/widgets/user-bar.php:555
+#: app/widgets/advanced-list.php:764, app/widgets/bar-chart.php:468, app/widgets/map.php:870, app/widgets/navbar.php:497, app/widgets/orders.php:1121, app/widgets/pricing-plan.php:608, app/widgets/quick-search.php:758, app/widgets/timeline.php:387, app/widgets/timeline.php:441, app/widgets/user-bar.php:555
 msgid "Margin"
 msgstr ""
 
-#: app/widgets/advanced-list.php:769, app/widgets/advanced-list.php:1473, app/widgets/create-post.php:475, app/widgets/create-post.php:1487, app/widgets/create-post.php:1558, app/widgets/create-post.php:2227, app/widgets/create-post.php:2706, app/widgets/create-post.php:4957, app/widgets/create-post.php:5305, app/widgets/current-plan.php:571, app/widgets/login.php:302, app/widgets/login.php:555, app/widgets/login.php:808, app/widgets/map.php:89, app/widgets/map.php:242, app/widgets/messages.php:41, app/widgets/navbar.php:1245, app/widgets/orders.php:721, app/widgets/orders.php:1154, app/widgets/orders.php:1863, app/widgets/orders.php:2476, app/widgets/orders.php:3089, app/widgets/popup-kit.php:990, app/widgets/post-feed.php:674, app/widgets/post-feed.php:960, app/widgets/pricing-plan.php:921, app/widgets/pricing-plan.php:1168, app/widgets/product-form.php:707, app/widgets/product-form.php:1286, app/widgets/product-form.php:1345, app/widgets/qr-tag-handler.php:182, app/widgets/quick-search.php:206, app/widgets/quick-search.php:1232, app/widgets/search-form.php:1260, app/widgets/search-form.php:1719, app/widgets/search-form.php:2547, app/widgets/stripe-account.php:470, app/widgets/timeline.php:699, app/widgets/timeline.php:2229, app/widgets/timeline.php:2457, app/widgets/option-groups/popup-controller.php:69, app/widgets/option-groups/popup-menu.php:92
+#: app/widgets/advanced-list.php:776, app/widgets/advanced-list.php:1480, app/widgets/create-post.php:475, app/widgets/create-post.php:1487, app/widgets/create-post.php:1558, app/widgets/create-post.php:2227, app/widgets/create-post.php:2706, app/widgets/create-post.php:4957, app/widgets/create-post.php:5305, app/widgets/current-plan.php:571, app/widgets/login.php:302, app/widgets/login.php:555, app/widgets/login.php:808, app/widgets/map.php:90, app/widgets/map.php:243, app/widgets/messages.php:41, app/widgets/navbar.php:1245, app/widgets/orders.php:721, app/widgets/orders.php:1154, app/widgets/orders.php:1863, app/widgets/orders.php:2476, app/widgets/orders.php:3089, app/widgets/popup-kit.php:990, app/widgets/post-feed.php:674, app/widgets/post-feed.php:960, app/widgets/pricing-plan.php:921, app/widgets/pricing-plan.php:1168, app/widgets/product-form.php:707, app/widgets/product-form.php:1286, app/widgets/product-form.php:1345, app/widgets/qr-tag-handler.php:182, app/widgets/quick-search.php:206, app/widgets/quick-search.php:1232, app/widgets/search-form.php:1270, app/widgets/search-form.php:1729, app/widgets/search-form.php:2557, app/widgets/stripe-account.php:470, app/widgets/timeline.php:699, app/widgets/timeline.php:2229, app/widgets/timeline.php:2457, app/widgets/option-groups/popup-controller.php:69, app/widgets/option-groups/popup-menu.php:92
 msgid "Height"
 msgstr ""
 
-#: app/widgets/advanced-list.php:831, app/widgets/advanced-list.php:1050, app/widgets/advanced-list.php:1144, app/widgets/advanced-list.php:1269, app/widgets/bar-chart.php:274, app/widgets/bar-chart.php:333, app/widgets/booking-calendar.php:225, app/widgets/booking-calendar.php:716, app/widgets/booking-calendar.php:1492, app/widgets/create-post.php:353, app/widgets/create-post.php:1901, app/widgets/create-post.php:2252, app/widgets/create-post.php:2509, app/widgets/create-post.php:2630, app/widgets/create-post.php:3588, app/widgets/create-post.php:4287, app/widgets/create-post.php:5014, app/widgets/create-post.php:5154, app/widgets/create-post.php:5800, app/widgets/current-plan.php:132, app/widgets/map.php:345, app/widgets/map.php:733, app/widgets/map.php:961, app/widgets/messages.php:133, app/widgets/navbar.php:985, app/widgets/navbar.php:1038, app/widgets/orders.php:361, app/widgets/orders.php:2230, app/widgets/orders.php:2329, app/widgets/orders.php:2684, app/widgets/orders.php:3197, app/widgets/orders.php:3320, app/widgets/orders.php:3496, app/widgets/pricing-plan.php:191, app/widgets/product-form.php:378, app/widgets/product-form.php:732, app/widgets/product-form.php:981, app/widgets/product-form.php:1102, app/widgets/product-form.php:1244, app/widgets/product-form.php:1996, app/widgets/product-form.php:2058, app/widgets/product-form.php:2672, app/widgets/qr-tag-handler.php:239, app/widgets/qr-tag-handler.php:397, app/widgets/quick-search.php:235, app/widgets/quick-search.php:460, app/widgets/quick-search.php:570, app/widgets/quick-search.php:674, app/widgets/quick-search.php:1029, app/widgets/search-form.php:1005, app/widgets/search-form.php:1285, app/widgets/search-form.php:1542, app/widgets/search-form.php:1663, app/widgets/search-form.php:1782, app/widgets/search-form.php:2214, app/widgets/search-form.php:2352, app/widgets/search-form.php:4228, app/widgets/search-form.php:4359, app/widgets/search-form.php:4424, app/widgets/stripe-account.php:141, app/widgets/timeline.php:345, app/widgets/timeline.php:807, app/widgets/timeline.php:2829, app/widgets/user-bar.php:614, app/widgets/user-bar.php:984, app/widgets/user-bar.php:1033, app/widgets/work-hours.php:110, app/widgets/option-groups/popup-general.php:80
+#: app/widgets/advanced-list.php:838, app/widgets/advanced-list.php:1057, app/widgets/advanced-list.php:1151, app/widgets/advanced-list.php:1276, app/widgets/bar-chart.php:274, app/widgets/bar-chart.php:333, app/widgets/booking-calendar.php:225, app/widgets/booking-calendar.php:716, app/widgets/booking-calendar.php:1492, app/widgets/create-post.php:353, app/widgets/create-post.php:1901, app/widgets/create-post.php:2252, app/widgets/create-post.php:2509, app/widgets/create-post.php:2630, app/widgets/create-post.php:3588, app/widgets/create-post.php:4287, app/widgets/create-post.php:5014, app/widgets/create-post.php:5154, app/widgets/create-post.php:5800, app/widgets/current-plan.php:132, app/widgets/map.php:346, app/widgets/map.php:768, app/widgets/map.php:996, app/widgets/messages.php:133, app/widgets/navbar.php:985, app/widgets/navbar.php:1038, app/widgets/orders.php:361, app/widgets/orders.php:2230, app/widgets/orders.php:2329, app/widgets/orders.php:2684, app/widgets/orders.php:3197, app/widgets/orders.php:3320, app/widgets/orders.php:3496, app/widgets/pricing-plan.php:191, app/widgets/product-form.php:378, app/widgets/product-form.php:732, app/widgets/product-form.php:981, app/widgets/product-form.php:1102, app/widgets/product-form.php:1244, app/widgets/product-form.php:1996, app/widgets/product-form.php:2058, app/widgets/product-form.php:2672, app/widgets/qr-tag-handler.php:239, app/widgets/qr-tag-handler.php:397, app/widgets/quick-search.php:235, app/widgets/quick-search.php:460, app/widgets/quick-search.php:570, app/widgets/quick-search.php:674, app/widgets/quick-search.php:1029, app/widgets/search-form.php:1015, app/widgets/search-form.php:1295, app/widgets/search-form.php:1552, app/widgets/search-form.php:1673, app/widgets/search-form.php:1792, app/widgets/search-form.php:2224, app/widgets/search-form.php:2362, app/widgets/search-form.php:4238, app/widgets/search-form.php:4369, app/widgets/search-form.php:4434, app/widgets/stripe-account.php:141, app/widgets/timeline.php:345, app/widgets/timeline.php:807, app/widgets/timeline.php:2848, app/widgets/user-bar.php:614, app/widgets/user-bar.php:984, app/widgets/user-bar.php:1033, app/widgets/work-hours.php:110, app/widgets/option-groups/popup-general.php:80
 msgid "Box Shadow"
 msgstr ""
 
-#: app/widgets/advanced-list.php:839, app/widgets/advanced-list.php:849, app/widgets/bar-chart.php:351, app/widgets/bar-chart.php:380, app/widgets/bar-chart.php:999, app/widgets/booking-calendar.php:453, app/widgets/booking-calendar.php:798, app/widgets/booking-calendar.php:861, app/widgets/booking-calendar.php:979, app/widgets/create-post.php:943, app/widgets/create-post.php:2029, app/widgets/create-post.php:2549, app/widgets/current-plan.php:286, app/widgets/current-plan.php:406, app/widgets/gallery.php:828, app/widgets/map.php:422, app/widgets/map.php:970, app/widgets/navbar.php:467, app/widgets/navbar.php:898, app/widgets/orders.php:240, app/widgets/orders.php:578, app/widgets/orders.php:607, app/widgets/orders.php:802, app/widgets/orders.php:892, app/widgets/orders.php:1682, app/widgets/orders.php:1723, app/widgets/orders.php:1787, app/widgets/orders.php:2154, app/widgets/orders.php:2347, app/widgets/orders.php:2376, app/widgets/orders.php:2599, app/widgets/orders.php:2715, app/widgets/orders.php:3393, app/widgets/popup-kit.php:1478, app/widgets/post-feed.php:390, app/widgets/post-feed.php:594, app/widgets/pricing-plan.php:453, app/widgets/product-form.php:1021, app/widgets/product-form.php:1670, app/widgets/product-form.php:1789, app/widgets/product-form.php:1873, app/widgets/quick-search.php:489, app/widgets/review-stats.php:130, app/widgets/ring-chart.php:156, app/widgets/search-form.php:1582, app/widgets/search-form.php:2113, app/widgets/search-form.php:2252, app/widgets/search-form.php:3601, app/widgets/search-form.php:4125, app/widgets/stripe-account.php:204, app/widgets/stripe-account.php:303, app/widgets/timeline.php:1062, app/widgets/timeline.php:1187, app/widgets/timeline.php:1231, app/widgets/timeline.php:1272, app/widgets/timeline.php:1323, app/widgets/timeline.php:2722, app/widgets/user-bar.php:864
+#: app/widgets/advanced-list.php:846, app/widgets/advanced-list.php:856, app/widgets/bar-chart.php:351, app/widgets/bar-chart.php:380, app/widgets/bar-chart.php:999, app/widgets/booking-calendar.php:453, app/widgets/booking-calendar.php:798, app/widgets/booking-calendar.php:861, app/widgets/booking-calendar.php:979, app/widgets/create-post.php:943, app/widgets/create-post.php:2029, app/widgets/create-post.php:2549, app/widgets/current-plan.php:286, app/widgets/current-plan.php:406, app/widgets/gallery.php:842, app/widgets/map.php:423, app/widgets/map.php:1005, app/widgets/navbar.php:467, app/widgets/navbar.php:898, app/widgets/orders.php:240, app/widgets/orders.php:578, app/widgets/orders.php:607, app/widgets/orders.php:802, app/widgets/orders.php:892, app/widgets/orders.php:1682, app/widgets/orders.php:1723, app/widgets/orders.php:1787, app/widgets/orders.php:2154, app/widgets/orders.php:2347, app/widgets/orders.php:2376, app/widgets/orders.php:2599, app/widgets/orders.php:2715, app/widgets/orders.php:3393, app/widgets/popup-kit.php:1478, app/widgets/post-feed.php:390, app/widgets/post-feed.php:594, app/widgets/pricing-plan.php:453, app/widgets/product-form.php:1021, app/widgets/product-form.php:1670, app/widgets/product-form.php:1789, app/widgets/product-form.php:1873, app/widgets/quick-search.php:489, app/widgets/review-stats.php:130, app/widgets/ring-chart.php:156, app/widgets/search-form.php:1592, app/widgets/search-form.php:2123, app/widgets/search-form.php:2262, app/widgets/search-form.php:3611, app/widgets/search-form.php:4135, app/widgets/stripe-account.php:204, app/widgets/stripe-account.php:303, app/widgets/timeline.php:1062, app/widgets/timeline.php:1187, app/widgets/timeline.php:1231, app/widgets/timeline.php:1272, app/widgets/timeline.php:1323, app/widgets/timeline.php:2722, app/widgets/user-bar.php:864
 msgid "Typography"
 msgstr ""
 
-#: app/widgets/advanced-list.php:857, app/widgets/advanced-list.php:1058, app/widgets/advanced-list.php:1152
+#: app/widgets/advanced-list.php:864, app/widgets/advanced-list.php:1065, app/widgets/advanced-list.php:1159
 msgid "Item colors"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1042, app/widgets/advanced-list.php:1810, app/widgets/bar-chart.php:600, app/widgets/bar-chart.php:884, app/widgets/booking-calendar.php:388, app/widgets/booking-calendar.php:1157, app/widgets/booking-calendar.php:1406, app/widgets/create-post.php:736, app/widgets/create-post.php:1079, app/widgets/create-post.php:1688, app/widgets/create-post.php:2443, app/widgets/create-post.php:2944, app/widgets/create-post.php:3458, app/widgets/create-post.php:3857, app/widgets/create-post.php:4064, app/widgets/create-post.php:4706, app/widgets/create-post.php:5110, app/widgets/create-post.php:5356, app/widgets/create-post.php:5553, app/widgets/current-plan.php:676, app/widgets/login.php:407, app/widgets/login.php:660, app/widgets/login.php:913, app/widgets/login.php:1192, app/widgets/map.php:773, app/widgets/messages.php:427, app/widgets/messages.php:1336, app/widgets/messages.php:1519, app/widgets/navbar.php:783, app/widgets/navbar.php:1485, app/widgets/orders.php:175, app/widgets/orders.php:373, app/widgets/orders.php:634, app/widgets/orders.php:1304, app/widgets/orders.php:1547, app/widgets/orders.php:2016, app/widgets/orders.php:3002, app/widgets/orders.php:3276, app/widgets/popup-kit.php:642, app/widgets/popup-kit.php:1106, app/widgets/popup-kit.php:1348, app/widgets/post-feed.php:835, app/widgets/post-feed.php:1142, app/widgets/post-feed.php:1380, app/widgets/pricing-plan.php:740, app/widgets/pricing-plan.php:1021, app/widgets/pricing-plan.php:1268, app/widgets/product-form.php:915, app/widgets/product-form.php:1392, app/widgets/product-form.php:2012, app/widgets/product-form.php:2365, app/widgets/product-form.php:2571, app/widgets/qr-tag-handler.php:353, app/widgets/quick-search.php:394, app/widgets/quick-search.php:883, app/widgets/quick-search.php:1470, app/widgets/search-form.php:1476, app/widgets/search-form.php:1923, app/widgets/search-form.php:2386, app/widgets/search-form.php:2785, app/widgets/search-form.php:3170, app/widgets/search-form.php:3747, app/widgets/search-form.php:4302, app/widgets/stripe-account.php:576, app/widgets/timeline.php:567, app/widgets/timeline.php:912, app/widgets/timeline.php:1976, app/widgets/timeline.php:2358, app/widgets/timeline.php:2590, app/widgets/user-bar.php:929, app/widgets/work-hours.php:611, app/widgets/option-groups/file-field.php:432, app/widgets/option-groups/popup-controller.php:213, app/widgets/option-groups/popup-icon-button.php:118, app/widgets/option-groups/popup-menu.php:332, app/widgets/option-groups/popup-notifications.php:279
+#: app/widgets/advanced-list.php:1049, app/widgets/advanced-list.php:1817, app/widgets/bar-chart.php:600, app/widgets/bar-chart.php:884, app/widgets/booking-calendar.php:388, app/widgets/booking-calendar.php:1157, app/widgets/booking-calendar.php:1406, app/widgets/create-post.php:736, app/widgets/create-post.php:1079, app/widgets/create-post.php:1688, app/widgets/create-post.php:2443, app/widgets/create-post.php:2944, app/widgets/create-post.php:3458, app/widgets/create-post.php:3857, app/widgets/create-post.php:4064, app/widgets/create-post.php:4706, app/widgets/create-post.php:5110, app/widgets/create-post.php:5356, app/widgets/create-post.php:5553, app/widgets/current-plan.php:676, app/widgets/login.php:407, app/widgets/login.php:660, app/widgets/login.php:913, app/widgets/login.php:1192, app/widgets/map.php:808, app/widgets/messages.php:427, app/widgets/messages.php:1336, app/widgets/messages.php:1519, app/widgets/navbar.php:783, app/widgets/navbar.php:1485, app/widgets/orders.php:175, app/widgets/orders.php:373, app/widgets/orders.php:634, app/widgets/orders.php:1304, app/widgets/orders.php:1547, app/widgets/orders.php:2016, app/widgets/orders.php:3002, app/widgets/orders.php:3276, app/widgets/popup-kit.php:642, app/widgets/popup-kit.php:1106, app/widgets/popup-kit.php:1348, app/widgets/post-feed.php:835, app/widgets/post-feed.php:1142, app/widgets/post-feed.php:1380, app/widgets/pricing-plan.php:740, app/widgets/pricing-plan.php:1021, app/widgets/pricing-plan.php:1268, app/widgets/product-form.php:915, app/widgets/product-form.php:1392, app/widgets/product-form.php:2012, app/widgets/product-form.php:2365, app/widgets/product-form.php:2571, app/widgets/qr-tag-handler.php:353, app/widgets/quick-search.php:394, app/widgets/quick-search.php:883, app/widgets/quick-search.php:1470, app/widgets/search-form.php:1486, app/widgets/search-form.php:1933, app/widgets/search-form.php:2396, app/widgets/search-form.php:2795, app/widgets/search-form.php:3180, app/widgets/search-form.php:3757, app/widgets/search-form.php:4312, app/widgets/stripe-account.php:576, app/widgets/timeline.php:567, app/widgets/timeline.php:912, app/widgets/timeline.php:1976, app/widgets/timeline.php:2358, app/widgets/timeline.php:2590, app/widgets/user-bar.php:929, app/widgets/work-hours.php:611, app/widgets/option-groups/file-field.php:432, app/widgets/option-groups/popup-controller.php:213, app/widgets/option-groups/popup-icon-button.php:118, app/widgets/option-groups/popup-menu.php:332, app/widgets/option-groups/popup-notifications.php:279
 msgid "Hover"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1136, app/widgets/create-post.php:1766, app/widgets/messages.php:477, app/widgets/product-form.php:1462, app/widgets/product-form.php:1730
+#: app/widgets/advanced-list.php:1143, app/widgets/create-post.php:1766, app/widgets/messages.php:477, app/widgets/product-form.php:1462, app/widgets/product-form.php:1730
 msgid "Active"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1233, app/widgets/booking-calendar.php:1458, app/widgets/create-post.php:5767, app/widgets/navbar.php:1004, app/widgets/orders.php:3474, app/widgets/product-form.php:2640, app/widgets/quick-search.php:980, app/widgets/search-form.php:4375, app/widgets/timeline.php:2805, app/widgets/user-bar.php:998
+#: app/widgets/advanced-list.php:1240, app/widgets/booking-calendar.php:1458, app/widgets/create-post.php:5767, app/widgets/navbar.php:1004, app/widgets/orders.php:3474, app/widgets/product-form.php:2640, app/widgets/quick-search.php:980, app/widgets/search-form.php:4385, app/widgets/timeline.php:2805, app/widgets/user-bar.php:998
 msgid "Popups: Custom style"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1241, app/widgets/booking-calendar.php:1466, app/widgets/create-post.php:5775, app/widgets/navbar.php:1012, app/widgets/orders.php:3482, app/widgets/product-form.php:2648, app/widgets/quick-search.php:988, app/widgets/search-form.php:4383, app/widgets/timeline.php:2813, app/widgets/user-bar.php:1006
+#: app/widgets/advanced-list.php:1248, app/widgets/booking-calendar.php:1466, app/widgets/create-post.php:5775, app/widgets/navbar.php:1012, app/widgets/orders.php:3482, app/widgets/product-form.php:2648, app/widgets/quick-search.php:988, app/widgets/search-form.php:4393, app/widgets/timeline.php:2813, app/widgets/user-bar.php:1006
 msgid "Enable custom style"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1242, app/widgets/booking-calendar.php:1467, app/widgets/create-post.php:5776, app/widgets/navbar.php:1013, app/widgets/orders.php:3483, app/widgets/product-form.php:2649, app/widgets/quick-search.php:989, app/widgets/search-form.php:4384, app/widgets/timeline.php:2814, app/widgets/user-bar.php:1007
+#: app/widgets/advanced-list.php:1249, app/widgets/booking-calendar.php:1467, app/widgets/create-post.php:5776, app/widgets/navbar.php:1013, app/widgets/orders.php:3483, app/widgets/product-form.php:2649, app/widgets/quick-search.php:989, app/widgets/search-form.php:4394, app/widgets/timeline.php:2814, app/widgets/user-bar.php:1007
 msgid "In wp-admin > templates > Style kits > Popup styles you can control the global popup styles that affect all the popups on the site. Enabling this option will override some of those styles only for this specific widget."
 msgstr ""
 
-#: app/widgets/advanced-list.php:1244, app/widgets/booking-calendar.php:1469, app/widgets/create-post.php:5778, app/widgets/navbar.php:590, app/widgets/navbar.php:606, app/widgets/navbar.php:1015, app/widgets/orders.php:3485, app/widgets/product-form.php:2651, app/widgets/quick-search.php:991, app/widgets/search-form.php:96, app/widgets/search-form.php:459, app/widgets/search-form.php:483, app/widgets/search-form.php:4386, app/widgets/timeline.php:2816, app/widgets/user-bar.php:523, app/widgets/user-bar.php:1009, app/widgets/work-hours.php:62
+#: app/widgets/advanced-list.php:1251, app/widgets/booking-calendar.php:1469, app/widgets/create-post.php:5778, app/widgets/navbar.php:590, app/widgets/navbar.php:606, app/widgets/navbar.php:1015, app/widgets/orders.php:3485, app/widgets/product-form.php:2651, app/widgets/quick-search.php:991, app/widgets/search-form.php:97, app/widgets/search-form.php:460, app/widgets/search-form.php:484, app/widgets/search-form.php:4396, app/widgets/timeline.php:2816, app/widgets/user-bar.php:523, app/widgets/user-bar.php:1009, app/widgets/work-hours.php:62
 msgid "Yes"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1245, app/widgets/booking-calendar.php:1470, app/widgets/create-post.php:5779, app/widgets/navbar.php:591, app/widgets/navbar.php:607, app/widgets/navbar.php:1016, app/widgets/orders.php:3486, app/widgets/product-form.php:2652, app/widgets/quick-search.php:992, app/widgets/search-form.php:97, app/widgets/search-form.php:460, app/widgets/search-form.php:484, app/widgets/search-form.php:4387, app/widgets/timeline.php:2817, app/widgets/user-bar.php:524, app/widgets/user-bar.php:1010, app/widgets/work-hours.php:63
+#: app/widgets/advanced-list.php:1252, app/widgets/booking-calendar.php:1470, app/widgets/create-post.php:5779, app/widgets/navbar.php:591, app/widgets/navbar.php:607, app/widgets/navbar.php:1016, app/widgets/orders.php:3486, app/widgets/product-form.php:2652, app/widgets/quick-search.php:992, app/widgets/search-form.php:98, app/widgets/search-form.php:461, app/widgets/search-form.php:485, app/widgets/search-form.php:4397, app/widgets/timeline.php:2817, app/widgets/user-bar.php:524, app/widgets/user-bar.php:1010, app/widgets/work-hours.php:63
 msgid "No"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1252, app/widgets/booking-calendar.php:1477, app/widgets/create-post.php:5786, app/widgets/navbar.php:1023, app/widgets/orders.php:3561, app/widgets/product-form.php:2659, app/widgets/quick-search.php:999, app/widgets/search-form.php:4394, app/widgets/timeline.php:2892, app/widgets/user-bar.php:1017, app/widgets/option-groups/popup-general.php:45
+#: app/widgets/advanced-list.php:1259, app/widgets/booking-calendar.php:1477, app/widgets/create-post.php:5786, app/widgets/navbar.php:1023, app/widgets/orders.php:3561, app/widgets/product-form.php:2659, app/widgets/quick-search.php:999, app/widgets/search-form.php:4404, app/widgets/timeline.php:2911, app/widgets/user-bar.php:1017, app/widgets/option-groups/popup-general.php:45
 msgid "Backdrop background"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1278, app/widgets/create-post.php:5744, app/widgets/login.php:1463, app/widgets/timeline.php:2839
+#: app/widgets/advanced-list.php:1285, app/widgets/create-post.php:5744, app/widgets/login.php:1463, app/widgets/timeline.php:2858
 msgid "Top margin"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1280, app/widgets/advanced-list.php:1305, app/widgets/advanced-list.php:1326, app/widgets/advanced-list.php:1347, app/widgets/booking-calendar.php:1503, app/widgets/booking-calendar.php:1528, app/widgets/booking-calendar.php:1549, app/widgets/booking-calendar.php:1570, app/widgets/create-post.php:5811, app/widgets/navbar.php:1049, app/widgets/navbar.php:1074, app/widgets/navbar.php:1095, app/widgets/navbar.php:1116, app/widgets/orders.php:3507, app/widgets/orders.php:3577, app/widgets/orders.php:3598, app/widgets/orders.php:3619, app/widgets/product-form.php:2685, app/widgets/quick-search.php:1042, app/widgets/quick-search.php:1063, app/widgets/quick-search.php:1084, app/widgets/quick-search.php:1107, app/widgets/search-form.php:328, app/widgets/search-form.php:351, app/widgets/search-form.php:372, app/widgets/search-form.php:3882, app/widgets/search-form.php:3902, app/widgets/search-form.php:3922, app/widgets/search-form.php:4435, app/widgets/search-form.php:4456, app/widgets/timeline.php:2841, app/widgets/timeline.php:2908, app/widgets/timeline.php:2929, app/widgets/timeline.php:2950, app/widgets/user-bar.php:1044, app/widgets/user-bar.php:1069, app/widgets/user-bar.php:1090, app/widgets/user-bar.php:1111, app/widgets/option-groups/popup-general.php:60
+#: app/widgets/advanced-list.php:1287, app/widgets/advanced-list.php:1312, app/widgets/advanced-list.php:1333, app/widgets/advanced-list.php:1354, app/widgets/booking-calendar.php:1503, app/widgets/booking-calendar.php:1528, app/widgets/booking-calendar.php:1549, app/widgets/booking-calendar.php:1570, app/widgets/create-post.php:5811, app/widgets/navbar.php:1049, app/widgets/navbar.php:1074, app/widgets/navbar.php:1095, app/widgets/navbar.php:1116, app/widgets/orders.php:3507, app/widgets/orders.php:3577, app/widgets/orders.php:3598, app/widgets/orders.php:3619, app/widgets/product-form.php:2685, app/widgets/quick-search.php:1042, app/widgets/quick-search.php:1063, app/widgets/quick-search.php:1084, app/widgets/quick-search.php:1107, app/widgets/search-form.php:329, app/widgets/search-form.php:352, app/widgets/search-form.php:373, app/widgets/search-form.php:3892, app/widgets/search-form.php:3912, app/widgets/search-form.php:3932, app/widgets/search-form.php:4445, app/widgets/search-form.php:4466, app/widgets/timeline.php:2828, app/widgets/timeline.php:2860, app/widgets/timeline.php:2927, app/widgets/timeline.php:2948, app/widgets/timeline.php:2969, app/widgets/user-bar.php:1044, app/widgets/user-bar.php:1069, app/widgets/user-bar.php:1090, app/widgets/user-bar.php:1111, app/widgets/option-groups/popup-general.php:60
 msgid "Does not affect mobile"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1303, app/widgets/booking-calendar.php:1526, app/widgets/create-post.php:51, app/widgets/navbar.php:1072, app/widgets/orders.php:3575, app/widgets/quick-search.php:1061, app/widgets/search-form.php:326, app/widgets/search-form.php:1742, app/widgets/search-form.php:3880, app/widgets/timeline.php:2906, app/widgets/user-bar.php:1067
+#: app/widgets/advanced-list.php:1310, app/widgets/booking-calendar.php:1526, app/widgets/create-post.php:51, app/widgets/navbar.php:1072, app/widgets/orders.php:3575, app/widgets/quick-search.php:1061, app/widgets/search-form.php:327, app/widgets/search-form.php:1752, app/widgets/search-form.php:3890, app/widgets/timeline.php:2826, app/widgets/timeline.php:2925, app/widgets/user-bar.php:1067
 msgid "Min width"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1324, app/widgets/booking-calendar.php:1547, app/widgets/create-post.php:361, app/widgets/navbar.php:1093, app/widgets/orders.php:3596, app/widgets/quick-search.php:1082, app/widgets/search-form.php:349, app/widgets/search-form.php:3900, app/widgets/timeline.php:2927, app/widgets/user-bar.php:1088
+#: app/widgets/advanced-list.php:1331, app/widgets/booking-calendar.php:1547, app/widgets/create-post.php:361, app/widgets/navbar.php:1093, app/widgets/orders.php:3596, app/widgets/quick-search.php:1082, app/widgets/search-form.php:350, app/widgets/search-form.php:3910, app/widgets/timeline.php:2946, app/widgets/user-bar.php:1088
 msgid "Max width"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1345, app/widgets/booking-calendar.php:158, app/widgets/booking-calendar.php:1568, app/widgets/navbar.php:1114, app/widgets/orders.php:3617, app/widgets/product-form.php:304, app/widgets/quick-search.php:1105, app/widgets/search-form.php:370, app/widgets/search-form.php:3920, app/widgets/search-form.php:4454, app/widgets/timeline.php:2948, app/widgets/user-bar.php:1109, app/widgets/option-groups/popup-head.php:23
+#: app/widgets/advanced-list.php:1352, app/widgets/booking-calendar.php:158, app/widgets/booking-calendar.php:1568, app/widgets/navbar.php:1114, app/widgets/orders.php:3617, app/widgets/product-form.php:304, app/widgets/quick-search.php:1105, app/widgets/search-form.php:371, app/widgets/search-form.php:3930, app/widgets/search-form.php:4464, app/widgets/timeline.php:2967, app/widgets/user-bar.php:1109, app/widgets/option-groups/popup-head.php:23
 msgid "Max height"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1371, app/widgets/quick-search.php:1129
+#: app/widgets/advanced-list.php:1378, app/widgets/quick-search.php:1129
 msgid "Custom popup: Menu"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1393, app/widgets/gallery.php:69, app/widgets/timeline.php:2657, app/widgets/user-bar.php:1130
+#: app/widgets/advanced-list.php:1400, app/widgets/gallery.php:69, app/widgets/timeline.php:2657, app/widgets/user-bar.php:1130
 msgid "Columns"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1402, app/widgets/navbar.php:1172, app/widgets/quick-search.php:1160, app/widgets/user-bar.php:1139
+#: app/widgets/advanced-list.php:1409, app/widgets/navbar.php:1172, app/widgets/quick-search.php:1160, app/widgets/user-bar.php:1139
 msgid "Multi column popup menu?"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1404, app/widgets/booking-calendar.php:358, app/widgets/create-post.php:413, app/widgets/create-post.php:462, app/widgets/create-post.php:2414, app/widgets/map.php:114, app/widgets/messages.php:63, app/widgets/navbar.php:142, app/widgets/navbar.php:236, app/widgets/navbar.php:251, app/widgets/navbar.php:268, app/widgets/navbar.php:1174, app/widgets/orders.php:145, app/widgets/product-form.php:71, app/widgets/product-form.php:89, app/widgets/product-form.php:886, app/widgets/quick-search.php:1162, app/widgets/search-form.php:56, app/widgets/search-form.php:317, app/widgets/search-form.php:1447, app/widgets/user-bar.php:154, app/widgets/user-bar.php:183, app/widgets/user-bar.php:217, app/widgets/user-bar.php:251, app/widgets/user-bar.php:267, app/widgets/user-bar.php:281, app/widgets/user-bar.php:316, app/widgets/user-bar.php:352, app/widgets/user-bar.php:908, app/widgets/user-bar.php:1141
+#: app/widgets/advanced-list.php:1411, app/widgets/booking-calendar.php:358, app/widgets/create-post.php:413, app/widgets/create-post.php:462, app/widgets/create-post.php:2414, app/widgets/map.php:115, app/widgets/messages.php:63, app/widgets/navbar.php:142, app/widgets/navbar.php:236, app/widgets/navbar.php:251, app/widgets/navbar.php:268, app/widgets/navbar.php:1174, app/widgets/orders.php:145, app/widgets/product-form.php:71, app/widgets/product-form.php:89, app/widgets/product-form.php:886, app/widgets/quick-search.php:1162, app/widgets/search-form.php:56, app/widgets/search-form.php:318, app/widgets/search-form.php:1457, app/widgets/user-bar.php:154, app/widgets/user-bar.php:183, app/widgets/user-bar.php:217, app/widgets/user-bar.php:251, app/widgets/user-bar.php:267, app/widgets/user-bar.php:281, app/widgets/user-bar.php:316, app/widgets/user-bar.php:352, app/widgets/user-bar.php:908, app/widgets/user-bar.php:1141
 msgid "Show"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1405, app/widgets/booking-calendar.php:357, app/widgets/create-post.php:410, app/widgets/create-post.php:412, app/widgets/create-post.php:459, app/widgets/create-post.php:461, app/widgets/create-post.php:2413, app/widgets/map.php:115, app/widgets/messages.php:64, app/widgets/navbar.php:143, app/widgets/navbar.php:237, app/widgets/navbar.php:252, app/widgets/navbar.php:269, app/widgets/navbar.php:1175, app/widgets/orders.php:144, app/widgets/product-form.php:72, app/widgets/product-form.php:90, app/widgets/product-form.php:885, app/widgets/quick-search.php:1163, app/widgets/search-form.php:57, app/widgets/search-form.php:318, app/widgets/search-form.php:1446, app/widgets/user-bar.php:155, app/widgets/user-bar.php:184, app/widgets/user-bar.php:218, app/widgets/user-bar.php:252, app/widgets/user-bar.php:268, app/widgets/user-bar.php:282, app/widgets/user-bar.php:317, app/widgets/user-bar.php:353, app/widgets/user-bar.php:907, app/widgets/user-bar.php:1142
+#: app/widgets/advanced-list.php:1412, app/widgets/booking-calendar.php:357, app/widgets/create-post.php:410, app/widgets/create-post.php:412, app/widgets/create-post.php:459, app/widgets/create-post.php:461, app/widgets/create-post.php:2413, app/widgets/map.php:116, app/widgets/messages.php:64, app/widgets/navbar.php:143, app/widgets/navbar.php:237, app/widgets/navbar.php:252, app/widgets/navbar.php:269, app/widgets/navbar.php:1175, app/widgets/orders.php:144, app/widgets/product-form.php:72, app/widgets/product-form.php:90, app/widgets/product-form.php:885, app/widgets/quick-search.php:1163, app/widgets/search-form.php:57, app/widgets/search-form.php:319, app/widgets/search-form.php:1456, app/widgets/user-bar.php:155, app/widgets/user-bar.php:184, app/widgets/user-bar.php:218, app/widgets/user-bar.php:252, app/widgets/user-bar.php:268, app/widgets/user-bar.php:282, app/widgets/user-bar.php:317, app/widgets/user-bar.php:353, app/widgets/user-bar.php:907, app/widgets/user-bar.php:1142
 msgid "Hide"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1413, app/widgets/navbar.php:1183, app/widgets/quick-search.php:1171, app/widgets/user-bar.php:1150
+#: app/widgets/advanced-list.php:1420, app/widgets/navbar.php:1183, app/widgets/quick-search.php:1171, app/widgets/user-bar.php:1150
 msgid "Menu columns"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1414, app/widgets/navbar.php:1184, app/widgets/quick-search.php:1172, app/widgets/user-bar.php:1151
+#: app/widgets/advanced-list.php:1421, app/widgets/navbar.php:1184, app/widgets/quick-search.php:1172, app/widgets/user-bar.php:1151
 msgid "We recommend increasing popup min width before if you plan to display the menu in multiple columns"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1430, app/widgets/booking-calendar.php:829, app/widgets/current-plan.php:463, app/widgets/gallery.php:78, app/widgets/navbar.php:1200, app/widgets/orders.php:468, app/widgets/orders.php:3361, app/widgets/popup-kit.php:245, app/widgets/post-feed.php:232, app/widgets/pricing-plan.php:124, app/widgets/pricing-plan.php:431, app/widgets/product-form.php:1556, app/widgets/quick-search.php:1188, app/widgets/review-stats.php:58, app/widgets/stripe-account.php:360, app/widgets/user-bar.php:1167, app/widgets/option-groups/file-field.php:52, app/widgets/option-groups/popup-menu.php:47
+#: app/widgets/advanced-list.php:1437, app/widgets/booking-calendar.php:829, app/widgets/current-plan.php:463, app/widgets/gallery.php:78, app/widgets/navbar.php:1200, app/widgets/orders.php:468, app/widgets/orders.php:3361, app/widgets/popup-kit.php:245, app/widgets/post-feed.php:232, app/widgets/pricing-plan.php:124, app/widgets/pricing-plan.php:431, app/widgets/product-form.php:1556, app/widgets/quick-search.php:1188, app/widgets/review-stats.php:58, app/widgets/stripe-account.php:360, app/widgets/user-bar.php:1167, app/widgets/option-groups/file-field.php:52, app/widgets/option-groups/popup-menu.php:47
 msgid "Item gap"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1460, app/widgets/booking-calendar.php:848, app/widgets/create-post.php:2692, app/widgets/navbar.php:1231, app/widgets/orders.php:3380, app/widgets/post-feed.php:286, app/widgets/quick-search.php:1218, app/widgets/search-form.php:2533, app/widgets/option-groups/popup-menu.php:78
+#: app/widgets/advanced-list.php:1467, app/widgets/booking-calendar.php:848, app/widgets/create-post.php:2692, app/widgets/navbar.php:1231, app/widgets/orders.php:3380, app/widgets/post-feed.php:286, app/widgets/quick-search.php:1218, app/widgets/search-form.php:2543, app/widgets/option-groups/popup-menu.php:78
 msgid "Item padding"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1525, app/widgets/advanced-list.php:1678, app/widgets/advanced-list.php:1729, app/widgets/advanced-list.php:1851, app/widgets/bar-chart.php:985, app/widgets/booking-calendar.php:965, app/widgets/create-post.php:1011, app/widgets/create-post.php:1058, app/widgets/create-post.php:1120, app/widgets/create-post.php:1167, app/widgets/create-post.php:1627, app/widgets/create-post.php:1747, app/widgets/create-post.php:2337, app/widgets/create-post.php:2495, app/widgets/create-post.php:2581, app/widgets/create-post.php:2791, app/widgets/create-post.php:2985, app/widgets/create-post.php:3037, app/widgets/create-post.php:3659, app/widgets/create-post.php:4889, app/widgets/create-post.php:5071, app/widgets/create-post.php:5162, app/widgets/create-post.php:5701, app/widgets/current-plan.php:392, app/widgets/current-plan.php:656, app/widgets/current-plan.php:719, app/widgets/gallery.php:776, app/widgets/gallery.php:888, app/widgets/login.php:387, app/widgets/login.php:450, app/widgets/login.php:640, app/widgets/login.php:703, app/widgets/login.php:893, app/widgets/login.php:956, app/widgets/login.php:1118, app/widgets/login.php:1420, app/widgets/map.php:386, app/widgets/messages.php:648, app/widgets/messages.php:1620, app/widgets/navbar.php:719, app/widgets/navbar.php:853, app/widgets/navbar.php:961, app/widgets/navbar.php:1328, app/widgets/navbar.php:1526, app/widgets/navbar.php:1577, app/widgets/orders.php:878, app/widgets/orders.php:1266, app/widgets/orders.php:1336, app/widgets/orders.php:1975, app/widgets/orders.php:2048, app/widgets/orders.php:2267, app/widgets/orders.php:2555, app/widgets/orders.php:3205, app/widgets/popup-kit.php:134, app/widgets/popup-kit.php:294, app/widgets/popup-kit.php:445, app/widgets/post-feed.php:580, app/widgets/post-feed.php:797, app/widgets/post-feed.php:867, app/widgets/post-feed.php:1103, app/widgets/post-feed.php:1174, app/widgets/pricing-plan.php:473, app/widgets/pricing-plan.php:1006, app/widgets/pricing-plan.php:1064, app/widgets/pricing-plan.php:1253, app/widgets/pricing-plan.php:1311, app/widgets/product-form.php:419, app/widgets/product-form.php:817, app/widgets/product-form.php:967, app/widgets/product-form.php:1053, app/widgets/product-form.php:1678, app/widgets/product-form.php:1775, app/widgets/qr-tag-handler.php:106, app/widgets/qr-tag-handler.php:300, app/widgets/qr-tag-handler.php:405, app/widgets/quick-search.php:324, app/widgets/quick-search.php:446, app/widgets/quick-search.php:521, app/widgets/quick-search.php:1315, app/widgets/quick-search.php:1511, app/widgets/review-stats.php:183, app/widgets/review-stats.php:236, app/widgets/review-stats.php:289, app/widgets/review-stats.php:342, app/widgets/review-stats.php:396, app/widgets/search-form.php:1370, app/widgets/search-form.php:1528, app/widgets/search-form.php:1614, app/widgets/search-form.php:1861, app/widgets/search-form.php:1931, app/widgets/search-form.php:2632, app/widgets/search-form.php:2826, app/widgets/search-form.php:2878, app/widgets/search-form.php:2907, app/widgets/search-form.php:3727, app/widgets/search-form.php:3790, app/widgets/search-form.php:3850, app/widgets/search-form.php:4279, app/widgets/search-form.php:4346, app/widgets/stripe-account.php:289, app/widgets/stripe-account.php:556, app/widgets/stripe-account.php:619, app/widgets/timeline.php:815, app/widgets/timeline.php:1048, app/widgets/timeline.php:1578, app/widgets/timeline.php:1629, app/widgets/timeline.php:1680, app/widgets/timeline.php:1731, app/widgets/timeline.php:1782, app/widgets/timeline.php:1894, app/widgets/timeline.php:1992, app/widgets/timeline.php:2312, app/widgets/timeline.php:2544, app/widgets/timeline.php:2691, app/widgets/user-bar.php:737, app/widgets/user-bar.php:960, app/widgets/work-hours.php:329, app/widgets/work-hours.php:433, app/widgets/option-groups/file-field.php:84, app/widgets/option-groups/file-field.php:235, app/widgets/option-groups/popup-head.php:95, app/widgets/option-groups/popup-input.php:135, app/widgets/option-groups/popup-menu.php:175, app/widgets/option-groups/popup-menu.php:373, app/widgets/option-groups/popup-menu.php:424, app/widgets/option-groups/popup-notifications.php:92, app/widgets/option-groups/popup-notifications.php:236, app/widgets/option-groups/popup-notifications.php:333
+#: app/widgets/advanced-list.php:1532, app/widgets/advanced-list.php:1685, app/widgets/advanced-list.php:1736, app/widgets/advanced-list.php:1858, app/widgets/bar-chart.php:985, app/widgets/booking-calendar.php:965, app/widgets/create-post.php:1011, app/widgets/create-post.php:1058, app/widgets/create-post.php:1120, app/widgets/create-post.php:1167, app/widgets/create-post.php:1627, app/widgets/create-post.php:1747, app/widgets/create-post.php:2337, app/widgets/create-post.php:2495, app/widgets/create-post.php:2581, app/widgets/create-post.php:2791, app/widgets/create-post.php:2985, app/widgets/create-post.php:3037, app/widgets/create-post.php:3659, app/widgets/create-post.php:4889, app/widgets/create-post.php:5071, app/widgets/create-post.php:5162, app/widgets/create-post.php:5701, app/widgets/current-plan.php:392, app/widgets/current-plan.php:656, app/widgets/current-plan.php:719, app/widgets/gallery.php:790, app/widgets/gallery.php:902, app/widgets/login.php:387, app/widgets/login.php:450, app/widgets/login.php:640, app/widgets/login.php:703, app/widgets/login.php:893, app/widgets/login.php:956, app/widgets/login.php:1118, app/widgets/login.php:1420, app/widgets/map.php:387, app/widgets/messages.php:648, app/widgets/messages.php:1620, app/widgets/navbar.php:719, app/widgets/navbar.php:853, app/widgets/navbar.php:961, app/widgets/navbar.php:1328, app/widgets/navbar.php:1526, app/widgets/navbar.php:1577, app/widgets/orders.php:878, app/widgets/orders.php:1266, app/widgets/orders.php:1336, app/widgets/orders.php:1975, app/widgets/orders.php:2048, app/widgets/orders.php:2267, app/widgets/orders.php:2555, app/widgets/orders.php:3205, app/widgets/popup-kit.php:134, app/widgets/popup-kit.php:294, app/widgets/popup-kit.php:445, app/widgets/post-feed.php:580, app/widgets/post-feed.php:797, app/widgets/post-feed.php:867, app/widgets/post-feed.php:1103, app/widgets/post-feed.php:1174, app/widgets/pricing-plan.php:473, app/widgets/pricing-plan.php:1006, app/widgets/pricing-plan.php:1064, app/widgets/pricing-plan.php:1253, app/widgets/pricing-plan.php:1311, app/widgets/product-form.php:419, app/widgets/product-form.php:817, app/widgets/product-form.php:967, app/widgets/product-form.php:1053, app/widgets/product-form.php:1678, app/widgets/product-form.php:1775, app/widgets/qr-tag-handler.php:106, app/widgets/qr-tag-handler.php:300, app/widgets/qr-tag-handler.php:405, app/widgets/quick-search.php:324, app/widgets/quick-search.php:446, app/widgets/quick-search.php:521, app/widgets/quick-search.php:1315, app/widgets/quick-search.php:1511, app/widgets/review-stats.php:183, app/widgets/review-stats.php:236, app/widgets/review-stats.php:289, app/widgets/review-stats.php:342, app/widgets/review-stats.php:396, app/widgets/search-form.php:1380, app/widgets/search-form.php:1538, app/widgets/search-form.php:1624, app/widgets/search-form.php:1871, app/widgets/search-form.php:1941, app/widgets/search-form.php:2642, app/widgets/search-form.php:2836, app/widgets/search-form.php:2888, app/widgets/search-form.php:2917, app/widgets/search-form.php:3737, app/widgets/search-form.php:3800, app/widgets/search-form.php:3860, app/widgets/search-form.php:4289, app/widgets/search-form.php:4356, app/widgets/stripe-account.php:289, app/widgets/stripe-account.php:556, app/widgets/stripe-account.php:619, app/widgets/timeline.php:815, app/widgets/timeline.php:1048, app/widgets/timeline.php:1578, app/widgets/timeline.php:1629, app/widgets/timeline.php:1680, app/widgets/timeline.php:1731, app/widgets/timeline.php:1782, app/widgets/timeline.php:1894, app/widgets/timeline.php:1992, app/widgets/timeline.php:2312, app/widgets/timeline.php:2544, app/widgets/timeline.php:2691, app/widgets/user-bar.php:737, app/widgets/user-bar.php:960, app/widgets/work-hours.php:329, app/widgets/work-hours.php:433, app/widgets/option-groups/file-field.php:84, app/widgets/option-groups/file-field.php:235, app/widgets/option-groups/popup-head.php:95, app/widgets/option-groups/popup-input.php:135, app/widgets/option-groups/popup-menu.php:175, app/widgets/option-groups/popup-menu.php:373, app/widgets/option-groups/popup-menu.php:424, app/widgets/option-groups/popup-notifications.php:92, app/widgets/option-groups/popup-notifications.php:236, app/widgets/option-groups/popup-notifications.php:333
 msgid "Icon color"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1562, app/widgets/option-groups/popup-notifications.php:139
+#: app/widgets/advanced-list.php:1569, app/widgets/option-groups/popup-notifications.php:139
 msgid "Icon container size"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1581, app/widgets/gallery.php:53
+#: app/widgets/advanced-list.php:1588, app/widgets/gallery.php:53
 msgid "Image size"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1600, app/widgets/timeline.php:1392
+#: app/widgets/advanced-list.php:1607, app/widgets/timeline.php:1392
 msgid "Image radius"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1623, app/widgets/orders.php:3246, app/widgets/timeline.php:856, app/widgets/timeline.php:1511
+#: app/widgets/advanced-list.php:1630, app/widgets/orders.php:3246, app/widgets/timeline.php:856, app/widgets/timeline.php:1511
 msgid "Icon / Text spacing"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1642, app/widgets/advanced-list.php:1838, app/widgets/create-post.php:2759, app/widgets/create-post.php:2972, app/widgets/create-post.php:3024, app/widgets/login.php:158, app/widgets/messages.php:260, app/widgets/messages.php:447, app/widgets/messages.php:528, app/widgets/messages.php:1632, app/widgets/navbar.php:1296, app/widgets/navbar.php:1513, app/widgets/navbar.php:1564, app/widgets/popup-kit.php:146, app/widgets/quick-search.php:1283, app/widgets/quick-search.php:1498, app/widgets/search-form.php:2600, app/widgets/search-form.php:2813, app/widgets/search-form.php:2865, app/widgets/option-groups/popup-head.php:109, app/widgets/option-groups/popup-menu.php:143, app/widgets/option-groups/popup-menu.php:360, app/widgets/option-groups/popup-menu.php:411, app/widgets/option-groups/popup-notifications.php:48, app/widgets/option-groups/popup-notifications.php:214, app/widgets/option-groups/popup-notifications.php:309
+#: app/widgets/advanced-list.php:1649, app/widgets/advanced-list.php:1845, app/widgets/create-post.php:2759, app/widgets/create-post.php:2972, app/widgets/create-post.php:3024, app/widgets/login.php:158, app/widgets/messages.php:260, app/widgets/messages.php:447, app/widgets/messages.php:528, app/widgets/messages.php:1632, app/widgets/navbar.php:1296, app/widgets/navbar.php:1513, app/widgets/navbar.php:1564, app/widgets/popup-kit.php:146, app/widgets/quick-search.php:1283, app/widgets/quick-search.php:1498, app/widgets/search-form.php:2610, app/widgets/search-form.php:2823, app/widgets/search-form.php:2875, app/widgets/option-groups/popup-head.php:109, app/widgets/option-groups/popup-menu.php:143, app/widgets/option-groups/popup-menu.php:360, app/widgets/option-groups/popup-menu.php:411, app/widgets/option-groups/popup-notifications.php:48, app/widgets/option-groups/popup-notifications.php:214, app/widgets/option-groups/popup-notifications.php:309
 msgid "Title color"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1656, app/widgets/advanced-list.php:1770, app/widgets/create-post.php:2773, app/widgets/create-post.php:3014, app/widgets/messages.php:273, app/widgets/messages.php:568, app/widgets/messages.php:1644, app/widgets/navbar.php:1310, app/widgets/navbar.php:1555, app/widgets/popup-kit.php:158, app/widgets/quick-search.php:1297, app/widgets/search-form.php:2614, app/widgets/search-form.php:2855, app/widgets/option-groups/popup-head.php:121, app/widgets/option-groups/popup-menu.php:157, app/widgets/option-groups/popup-menu.php:402, app/widgets/option-groups/popup-menu.php:450, app/widgets/option-groups/popup-notifications.php:61, app/widgets/option-groups/popup-notifications.php:194
+#: app/widgets/advanced-list.php:1663, app/widgets/advanced-list.php:1777, app/widgets/create-post.php:2773, app/widgets/create-post.php:3014, app/widgets/messages.php:273, app/widgets/messages.php:568, app/widgets/messages.php:1644, app/widgets/navbar.php:1310, app/widgets/navbar.php:1555, app/widgets/popup-kit.php:158, app/widgets/quick-search.php:1297, app/widgets/search-form.php:2624, app/widgets/search-form.php:2865, app/widgets/option-groups/popup-head.php:121, app/widgets/option-groups/popup-menu.php:157, app/widgets/option-groups/popup-menu.php:402, app/widgets/option-groups/popup-menu.php:450, app/widgets/option-groups/popup-notifications.php:61, app/widgets/option-groups/popup-notifications.php:194
 msgid "Title typography"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1668, app/widgets/booking-calendar.php:345, app/widgets/create-post.php:2401, app/widgets/create-post.php:2915, app/widgets/navbar.php:751, app/widgets/navbar.php:1452, app/widgets/orders.php:132, app/widgets/product-form.php:873, app/widgets/quick-search.php:1439, app/widgets/search-form.php:1434, app/widgets/search-form.php:2756, app/widgets/user-bar.php:884, app/widgets/option-groups/popup-menu.php:299
+#: app/widgets/advanced-list.php:1675, app/widgets/booking-calendar.php:345, app/widgets/create-post.php:2401, app/widgets/create-post.php:2915, app/widgets/navbar.php:751, app/widgets/navbar.php:1452, app/widgets/orders.php:132, app/widgets/product-form.php:873, app/widgets/quick-search.php:1439, app/widgets/search-form.php:1444, app/widgets/search-form.php:2766, app/widgets/user-bar.php:884, app/widgets/option-groups/popup-menu.php:299
 msgid "Chevron"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1719, app/widgets/advanced-list.php:1865
+#: app/widgets/advanced-list.php:1726, app/widgets/advanced-list.php:1872
 msgid "Go back"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1791, app/widgets/advanced-list.php:1889, app/widgets/bar-chart.php:801, app/widgets/booking-calendar.php:1083, app/widgets/booking-calendar.php:1323, app/widgets/create-post.php:659, app/widgets/create-post.php:3385, app/widgets/create-post.php:3784, app/widgets/create-post.php:3879, app/widgets/create-post.php:4013, app/widgets/create-post.php:4655, app/widgets/create-post.php:5260, app/widgets/create-post.php:5378, app/widgets/create-post.php:5480, app/widgets/create-post.php:5575, app/widgets/map.php:685, app/widgets/messages.php:1285, app/widgets/messages.php:1446, app/widgets/messages.php:1541, app/widgets/orders.php:1497, app/widgets/orders.php:2950, app/widgets/popup-kit.php:673, app/widgets/popup-kit.php:1033, app/widgets/popup-kit.php:1126, app/widgets/post-feed.php:1305, app/widgets/product-form.php:2314, app/widgets/product-form.php:2498, app/widgets/product-form.php:2591, app/widgets/search-form.php:3117, app/widgets/work-hours.php:559, app/widgets/option-groups/file-field.php:463, app/widgets/option-groups/popup-icon-button.php:65
+#: app/widgets/advanced-list.php:1798, app/widgets/advanced-list.php:1896, app/widgets/bar-chart.php:801, app/widgets/booking-calendar.php:1083, app/widgets/booking-calendar.php:1323, app/widgets/create-post.php:659, app/widgets/create-post.php:3385, app/widgets/create-post.php:3784, app/widgets/create-post.php:3879, app/widgets/create-post.php:4013, app/widgets/create-post.php:4655, app/widgets/create-post.php:5260, app/widgets/create-post.php:5378, app/widgets/create-post.php:5480, app/widgets/create-post.php:5575, app/widgets/map.php:720, app/widgets/messages.php:1285, app/widgets/messages.php:1446, app/widgets/messages.php:1541, app/widgets/orders.php:1497, app/widgets/orders.php:2950, app/widgets/popup-kit.php:673, app/widgets/popup-kit.php:1033, app/widgets/popup-kit.php:1126, app/widgets/post-feed.php:1305, app/widgets/product-form.php:2314, app/widgets/product-form.php:2498, app/widgets/product-form.php:2591, app/widgets/search-form.php:3127, app/widgets/work-hours.php:559, app/widgets/option-groups/file-field.php:463, app/widgets/option-groups/popup-icon-button.php:65
 msgid "Button background"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1817, app/widgets/create-post.php:2951, app/widgets/navbar.php:1492, app/widgets/quick-search.php:1477, app/widgets/search-form.php:2792, app/widgets/option-groups/popup-menu.php:339
+#: app/widgets/advanced-list.php:1824, app/widgets/create-post.php:2951, app/widgets/navbar.php:1492, app/widgets/quick-search.php:1477, app/widgets/search-form.php:2802, app/widgets/option-groups/popup-menu.php:339
 msgid "Term item"
 msgstr ""
 
-#: app/widgets/advanced-list.php:1825, app/widgets/create-post.php:2959, app/widgets/navbar.php:1500, app/widgets/quick-search.php:1485, app/widgets/search-form.php:2800, app/widgets/option-groups/popup-menu.php:347
+#: app/widgets/advanced-list.php:1832, app/widgets/create-post.php:2959, app/widgets/navbar.php:1500, app/widgets/quick-search.php:1485, app/widgets/search-form.php:2810, app/widgets/option-groups/popup-menu.php:347
 msgid "List item background"
 msgstr ""
 
@@ -506,7 +514,7 @@ msgstr ""
 msgid "Bar popup: Value"
 msgstr ""
 
-#: app/widgets/bar-chart.php:359, app/widgets/bar-chart.php:388, app/widgets/booking-calendar.php:806, app/widgets/create-post.php:589, app/widgets/create-post.php:1278, app/widgets/create-post.php:1324, app/widgets/create-post.php:1947, app/widgets/create-post.php:3627, app/widgets/create-post.php:4138, app/widgets/create-post.php:4313, app/widgets/create-post.php:4344, app/widgets/create-post.php:4376, app/widgets/create-post.php:4447, app/widgets/create-post.php:4521, app/widgets/create-post.php:5732, app/widgets/login.php:1268, app/widgets/login.php:1300, app/widgets/login.php:1331, app/widgets/login.php:1451, app/widgets/map.php:978, app/widgets/messages.php:967, app/widgets/messages.php:999, app/widgets/messages.php:1031, app/widgets/messages.php:1100, app/widgets/messages.php:1189, app/widgets/messages.php:1219, app/widgets/navbar.php:475, app/widgets/navbar.php:799, app/widgets/navbar.php:907, app/widgets/orders.php:586, app/widgets/orders.php:615, app/widgets/orders.php:964, app/widgets/orders.php:1000, app/widgets/orders.php:1036, app/widgets/orders.php:1071, app/widgets/orders.php:1690, app/widgets/orders.php:1751, app/widgets/orders.php:2355, app/widgets/orders.php:2384, app/widgets/orders.php:2607, app/widgets/popup-kit.php:541, app/widgets/pricing-plan.php:461, app/widgets/product-form.php:583, app/widgets/product-form.php:646, app/widgets/product-form.php:1881, app/widgets/qr-tag-handler.php:137, app/widgets/ring-chart.php:165, app/widgets/search-form.php:2121, app/widgets/search-form.php:2260, app/widgets/search-form.php:4133, app/widgets/timeline.php:1195, app/widgets/timeline.php:1280, app/widgets/timeline.php:1300, app/widgets/timeline.php:1340, app/widgets/timeline.php:2101, app/widgets/user-bar.php:872, app/widgets/option-groups/file-field.php:331, app/widgets/option-groups/popup-calendar.php:41, app/widgets/option-groups/popup-calendar.php:72, app/widgets/option-groups/popup-calendar.php:105, app/widgets/option-groups/popup-calendar.php:157, app/widgets/option-groups/popup-calendar.php:193, app/widgets/option-groups/popup-calendar.php:228, app/widgets/option-groups/popup-calendar.php:272, app/widgets/option-groups/popup-calendar.php:294, app/widgets/option-groups/popup-label.php:43, app/widgets/option-groups/popup-label.php:75
+#: app/widgets/bar-chart.php:359, app/widgets/bar-chart.php:388, app/widgets/booking-calendar.php:806, app/widgets/create-post.php:589, app/widgets/create-post.php:1278, app/widgets/create-post.php:1324, app/widgets/create-post.php:1947, app/widgets/create-post.php:3627, app/widgets/create-post.php:4138, app/widgets/create-post.php:4313, app/widgets/create-post.php:4344, app/widgets/create-post.php:4376, app/widgets/create-post.php:4447, app/widgets/create-post.php:4521, app/widgets/create-post.php:5732, app/widgets/login.php:1268, app/widgets/login.php:1300, app/widgets/login.php:1331, app/widgets/login.php:1451, app/widgets/map.php:1013, app/widgets/messages.php:967, app/widgets/messages.php:999, app/widgets/messages.php:1031, app/widgets/messages.php:1100, app/widgets/messages.php:1189, app/widgets/messages.php:1219, app/widgets/navbar.php:475, app/widgets/navbar.php:799, app/widgets/navbar.php:907, app/widgets/orders.php:586, app/widgets/orders.php:615, app/widgets/orders.php:964, app/widgets/orders.php:1000, app/widgets/orders.php:1036, app/widgets/orders.php:1071, app/widgets/orders.php:1690, app/widgets/orders.php:1751, app/widgets/orders.php:2355, app/widgets/orders.php:2384, app/widgets/orders.php:2607, app/widgets/popup-kit.php:541, app/widgets/pricing-plan.php:461, app/widgets/product-form.php:583, app/widgets/product-form.php:646, app/widgets/product-form.php:1881, app/widgets/qr-tag-handler.php:137, app/widgets/ring-chart.php:165, app/widgets/search-form.php:2131, app/widgets/search-form.php:2270, app/widgets/search-form.php:4143, app/widgets/timeline.php:1195, app/widgets/timeline.php:1280, app/widgets/timeline.php:1300, app/widgets/timeline.php:1340, app/widgets/timeline.php:2101, app/widgets/user-bar.php:872, app/widgets/option-groups/file-field.php:331, app/widgets/option-groups/popup-calendar.php:41, app/widgets/option-groups/popup-calendar.php:72, app/widgets/option-groups/popup-calendar.php:105, app/widgets/option-groups/popup-calendar.php:157, app/widgets/option-groups/popup-calendar.php:193, app/widgets/option-groups/popup-calendar.php:228, app/widgets/option-groups/popup-calendar.php:272, app/widgets/option-groups/popup-calendar.php:294, app/widgets/option-groups/popup-label.php:43, app/widgets/option-groups/popup-label.php:75
 msgid "Color"
 msgstr ""
 
@@ -546,31 +554,31 @@ msgstr ""
 msgid "Week buttons"
 msgstr ""
 
-#: app/widgets/bar-chart.php:764, app/widgets/bar-chart.php:891, app/widgets/booking-calendar.php:1046, app/widgets/booking-calendar.php:1164, app/widgets/booking-calendar.php:1286, app/widgets/booking-calendar.php:1413, app/widgets/create-post.php:626, app/widgets/create-post.php:743, app/widgets/create-post.php:3350, app/widgets/create-post.php:3465, app/widgets/create-post.php:3749, app/widgets/create-post.php:3864, app/widgets/create-post.php:3978, app/widgets/create-post.php:4071, app/widgets/create-post.php:4620, app/widgets/create-post.php:4713, app/widgets/create-post.php:5202, app/widgets/create-post.php:5363, app/widgets/create-post.php:5445, app/widgets/create-post.php:5560, app/widgets/map.php:648, app/widgets/map.php:780, app/widgets/messages.php:1268, app/widgets/messages.php:1343, app/widgets/messages.php:1411, app/widgets/messages.php:1526, app/widgets/orders.php:1460, app/widgets/orders.php:1554, app/widgets/orders.php:2913, app/widgets/orders.php:3009, app/widgets/popup-kit.php:658, app/widgets/popup-kit.php:975, app/widgets/popup-kit.php:1113, app/widgets/post-feed.php:1268, app/widgets/post-feed.php:1387, app/widgets/product-form.php:2277, app/widgets/product-form.php:2372, app/widgets/product-form.php:2438, app/widgets/product-form.php:2578, app/widgets/search-form.php:3078, app/widgets/search-form.php:3177, app/widgets/work-hours.php:522, app/widgets/work-hours.php:618, app/widgets/option-groups/file-field.php:448, app/widgets/option-groups/popup-icon-button.php:50, app/widgets/option-groups/popup-icon-button.php:125
+#: app/widgets/bar-chart.php:764, app/widgets/bar-chart.php:891, app/widgets/booking-calendar.php:1046, app/widgets/booking-calendar.php:1164, app/widgets/booking-calendar.php:1286, app/widgets/booking-calendar.php:1413, app/widgets/create-post.php:626, app/widgets/create-post.php:743, app/widgets/create-post.php:3350, app/widgets/create-post.php:3465, app/widgets/create-post.php:3749, app/widgets/create-post.php:3864, app/widgets/create-post.php:3978, app/widgets/create-post.php:4071, app/widgets/create-post.php:4620, app/widgets/create-post.php:4713, app/widgets/create-post.php:5202, app/widgets/create-post.php:5363, app/widgets/create-post.php:5445, app/widgets/create-post.php:5560, app/widgets/map.php:683, app/widgets/map.php:815, app/widgets/messages.php:1268, app/widgets/messages.php:1343, app/widgets/messages.php:1411, app/widgets/messages.php:1526, app/widgets/orders.php:1460, app/widgets/orders.php:1554, app/widgets/orders.php:2913, app/widgets/orders.php:3009, app/widgets/popup-kit.php:658, app/widgets/popup-kit.php:975, app/widgets/popup-kit.php:1113, app/widgets/post-feed.php:1268, app/widgets/post-feed.php:1387, app/widgets/product-form.php:2277, app/widgets/product-form.php:2372, app/widgets/product-form.php:2438, app/widgets/product-form.php:2578, app/widgets/search-form.php:3088, app/widgets/search-form.php:3187, app/widgets/work-hours.php:522, app/widgets/work-hours.php:618, app/widgets/option-groups/file-field.php:448, app/widgets/option-groups/popup-icon-button.php:50, app/widgets/option-groups/popup-icon-button.php:125
 msgid "Button icon color"
 msgstr ""
 
-#: app/widgets/bar-chart.php:777, app/widgets/booking-calendar.php:1059, app/widgets/booking-calendar.php:1299, app/widgets/create-post.php:639, app/widgets/create-post.php:3365, app/widgets/create-post.php:3764, app/widgets/create-post.php:3993, app/widgets/create-post.php:4635, app/widgets/create-post.php:5217, app/widgets/create-post.php:5460, app/widgets/map.php:661, app/widgets/messages.php:1426, app/widgets/orders.php:1473, app/widgets/orders.php:2926, app/widgets/popup-kit.php:1009, app/widgets/post-feed.php:1281, app/widgets/product-form.php:2290, app/widgets/product-form.php:2451, app/widgets/search-form.php:3093, app/widgets/work-hours.php:535
+#: app/widgets/bar-chart.php:777, app/widgets/booking-calendar.php:1059, app/widgets/booking-calendar.php:1299, app/widgets/create-post.php:639, app/widgets/create-post.php:3365, app/widgets/create-post.php:3764, app/widgets/create-post.php:3993, app/widgets/create-post.php:4635, app/widgets/create-post.php:5217, app/widgets/create-post.php:5460, app/widgets/map.php:696, app/widgets/messages.php:1426, app/widgets/orders.php:1473, app/widgets/orders.php:2926, app/widgets/popup-kit.php:1009, app/widgets/post-feed.php:1281, app/widgets/product-form.php:2290, app/widgets/product-form.php:2451, app/widgets/search-form.php:3103, app/widgets/work-hours.php:535
 msgid "Button icon size"
 msgstr ""
 
-#: app/widgets/bar-chart.php:815, app/widgets/booking-calendar.php:1097, app/widgets/booking-calendar.php:1337, app/widgets/create-post.php:320, app/widgets/create-post.php:673, app/widgets/create-post.php:3399, app/widgets/create-post.php:3798, app/widgets/create-post.php:4026, app/widgets/create-post.php:4668, app/widgets/create-post.php:4835, app/widgets/create-post.php:5274, app/widgets/create-post.php:5494, app/widgets/map.php:699, app/widgets/messages.php:1298, app/widgets/messages.php:1460, app/widgets/orders.php:1510, app/widgets/orders.php:2963, app/widgets/popup-kit.php:1047, app/widgets/post-feed.php:1319, app/widgets/product-form.php:2327, app/widgets/product-form.php:2512, app/widgets/search-form.php:3130, app/widgets/work-hours.php:572, app/widgets/option-groups/popup-icon-button.php:78
+#: app/widgets/bar-chart.php:815, app/widgets/booking-calendar.php:1097, app/widgets/booking-calendar.php:1337, app/widgets/create-post.php:320, app/widgets/create-post.php:673, app/widgets/create-post.php:3399, app/widgets/create-post.php:3798, app/widgets/create-post.php:4026, app/widgets/create-post.php:4668, app/widgets/create-post.php:4835, app/widgets/create-post.php:5274, app/widgets/create-post.php:5494, app/widgets/map.php:734, app/widgets/messages.php:1298, app/widgets/messages.php:1460, app/widgets/orders.php:1510, app/widgets/orders.php:2963, app/widgets/popup-kit.php:1047, app/widgets/post-feed.php:1319, app/widgets/product-form.php:2327, app/widgets/product-form.php:2512, app/widgets/search-form.php:3140, app/widgets/work-hours.php:572, app/widgets/option-groups/popup-icon-button.php:78
 msgid "Button border"
 msgstr ""
 
-#: app/widgets/bar-chart.php:823, app/widgets/booking-calendar.php:1105, app/widgets/booking-calendar.php:1345, app/widgets/create-post.php:681, app/widgets/create-post.php:3407, app/widgets/create-post.php:3806, app/widgets/create-post.php:4034, app/widgets/create-post.php:4676, app/widgets/create-post.php:5282, app/widgets/create-post.php:5502, app/widgets/map.php:709, app/widgets/messages.php:1306, app/widgets/messages.php:1468, app/widgets/orders.php:1518, app/widgets/orders.php:2971, app/widgets/popup-kit.php:1055, app/widgets/post-feed.php:1327, app/widgets/product-form.php:2335, app/widgets/product-form.php:2520, app/widgets/search-form.php:3138, app/widgets/work-hours.php:580, app/widgets/option-groups/popup-icon-button.php:86
+#: app/widgets/bar-chart.php:823, app/widgets/booking-calendar.php:1105, app/widgets/booking-calendar.php:1345, app/widgets/create-post.php:681, app/widgets/create-post.php:3407, app/widgets/create-post.php:3806, app/widgets/create-post.php:4034, app/widgets/create-post.php:4676, app/widgets/create-post.php:5282, app/widgets/create-post.php:5502, app/widgets/map.php:744, app/widgets/messages.php:1306, app/widgets/messages.php:1468, app/widgets/orders.php:1518, app/widgets/orders.php:2971, app/widgets/popup-kit.php:1055, app/widgets/post-feed.php:1327, app/widgets/product-form.php:2335, app/widgets/product-form.php:2520, app/widgets/search-form.php:3148, app/widgets/work-hours.php:580, app/widgets/option-groups/popup-icon-button.php:86
 msgid "Button border radius"
 msgstr ""
 
-#: app/widgets/bar-chart.php:846, app/widgets/booking-calendar.php:1128, app/widgets/booking-calendar.php:1368, app/widgets/create-post.php:704, app/widgets/create-post.php:3430, app/widgets/create-post.php:3959, app/widgets/create-post.php:4597, app/widgets/map.php:742, app/widgets/orders.php:1437, app/widgets/orders.php:2890, app/widgets/post-feed.php:1350, app/widgets/product-form.php:2254, app/widgets/search-form.php:3055, app/widgets/work-hours.php:499, app/widgets/option-groups/popup-conversation.php:176
+#: app/widgets/bar-chart.php:846, app/widgets/booking-calendar.php:1128, app/widgets/booking-calendar.php:1368, app/widgets/create-post.php:704, app/widgets/create-post.php:3430, app/widgets/create-post.php:3959, app/widgets/create-post.php:4597, app/widgets/map.php:777, app/widgets/orders.php:1437, app/widgets/orders.php:2890, app/widgets/post-feed.php:1350, app/widgets/product-form.php:2254, app/widgets/search-form.php:3065, app/widgets/work-hours.php:499, app/widgets/option-groups/popup-conversation.php:176
 msgid "Button size"
 msgstr ""
 
-#: app/widgets/bar-chart.php:904, app/widgets/booking-calendar.php:1177, app/widgets/booking-calendar.php:1426, app/widgets/create-post.php:756, app/widgets/create-post.php:3480, app/widgets/create-post.php:4086, app/widgets/create-post.php:4728, app/widgets/map.php:793, app/widgets/messages.php:1358, app/widgets/orders.php:1567, app/widgets/orders.php:3022, app/widgets/post-feed.php:1400, app/widgets/product-form.php:2385, app/widgets/search-form.php:3192, app/widgets/work-hours.php:631, app/widgets/option-groups/popup-icon-button.php:140
+#: app/widgets/bar-chart.php:904, app/widgets/booking-calendar.php:1177, app/widgets/booking-calendar.php:1426, app/widgets/create-post.php:756, app/widgets/create-post.php:3480, app/widgets/create-post.php:4086, app/widgets/create-post.php:4728, app/widgets/map.php:828, app/widgets/messages.php:1358, app/widgets/orders.php:1567, app/widgets/orders.php:3022, app/widgets/post-feed.php:1400, app/widgets/product-form.php:2385, app/widgets/search-form.php:3202, app/widgets/work-hours.php:631, app/widgets/option-groups/popup-icon-button.php:140
 msgid "Button background color"
 msgstr ""
 
-#: app/widgets/bar-chart.php:917, app/widgets/booking-calendar.php:1190, app/widgets/booking-calendar.php:1439, app/widgets/create-post.php:769, app/widgets/create-post.php:3493, app/widgets/create-post.php:4099, app/widgets/create-post.php:4741, app/widgets/map.php:806, app/widgets/messages.php:1371, app/widgets/orders.php:1580, app/widgets/orders.php:3035, app/widgets/post-feed.php:1413, app/widgets/product-form.php:2398, app/widgets/search-form.php:3205, app/widgets/work-hours.php:644, app/widgets/option-groups/popup-icon-button.php:153
+#: app/widgets/bar-chart.php:917, app/widgets/booking-calendar.php:1190, app/widgets/booking-calendar.php:1439, app/widgets/create-post.php:769, app/widgets/create-post.php:3493, app/widgets/create-post.php:4099, app/widgets/create-post.php:4741, app/widgets/map.php:841, app/widgets/messages.php:1371, app/widgets/orders.php:1580, app/widgets/orders.php:3035, app/widgets/post-feed.php:1413, app/widgets/product-form.php:2398, app/widgets/search-form.php:3215, app/widgets/work-hours.php:644, app/widgets/option-groups/popup-icon-button.php:153
 msgid "Button border color"
 msgstr ""
 
@@ -598,7 +606,7 @@ msgstr ""
 msgid "Calendar padding"
 msgstr ""
 
-#: app/widgets/booking-calendar.php:233, app/widgets/messages.php:174, app/widgets/product-form.php:386, app/widgets/search-form.php:1013
+#: app/widgets/booking-calendar.php:233, app/widgets/messages.php:174, app/widgets/product-form.php:386, app/widgets/search-form.php:1023
 msgid "Scrollbar color"
 msgstr ""
 
@@ -606,7 +614,7 @@ msgstr ""
 msgid "Filters"
 msgstr ""
 
-#: app/widgets/booking-calendar.php:270, app/widgets/create-post.php:296, app/widgets/orders.php:57, app/widgets/search-form.php:937
+#: app/widgets/booking-calendar.php:270, app/widgets/create-post.php:296, app/widgets/orders.php:57, app/widgets/search-form.php:947
 msgid "Form padding"
 msgstr ""
 
@@ -614,27 +622,27 @@ msgstr ""
 msgid "Filter style"
 msgstr ""
 
-#: app/widgets/booking-calendar.php:305, app/widgets/navbar.php:1432, app/widgets/orders.php:92, app/widgets/product-form.php:543, app/widgets/quick-search.php:1419, app/widgets/search-form.php:3940, app/widgets/option-groups/popup-menu.php:279
+#: app/widgets/booking-calendar.php:305, app/widgets/navbar.php:1432, app/widgets/orders.php:92, app/widgets/product-form.php:543, app/widgets/quick-search.php:1419, app/widgets/search-form.php:3950, app/widgets/option-groups/popup-menu.php:279
 msgid "Spacing"
 msgstr ""
 
-#: app/widgets/booking-calendar.php:355, app/widgets/create-post.php:2411, app/widgets/orders.php:142, app/widgets/product-form.php:883, app/widgets/search-form.php:1444, app/widgets/user-bar.php:905
+#: app/widgets/booking-calendar.php:355, app/widgets/create-post.php:2411, app/widgets/orders.php:142, app/widgets/product-form.php:883, app/widgets/search-form.php:1454, app/widgets/user-bar.php:905
 msgid "Hide chevron"
 msgstr ""
 
-#: app/widgets/booking-calendar.php:370, app/widgets/booking-calendar.php:421, app/widgets/booking-calendar.php:476, app/widgets/create-post.php:2426, app/widgets/create-post.php:2517, app/widgets/create-post.php:2638, app/widgets/create-post.php:2927, app/widgets/navbar.php:763, app/widgets/navbar.php:832, app/widgets/navbar.php:940, app/widgets/navbar.php:1464, app/widgets/orders.php:157, app/widgets/orders.php:208, app/widgets/orders.php:263, app/widgets/product-form.php:898, app/widgets/product-form.php:989, app/widgets/product-form.php:1110, app/widgets/quick-search.php:1451, app/widgets/search-form.php:1459, app/widgets/search-form.php:1550, app/widgets/search-form.php:1671, app/widgets/search-form.php:2768, app/widgets/user-bar.php:893, app/widgets/option-groups/popup-menu.php:311
+#: app/widgets/booking-calendar.php:370, app/widgets/booking-calendar.php:421, app/widgets/booking-calendar.php:476, app/widgets/create-post.php:2426, app/widgets/create-post.php:2517, app/widgets/create-post.php:2638, app/widgets/create-post.php:2927, app/widgets/navbar.php:763, app/widgets/navbar.php:832, app/widgets/navbar.php:940, app/widgets/navbar.php:1464, app/widgets/orders.php:157, app/widgets/orders.php:208, app/widgets/orders.php:263, app/widgets/product-form.php:898, app/widgets/product-form.php:989, app/widgets/product-form.php:1110, app/widgets/quick-search.php:1451, app/widgets/search-form.php:1469, app/widgets/search-form.php:1560, app/widgets/search-form.php:1681, app/widgets/search-form.php:2778, app/widgets/user-bar.php:893, app/widgets/option-groups/popup-menu.php:311
 msgid "Chevron color"
 msgstr ""
 
-#: app/widgets/booking-calendar.php:395, app/widgets/create-post.php:2195, app/widgets/create-post.php:2450, app/widgets/orders.php:182, app/widgets/product-form.php:922, app/widgets/quick-search.php:174, app/widgets/quick-search.php:401, app/widgets/search-form.php:1228, app/widgets/search-form.php:1483
+#: app/widgets/booking-calendar.php:395, app/widgets/create-post.php:2195, app/widgets/create-post.php:2450, app/widgets/orders.php:182, app/widgets/product-form.php:922, app/widgets/quick-search.php:174, app/widgets/quick-search.php:401, app/widgets/search-form.php:1238, app/widgets/search-form.php:1493
 msgid "Style"
 msgstr ""
 
-#: app/widgets/booking-calendar.php:436, app/widgets/create-post.php:2532, app/widgets/orders.php:223, app/widgets/product-form.php:1004, app/widgets/quick-search.php:472, app/widgets/search-form.php:1565, app/widgets/search-form.php:3807
+#: app/widgets/booking-calendar.php:436, app/widgets/create-post.php:2532, app/widgets/orders.php:223, app/widgets/product-form.php:1004, app/widgets/quick-search.php:472, app/widgets/search-form.php:1575, app/widgets/search-form.php:3817
 msgid "Filled"
 msgstr ""
 
-#: app/widgets/booking-calendar.php:443, app/widgets/create-post.php:2539, app/widgets/orders.php:230, app/widgets/product-form.php:1011, app/widgets/quick-search.php:479, app/widgets/search-form.php:1572
+#: app/widgets/booking-calendar.php:443, app/widgets/create-post.php:2539, app/widgets/orders.php:230, app/widgets/product-form.php:1011, app/widgets/quick-search.php:479, app/widgets/search-form.php:1582
 msgid "Style (Filled)"
 msgstr ""
 
@@ -654,7 +662,7 @@ msgstr ""
 msgid "Body"
 msgstr ""
 
-#: app/widgets/booking-calendar.php:613, app/widgets/create-post.php:4160, app/widgets/map.php:222, app/widgets/map.php:469, app/widgets/map.php:529, app/widgets/orders.php:2457, app/widgets/post-feed.php:693, app/widgets/post-feed.php:979, app/widgets/search-form.php:132, app/widgets/search-form.php:503, app/widgets/timeline.php:2112
+#: app/widgets/booking-calendar.php:613, app/widgets/create-post.php:4160, app/widgets/map.php:223, app/widgets/map.php:470, app/widgets/map.php:564, app/widgets/orders.php:2457, app/widgets/post-feed.php:693, app/widgets/post-feed.php:979, app/widgets/search-form.php:133, app/widgets/search-form.php:504, app/widgets/timeline.php:2112
 msgid "Width"
 msgstr ""
 
@@ -698,7 +706,7 @@ msgstr ""
 msgid "Spacing between buttons"
 msgstr ""
 
-#: app/widgets/booking-calendar.php:1501, app/widgets/create-post.php:5809, app/widgets/navbar.php:1047, app/widgets/orders.php:3505, app/widgets/product-form.php:2683, app/widgets/search-form.php:4433, app/widgets/user-bar.php:1042
+#: app/widgets/booking-calendar.php:1501, app/widgets/create-post.php:5809, app/widgets/navbar.php:1047, app/widgets/orders.php:3505, app/widgets/product-form.php:2683, app/widgets/search-form.php:4443, app/widgets/user-bar.php:1042
 msgid "Top / Bottom margin"
 msgstr ""
 
@@ -746,7 +754,7 @@ msgstr ""
 msgid "Form: Footer"
 msgstr ""
 
-#: app/widgets/create-post.php:797, app/widgets/search-form.php:2038
+#: app/widgets/create-post.php:797, app/widgets/search-form.php:2048
 msgid "Top spacing"
 msgstr ""
 
@@ -758,7 +766,7 @@ msgstr ""
 msgid "Container size"
 msgstr ""
 
-#: app/widgets/create-post.php:951, app/widgets/create-post.php:1909, app/widgets/quick-search.php:682, app/widgets/search-form.php:4076
+#: app/widgets/create-post.php:951, app/widgets/create-post.php:1909, app/widgets/quick-search.php:682, app/widgets/search-form.php:4086
 msgid "Side margin"
 msgstr ""
 
@@ -822,7 +830,7 @@ msgstr ""
 msgid "Value"
 msgstr ""
 
-#: app/widgets/create-post.php:1466, app/widgets/login.php:977, app/widgets/login.php:1200, app/widgets/product-form.php:1277, app/widgets/product-form.php:2227, app/widgets/search-form.php:1689, app/widgets/search-form.php:1710, app/widgets/option-groups/popup-input.php:25
+#: app/widgets/create-post.php:1466, app/widgets/login.php:977, app/widgets/login.php:1200, app/widgets/product-form.php:1277, app/widgets/product-form.php:2227, app/widgets/search-form.php:1699, app/widgets/search-form.php:1720, app/widgets/option-groups/popup-input.php:25
 msgid "Input"
 msgstr ""
 
@@ -854,11 +862,11 @@ msgstr ""
 msgid "Editor buttons"
 msgstr ""
 
-#: app/widgets/create-post.php:1959, app/widgets/map.php:1004
+#: app/widgets/create-post.php:1959, app/widgets/map.php:1039
 msgid "Color (Active)"
 msgstr ""
 
-#: app/widgets/create-post.php:1984, app/widgets/map.php:309
+#: app/widgets/create-post.php:1984, app/widgets/map.php:310
 msgid "Border (Active)"
 msgstr ""
 
@@ -874,7 +882,7 @@ msgstr ""
 msgid "Form: Popup button"
 msgstr ""
 
-#: app/widgets/create-post.php:2606, app/widgets/create-post.php:3707, app/widgets/messages.php:497, app/widgets/orders.php:2841, app/widgets/product-form.php:1078, app/widgets/quick-search.php:546, app/widgets/search-form.php:1639
+#: app/widgets/create-post.php:2606, app/widgets/create-post.php:3707, app/widgets/messages.php:497, app/widgets/orders.php:2841, app/widgets/product-form.php:1078, app/widgets/quick-search.php:546, app/widgets/search-form.php:1649
 msgid "Border width"
 msgstr ""
 
@@ -882,19 +890,19 @@ msgstr ""
 msgid "Form: Inline Terms/List"
 msgstr ""
 
-#: app/widgets/create-post.php:2750, app/widgets/navbar.php:367, app/widgets/navbar.php:1287, app/widgets/quick-search.php:1274, app/widgets/search-form.php:2591, app/widgets/option-groups/popup-menu.php:134
+#: app/widgets/create-post.php:2750, app/widgets/navbar.php:367, app/widgets/navbar.php:1287, app/widgets/quick-search.php:1274, app/widgets/search-form.php:2601, app/widgets/option-groups/popup-menu.php:134
 msgid "Title"
 msgstr ""
 
-#: app/widgets/create-post.php:2841, app/widgets/navbar.php:1376, app/widgets/quick-search.php:1363, app/widgets/search-form.php:2682, app/widgets/option-groups/popup-menu.php:223
+#: app/widgets/create-post.php:2841, app/widgets/navbar.php:1376, app/widgets/quick-search.php:1363, app/widgets/search-form.php:2692, app/widgets/option-groups/popup-menu.php:223
 msgid "Has to be equal or greater than Icon size (if used)"
 msgstr ""
 
-#: app/widgets/create-post.php:2872, app/widgets/navbar.php:1409, app/widgets/quick-search.php:1396, app/widgets/search-form.php:2713, app/widgets/option-groups/popup-menu.php:256
+#: app/widgets/create-post.php:2872, app/widgets/navbar.php:1409, app/widgets/quick-search.php:1396, app/widgets/search-form.php:2723, app/widgets/option-groups/popup-menu.php:256
 msgid "Radius"
 msgstr ""
 
-#: app/widgets/create-post.php:3006, app/widgets/search-form.php:2847, app/widgets/option-groups/popup-menu.php:394
+#: app/widgets/create-post.php:3006, app/widgets/search-form.php:2857, app/widgets/option-groups/popup-menu.php:394
 msgid "Selected"
 msgstr ""
 
@@ -902,23 +910,23 @@ msgstr ""
 msgid "Form: Inline Checkbox"
 msgstr ""
 
-#: app/widgets/create-post.php:3065, app/widgets/search-form.php:3393, app/widgets/option-groups/popup-checkbox.php:24
+#: app/widgets/create-post.php:3065, app/widgets/search-form.php:3403, app/widgets/option-groups/popup-checkbox.php:24
 msgid "Checkbox size"
 msgstr ""
 
-#: app/widgets/create-post.php:3084, app/widgets/search-form.php:3412, app/widgets/option-groups/popup-checkbox.php:43
+#: app/widgets/create-post.php:3084, app/widgets/search-form.php:3422, app/widgets/option-groups/popup-checkbox.php:43
 msgid "Checkbox radius"
 msgstr ""
 
-#: app/widgets/create-post.php:3112, app/widgets/create-post.php:3209, app/widgets/search-form.php:3440, app/widgets/search-form.php:3537, app/widgets/option-groups/popup-checkbox.php:72, app/widgets/option-groups/popup-radio.php:71
+#: app/widgets/create-post.php:3112, app/widgets/create-post.php:3209, app/widgets/search-form.php:3450, app/widgets/search-form.php:3547, app/widgets/option-groups/popup-checkbox.php:72, app/widgets/option-groups/popup-radio.php:71
 msgid "Background color (unchecked)"
 msgstr ""
 
-#: app/widgets/create-post.php:3124, app/widgets/create-post.php:3221, app/widgets/search-form.php:3452, app/widgets/search-form.php:3549, app/widgets/option-groups/popup-checkbox.php:84, app/widgets/option-groups/popup-radio.php:83
+#: app/widgets/create-post.php:3124, app/widgets/create-post.php:3221, app/widgets/search-form.php:3462, app/widgets/search-form.php:3559, app/widgets/option-groups/popup-checkbox.php:84, app/widgets/option-groups/popup-radio.php:83
 msgid "Background color (checked)"
 msgstr ""
 
-#: app/widgets/create-post.php:3136, app/widgets/create-post.php:3233, app/widgets/search-form.php:3464, app/widgets/search-form.php:3561, app/widgets/option-groups/popup-checkbox.php:96, app/widgets/option-groups/popup-radio.php:95
+#: app/widgets/create-post.php:3136, app/widgets/create-post.php:3233, app/widgets/search-form.php:3474, app/widgets/search-form.php:3571, app/widgets/option-groups/popup-checkbox.php:96, app/widgets/option-groups/popup-radio.php:95
 msgid "Border-color (checked)"
 msgstr ""
 
@@ -926,11 +934,11 @@ msgstr ""
 msgid "Form: Inline Radio"
 msgstr ""
 
-#: app/widgets/create-post.php:3162, app/widgets/search-form.php:3490, app/widgets/option-groups/popup-radio.php:24
+#: app/widgets/create-post.php:3162, app/widgets/search-form.php:3500, app/widgets/option-groups/popup-radio.php:24
 msgid "Radio size"
 msgstr ""
 
-#: app/widgets/create-post.php:3181, app/widgets/search-form.php:3509, app/widgets/option-groups/popup-radio.php:43
+#: app/widgets/create-post.php:3181, app/widgets/search-form.php:3519, app/widgets/option-groups/popup-radio.php:43
 msgid "Radio radius"
 msgstr ""
 
@@ -938,7 +946,7 @@ msgstr ""
 msgid "Form: Switcher"
 msgstr ""
 
-#: app/widgets/create-post.php:3257, app/widgets/login.php:1492, app/widgets/popup-kit.php:877, app/widgets/product-form.php:2082, app/widgets/search-form.php:3333
+#: app/widgets/create-post.php:3257, app/widgets/login.php:1492, app/widgets/popup-kit.php:877, app/widgets/product-form.php:2082, app/widgets/search-form.php:3343
 msgid "Switch slider"
 msgstr ""
 
@@ -946,7 +954,7 @@ msgstr ""
 msgid "Background (Inactive)"
 msgstr ""
 
-#: app/widgets/create-post.php:3292, app/widgets/login.php:1527, app/widgets/popup-kit.php:912, app/widgets/product-form.php:2117, app/widgets/search-form.php:3368
+#: app/widgets/create-post.php:3292, app/widgets/login.php:1527, app/widgets/popup-kit.php:912, app/widgets/product-form.php:2117, app/widgets/search-form.php:3378
 msgid "Handle background"
 msgstr ""
 
@@ -954,7 +962,7 @@ msgstr ""
 msgid "Form: Number stepper"
 msgstr ""
 
-#: app/widgets/create-post.php:3327, app/widgets/popup-kit.php:742, app/widgets/search-form.php:2997
+#: app/widgets/create-post.php:3327, app/widgets/popup-kit.php:742, app/widgets/search-form.php:3007
 msgid "Input value size"
 msgstr ""
 
@@ -974,7 +982,7 @@ msgstr ""
 msgid "Repeater: Icon button"
 msgstr ""
 
-#: app/widgets/create-post.php:3950, app/widgets/create-post.php:4588, app/widgets/messages.php:1257, app/widgets/orders.php:1428, app/widgets/product-form.php:2245, app/widgets/search-form.php:3046, app/widgets/option-groups/popup-icon-button.php:39
+#: app/widgets/create-post.php:3950, app/widgets/create-post.php:4588, app/widgets/messages.php:1257, app/widgets/orders.php:1428, app/widgets/product-form.php:2245, app/widgets/search-form.php:3056, app/widgets/option-groups/popup-icon-button.php:39
 msgid "Button styling"
 msgstr ""
 
@@ -1006,7 +1014,7 @@ msgstr ""
 msgid "Dates (available)"
 msgstr ""
 
-#: app/widgets/create-post.php:4389, app/widgets/create-post.php:4460, app/widgets/map.php:991, app/widgets/orders.php:1701, app/widgets/orders.php:2618, app/widgets/popup-kit.php:556, app/widgets/timeline.php:1208, app/widgets/timeline.php:1311, app/widgets/timeline.php:1351, app/widgets/option-groups/file-field.php:346, app/widgets/option-groups/popup-calendar.php:118
+#: app/widgets/create-post.php:4389, app/widgets/create-post.php:4460, app/widgets/map.php:1026, app/widgets/orders.php:1701, app/widgets/orders.php:2618, app/widgets/popup-kit.php:556, app/widgets/timeline.php:1208, app/widgets/timeline.php:1311, app/widgets/timeline.php:1351, app/widgets/option-groups/file-field.php:346, app/widgets/option-groups/popup-calendar.php:118
 msgid "Color (Hover)"
 msgstr ""
 
@@ -1122,7 +1130,7 @@ msgstr ""
 msgid "Panel head"
 msgstr ""
 
-#: app/widgets/current-plan.php:372, app/widgets/orders.php:2579, app/widgets/search-form.php:2957, app/widgets/stripe-account.php:269
+#: app/widgets/current-plan.php:372, app/widgets/orders.php:2579, app/widgets/search-form.php:2967, app/widgets/stripe-account.php:269
 msgid "Icon right margin"
 msgstr ""
 
@@ -1159,91 +1167,95 @@ msgstr ""
 msgid "Image size (Lightbox)"
 msgstr ""
 
-#: app/widgets/gallery.php:114
+#: app/widgets/gallery.php:115
+msgid "Auto fit?"
+msgstr ""
+
+#: app/widgets/gallery.php:128
 msgid "Rows"
 msgstr ""
 
-#: app/widgets/gallery.php:123
+#: app/widgets/gallery.php:137
 msgid "Row height"
 msgstr ""
 
-#: app/widgets/gallery.php:245
+#: app/widgets/gallery.php:259
 msgid "Mosaic"
 msgstr ""
 
-#: app/widgets/gallery.php:253
+#: app/widgets/gallery.php:267
 msgid "First item"
 msgstr ""
 
-#: app/widgets/gallery.php:262, app/widgets/gallery.php:334, app/widgets/gallery.php:405, app/widgets/gallery.php:476, app/widgets/gallery.php:547
+#: app/widgets/gallery.php:276, app/widgets/gallery.php:348, app/widgets/gallery.php:419, app/widgets/gallery.php:490, app/widgets/gallery.php:561
 msgid "Column span"
 msgstr ""
 
-#: app/widgets/gallery.php:263, app/widgets/gallery.php:335, app/widgets/gallery.php:406, app/widgets/gallery.php:477, app/widgets/gallery.php:548
+#: app/widgets/gallery.php:277, app/widgets/gallery.php:349, app/widgets/gallery.php:420, app/widgets/gallery.php:491, app/widgets/gallery.php:562
 msgid "How many columns this item spans in the grid"
 msgstr ""
 
-#: app/widgets/gallery.php:277, app/widgets/gallery.php:349, app/widgets/gallery.php:420, app/widgets/gallery.php:491, app/widgets/gallery.php:562
+#: app/widgets/gallery.php:291, app/widgets/gallery.php:363, app/widgets/gallery.php:434, app/widgets/gallery.php:505, app/widgets/gallery.php:576
 msgid "Column start"
 msgstr ""
 
-#: app/widgets/gallery.php:279, app/widgets/gallery.php:351, app/widgets/gallery.php:422, app/widgets/gallery.php:493, app/widgets/gallery.php:564
+#: app/widgets/gallery.php:293, app/widgets/gallery.php:365, app/widgets/gallery.php:436, app/widgets/gallery.php:507, app/widgets/gallery.php:578
 msgid "The start position column for this item"
 msgstr ""
 
-#: app/widgets/gallery.php:294, app/widgets/gallery.php:366, app/widgets/gallery.php:437, app/widgets/gallery.php:508, app/widgets/gallery.php:579
+#: app/widgets/gallery.php:308, app/widgets/gallery.php:380, app/widgets/gallery.php:451, app/widgets/gallery.php:522, app/widgets/gallery.php:593
 msgid "Row span"
 msgstr ""
 
-#: app/widgets/gallery.php:295, app/widgets/gallery.php:367, app/widgets/gallery.php:438, app/widgets/gallery.php:509, app/widgets/gallery.php:580
+#: app/widgets/gallery.php:309, app/widgets/gallery.php:381, app/widgets/gallery.php:452, app/widgets/gallery.php:523, app/widgets/gallery.php:594
 msgid "How many rows this item spans in the grid"
 msgstr ""
 
-#: app/widgets/gallery.php:309, app/widgets/gallery.php:381, app/widgets/gallery.php:452, app/widgets/gallery.php:523, app/widgets/gallery.php:594
+#: app/widgets/gallery.php:323, app/widgets/gallery.php:395, app/widgets/gallery.php:466, app/widgets/gallery.php:537, app/widgets/gallery.php:608
 msgid "Row start"
 msgstr ""
 
-#: app/widgets/gallery.php:310, app/widgets/gallery.php:382, app/widgets/gallery.php:453, app/widgets/gallery.php:524, app/widgets/gallery.php:595
+#: app/widgets/gallery.php:324, app/widgets/gallery.php:396, app/widgets/gallery.php:467, app/widgets/gallery.php:538, app/widgets/gallery.php:609
 msgid "The start position row for this item"
 msgstr ""
 
-#: app/widgets/gallery.php:325
+#: app/widgets/gallery.php:339
 msgid "Second item"
 msgstr ""
 
-#: app/widgets/gallery.php:396
+#: app/widgets/gallery.php:410
 msgid "Third item"
 msgstr ""
 
-#: app/widgets/gallery.php:467
+#: app/widgets/gallery.php:481
 msgid "Fourth item"
 msgstr ""
 
-#: app/widgets/gallery.php:538
+#: app/widgets/gallery.php:552
 msgid "Fifth item"
 msgstr ""
 
-#: app/widgets/gallery.php:634
+#: app/widgets/gallery.php:648
 msgid "Image"
 msgstr ""
 
-#: app/widgets/gallery.php:692, app/widgets/gallery.php:846
+#: app/widgets/gallery.php:706, app/widgets/gallery.php:860
 msgid "Overlay"
 msgstr ""
 
-#: app/widgets/gallery.php:702, app/widgets/gallery.php:856
+#: app/widgets/gallery.php:716, app/widgets/gallery.php:870
 msgid "Overlay background color"
 msgstr ""
 
-#: app/widgets/gallery.php:713
+#: app/widgets/gallery.php:727
 msgid "Empty item"
 msgstr ""
 
-#: app/widgets/gallery.php:755, app/widgets/gallery.php:867
+#: app/widgets/gallery.php:769, app/widgets/gallery.php:881
 msgid "View all button"
 msgstr ""
 
-#: app/widgets/gallery.php:839
+#: app/widgets/gallery.php:853
 msgid "hover"
 msgstr ""
 
@@ -1363,7 +1375,7 @@ msgstr ""
 msgid "Input value color"
 msgstr ""
 
-#: app/widgets/login.php:1103, app/widgets/messages.php:633, app/widgets/search-form.php:1846, app/widgets/option-groups/popup-input.php:120
+#: app/widgets/login.php:1103, app/widgets/messages.php:633, app/widgets/search-form.php:1856, app/widgets/option-groups/popup-input.php:120
 msgid "Input placeholder color"
 msgstr ""
 
@@ -1383,7 +1395,7 @@ msgstr ""
 msgid "Label and description"
 msgstr ""
 
-#: app/widgets/login.php:1248, app/widgets/quick-search.php:74, app/widgets/search-form.php:1049, app/widgets/template-tabs.php:58, app/widgets/timeline.php:90, app/widgets/user-bar.php:108, app/widgets/user-bar.php:119, app/widgets/user-bar.php:130, app/widgets/user-bar.php:141, app/widgets/work-hours.php:319, app/widgets/work-hours.php:423, app/widgets/option-groups/popup-label.php:23
+#: app/widgets/login.php:1248, app/widgets/quick-search.php:74, app/widgets/search-form.php:1059, app/widgets/template-tabs.php:59, app/widgets/timeline.php:90, app/widgets/user-bar.php:108, app/widgets/user-bar.php:119, app/widgets/user-bar.php:130, app/widgets/user-bar.php:141, app/widgets/work-hours.php:319, app/widgets/work-hours.php:423, app/widgets/option-groups/popup-label.php:23
 msgid "Label"
 msgstr ""
 
@@ -1423,115 +1435,127 @@ msgstr ""
 msgid "Link to search form"
 msgstr ""
 
-#: app/widgets/map.php:54
+#: app/widgets/map.php:55
 msgid "Show \"Search this area\" button"
 msgstr ""
 
-#: app/widgets/map.php:64
+#: app/widgets/map.php:65
 msgid "Search mode"
 msgstr ""
 
-#: app/widgets/map.php:75
+#: app/widgets/map.php:76
 msgid "Map drag default state"
 msgstr ""
 
-#: app/widgets/map.php:76
+#: app/widgets/map.php:77
 msgid "If enabled, dragging the map will trigger a search for posts within the visible map bounds."
 msgstr ""
 
-#: app/widgets/map.php:112, app/widgets/messages.php:61
+#: app/widgets/map.php:113, app/widgets/messages.php:61
 msgid "Calculate height?"
 msgstr ""
 
-#: app/widgets/map.php:124, app/widgets/messages.php:73
+#: app/widgets/map.php:125, app/widgets/messages.php:73
 msgid "Calculation"
 msgstr ""
 
-#: app/widgets/map.php:126, app/widgets/messages.php:75
+#: app/widgets/map.php:127, app/widgets/messages.php:75
 msgid "calc()"
 msgstr ""
 
-#: app/widgets/map.php:127, app/widgets/messages.php:76
+#: app/widgets/map.php:128, app/widgets/messages.php:76
 msgid "Use CSS calc() to calculate height e.g calc(100vh - 215px)"
 msgstr ""
 
-#: app/widgets/map.php:157
+#: app/widgets/map.php:158
 msgid "Default map location"
 msgstr ""
 
-#: app/widgets/map.php:214
+#: app/widgets/map.php:215
 msgid "Map: Marker styling"
 msgstr ""
 
-#: app/widgets/map.php:223, app/widgets/search-form.php:239
+#: app/widgets/map.php:224, app/widgets/search-form.php:240
 msgid "Leave empty for auto width"
 msgstr ""
 
-#: app/widgets/map.php:244
+#: app/widgets/map.php:245
 msgid "Leave empty for auto height"
 msgstr ""
 
-#: app/widgets/map.php:355
+#: app/widgets/map.php:356
 msgid "Icon marker"
 msgstr ""
 
-#: app/widgets/map.php:399
+#: app/widgets/map.php:400
 msgid "Icon color (Active)"
 msgstr ""
 
-#: app/widgets/map.php:412
+#: app/widgets/map.php:413
 msgid "Text marker"
 msgstr ""
 
-#: app/widgets/map.php:460
+#: app/widgets/map.php:461
 msgid "Map: Preview card popup"
 msgstr ""
 
-#: app/widgets/map.php:490
+#: app/widgets/map.php:489
+msgid "Loader"
+msgstr ""
+
+#: app/widgets/map.php:498, app/widgets/messages.php:1672, app/widgets/orders.php:922, app/widgets/timeline.php:997
+msgid "Color 1"
+msgstr ""
+
+#: app/widgets/map.php:509, app/widgets/messages.php:1683, app/widgets/orders.php:933, app/widgets/timeline.php:1008
+msgid "Color 2"
+msgstr ""
+
+#: app/widgets/map.php:520
 msgid "Custom position"
 msgstr ""
 
-#: app/widgets/map.php:499, app/widgets/search-form.php:556, app/widgets/search-form.php:681
+#: app/widgets/map.php:529, app/widgets/search-form.php:557, app/widgets/search-form.php:687
 msgid "Enable on desktop"
 msgstr ""
 
-#: app/widgets/map.php:510, app/widgets/search-form.php:567, app/widgets/search-form.php:705
+#: app/widgets/map.php:540, app/widgets/search-form.php:568, app/widgets/search-form.php:711
 msgid "Enable on tablet"
 msgstr ""
 
-#: app/widgets/map.php:520, app/widgets/search-form.php:577, app/widgets/search-form.php:728
+#: app/widgets/map.php:550, app/widgets/search-form.php:578, app/widgets/search-form.php:734
 msgid "Enable on mobile"
 msgstr ""
 
-#: app/widgets/map.php:546
+#: app/widgets/map.php:581
 msgid "Top"
 msgstr ""
 
-#: app/widgets/map.php:563, app/widgets/search-form.php:4056
+#: app/widgets/map.php:598, app/widgets/search-form.php:4066
 msgid "Bottom"
 msgstr ""
 
-#: app/widgets/map.php:581
+#: app/widgets/map.php:616
 msgid "Side"
 msgstr ""
 
-#: app/widgets/map.php:582, app/widgets/search-form.php:4077
+#: app/widgets/map.php:617, app/widgets/search-form.php:4087
 msgid "Distance from left/right edges of the screen"
 msgstr ""
 
-#: app/widgets/map.php:624
+#: app/widgets/map.php:659
 msgid "Next/Prev buttons"
 msgstr ""
 
-#: app/widgets/map.php:826
+#: app/widgets/map.php:861
 msgid "Map: Search this area"
 msgstr ""
 
-#: app/widgets/map.php:871, app/widgets/product-form.php:1862, app/widgets/search-form.php:4113
+#: app/widgets/map.php:906, app/widgets/product-form.php:1862, app/widgets/search-form.php:4123
 msgid "Button"
 msgstr ""
 
-#: app/widgets/map.php:1037, app/widgets/product-form.php:467
+#: app/widgets/map.php:1072, app/widgets/product-form.php:467
 msgid "Icon/Text margin"
 msgstr ""
 
@@ -1583,7 +1607,7 @@ msgstr ""
 msgid "Inbox: Search"
 msgstr ""
 
-#: app/widgets/messages.php:621, app/widgets/search-form.php:1834
+#: app/widgets/messages.php:621, app/widgets/search-form.php:1844
 msgid "Value color"
 msgstr ""
 
@@ -1671,15 +1695,7 @@ msgstr ""
 msgid "Loading"
 msgstr ""
 
-#: app/widgets/messages.php:1672, app/widgets/orders.php:922, app/widgets/timeline.php:997
-msgid "Color 1"
-msgstr ""
-
-#: app/widgets/messages.php:1683, app/widgets/orders.php:933, app/widgets/timeline.php:1008
-msgid "Color 2"
-msgstr ""
-
-#: app/widgets/messages.php:1704, app/widgets/search-form.php:470
+#: app/widgets/messages.php:1704, app/widgets/search-form.php:471
 msgid "Search"
 msgstr ""
 
@@ -2075,7 +2091,7 @@ msgstr ""
 msgid "Icon background color"
 msgstr ""
 
-#: app/widgets/orders.php:2309, app/widgets/search-form.php:3999
+#: app/widgets/orders.php:2309, app/widgets/search-form.php:4009
 msgid "Right margin"
 msgstr ""
 
@@ -2103,7 +2119,7 @@ msgstr ""
 msgid "Attachment gap"
 msgstr ""
 
-#: app/widgets/orders.php:2567, app/widgets/search-form.php:2922
+#: app/widgets/orders.php:2567, app/widgets/search-form.php:2932
 msgid "Icon color (Hover)"
 msgstr ""
 
@@ -2151,15 +2167,15 @@ msgstr ""
 msgid "Default color (Hover)"
 msgstr ""
 
-#: app/widgets/orders.php:3534, app/widgets/timeline.php:2865
+#: app/widgets/orders.php:3534, app/widgets/timeline.php:2884
 msgid "Custom popup: Create status"
 msgstr ""
 
-#: app/widgets/orders.php:3543, app/widgets/quick-search.php:1011, app/widgets/timeline.php:2874
+#: app/widgets/orders.php:3543, app/widgets/quick-search.php:1011, app/widgets/timeline.php:2893
 msgid "Switch position to center of screen"
 msgstr ""
 
-#: app/widgets/orders.php:3544, app/widgets/timeline.php:2875
+#: app/widgets/orders.php:3544, app/widgets/timeline.php:2894
 msgid "This option will display the primary popups on the center of the screen"
 msgstr ""
 
@@ -2199,7 +2215,7 @@ msgstr ""
 msgid "QR code"
 msgstr ""
 
-#: app/widgets/orders.php:3731, app/widgets/search-form.php:842
+#: app/widgets/orders.php:3731, app/widgets/search-form.php:852
 msgid "Calendar icon"
 msgstr ""
 
@@ -2239,7 +2255,7 @@ msgstr ""
 msgid "Approve icon"
 msgstr ""
 
-#: app/widgets/orders.php:3870, app/widgets/timeline.php:3081
+#: app/widgets/orders.php:3870, app/widgets/timeline.php:3100
 msgctxt "orders"
 msgid "Attach images"
 msgstr ""
@@ -2286,7 +2302,7 @@ msgstr ""
 msgid "Popup: Number"
 msgstr ""
 
-#: app/widgets/popup-kit.php:732, app/widgets/search-form.php:2987
+#: app/widgets/popup-kit.php:732, app/widgets/search-form.php:2997
 msgid "Number popup"
 msgstr ""
 
@@ -2294,31 +2310,31 @@ msgstr ""
 msgid "Popup: Range slider"
 msgstr ""
 
-#: app/widgets/popup-kit.php:776, app/widgets/search-form.php:3224, app/widgets/search-form.php:3232
+#: app/widgets/popup-kit.php:776, app/widgets/search-form.php:3234, app/widgets/search-form.php:3242
 msgid "Range slider"
 msgstr ""
 
-#: app/widgets/popup-kit.php:785, app/widgets/search-form.php:3241
+#: app/widgets/popup-kit.php:785, app/widgets/search-form.php:3251
 msgid "Range value size"
 msgstr ""
 
-#: app/widgets/popup-kit.php:808, app/widgets/search-form.php:3264
+#: app/widgets/popup-kit.php:808, app/widgets/search-form.php:3274
 msgid "Range value color"
 msgstr ""
 
-#: app/widgets/popup-kit.php:821, app/widgets/search-form.php:3277
+#: app/widgets/popup-kit.php:821, app/widgets/search-form.php:3287
 msgid "Range background"
 msgstr ""
 
-#: app/widgets/popup-kit.php:834, app/widgets/search-form.php:3290
+#: app/widgets/popup-kit.php:834, app/widgets/search-form.php:3300
 msgid "Selected range background"
 msgstr ""
 
-#: app/widgets/popup-kit.php:847, app/widgets/search-form.php:3303
+#: app/widgets/popup-kit.php:847, app/widgets/search-form.php:3313
 msgid "Handle background color"
 msgstr ""
 
-#: app/widgets/popup-kit.php:859, app/widgets/search-form.php:3315
+#: app/widgets/popup-kit.php:859, app/widgets/search-form.php:3325
 msgid "Handle border"
 msgstr ""
 
@@ -2326,11 +2342,11 @@ msgstr ""
 msgid "Popup: Switch"
 msgstr ""
 
-#: app/widgets/popup-kit.php:886, app/widgets/search-form.php:3342
+#: app/widgets/popup-kit.php:886, app/widgets/search-form.php:3352
 msgid "Switch slider background (Inactive)"
 msgstr ""
 
-#: app/widgets/popup-kit.php:899, app/widgets/search-form.php:3355
+#: app/widgets/popup-kit.php:899, app/widgets/search-form.php:3365
 msgid "Switch slider background (Active)"
 msgstr ""
 
@@ -2438,7 +2454,7 @@ msgstr ""
 msgid "Exclude posts"
 msgstr ""
 
-#: app/widgets/post-feed.php:139, app/widgets/post-feed.php:153, app/widgets/search-form.php:421
+#: app/widgets/post-feed.php:139, app/widgets/post-feed.php:153, app/widgets/search-form.php:422
 msgid "Preview card template"
 msgstr ""
 
@@ -2502,11 +2518,11 @@ msgstr ""
 msgid "Slider: Next/Prev buttons"
 msgstr ""
 
-#: app/widgets/post-feed.php:1452, app/widgets/search-form.php:178
+#: app/widgets/post-feed.php:1452, app/widgets/search-form.php:179
 msgid "Choose filter"
 msgstr ""
 
-#: app/widgets/post-feed.php:1485, app/widgets/search-form.php:406
+#: app/widgets/post-feed.php:1485, app/widgets/search-form.php:407
 msgid "Add filters"
 msgstr ""
 
@@ -2578,7 +2594,7 @@ msgstr ""
 msgid "Disable tabs"
 msgstr ""
 
-#: app/widgets/pricing-plan.php:563, app/widgets/search-form.php:1068
+#: app/widgets/pricing-plan.php:563, app/widgets/search-form.php:1078
 msgid "Disable label on tablet"
 msgstr ""
 
@@ -2638,7 +2654,7 @@ msgstr ""
 msgid "Booking details"
 msgstr ""
 
-#: app/widgets/product-form.php:105, app/widgets/product-form.php:118, app/widgets/product-form.php:130, app/widgets/product-form.php:140, app/widgets/quick-search.php:55, app/widgets/search-form.php:472, app/widgets/search-form.php:495, app/widgets/timeline.php:108, app/widgets/timeline.php:119
+#: app/widgets/product-form.php:105, app/widgets/product-form.php:118, app/widgets/product-form.php:130, app/widgets/product-form.php:140, app/widgets/quick-search.php:55, app/widgets/search-form.php:473, app/widgets/search-form.php:496, app/widgets/timeline.php:108, app/widgets/timeline.php:119
 msgid "Type your text"
 msgstr ""
 
@@ -2686,7 +2702,7 @@ msgstr ""
 msgid "Fields: General"
 msgstr ""
 
-#: app/widgets/product-form.php:662, app/widgets/search-form.php:1206
+#: app/widgets/product-form.php:662, app/widgets/search-form.php:1216
 msgid "Popup button"
 msgstr ""
 
@@ -2698,11 +2714,11 @@ msgstr ""
 msgid "Submit button"
 msgstr ""
 
-#: app/widgets/product-form.php:1909, app/widgets/product-form.php:2475, app/widgets/search-form.php:2150, app/widgets/search-form.php:2288, app/widgets/search-form.php:4160
+#: app/widgets/product-form.php:1909, app/widgets/product-form.php:2475, app/widgets/search-form.php:2160, app/widgets/search-form.php:2298, app/widgets/search-form.php:4170
 msgid "Button Height"
 msgstr ""
 
-#: app/widgets/product-form.php:1932, app/widgets/search-form.php:2169, app/widgets/search-form.php:2307, app/widgets/search-form.php:4183, app/widgets/option-groups/popup-controller.php:57
+#: app/widgets/product-form.php:1932, app/widgets/search-form.php:2179, app/widgets/search-form.php:2317, app/widgets/search-form.php:4193, app/widgets/option-groups/popup-controller.php:57
 msgid "Button padding"
 msgstr ""
 
@@ -2738,7 +2754,7 @@ msgstr ""
 msgid "Choose post types"
 msgstr ""
 
-#: app/widgets/quick-search.php:52, app/widgets/search-form.php:468, app/widgets/search-form.php:492
+#: app/widgets/quick-search.php:52, app/widgets/search-form.php:469, app/widgets/search-form.php:493
 msgid "Button label"
 msgstr ""
 
@@ -2754,11 +2770,11 @@ msgstr ""
 msgid "Also search taxonomy terms for"
 msgstr ""
 
-#: app/widgets/quick-search.php:122, app/widgets/search-form.php:762
+#: app/widgets/quick-search.php:122, app/widgets/search-form.php:772
 msgid "Search icon"
 msgstr ""
 
-#: app/widgets/quick-search.php:152, app/widgets/search-form.php:2102
+#: app/widgets/quick-search.php:152, app/widgets/search-form.php:2112
 msgid "Search button"
 msgstr ""
 
@@ -2766,7 +2782,7 @@ msgstr ""
 msgid "Button suffix"
 msgstr ""
 
-#: app/widgets/quick-search.php:593, app/widgets/search-form.php:293
+#: app/widgets/quick-search.php:593, app/widgets/search-form.php:294
 msgid "Hide filter"
 msgstr ""
 
@@ -2878,371 +2894,371 @@ msgstr ""
 msgid "Choose Map widget"
 msgstr ""
 
-#: app/widgets/search-form.php:94
+#: app/widgets/search-form.php:95
 msgid "Update URL with search values?"
 msgstr ""
 
-#: app/widgets/search-form.php:104
+#: app/widgets/search-form.php:105
 msgid "Perform search:"
 msgstr ""
 
-#: app/widgets/search-form.php:115
+#: app/widgets/search-form.php:116
 msgid "Enter page ID"
 msgstr ""
 
-#: app/widgets/search-form.php:123, app/widgets/search-form.php:231
+#: app/widgets/search-form.php:124, app/widgets/search-form.php:232
 msgid "Visual"
 msgstr ""
 
-#: app/widgets/search-form.php:185
+#: app/widgets/search-form.php:186
 msgid "Add default value"
 msgstr ""
 
-#: app/widgets/search-form.php:217
+#: app/widgets/search-form.php:218
 msgid "On search form reset, set the value of this filter to:"
 msgstr ""
 
-#: app/widgets/search-form.php:238
+#: app/widgets/search-form.php:239
 msgid "Width (%)"
 msgstr ""
 
-#: app/widgets/search-form.php:280
+#: app/widgets/search-form.php:281
 msgid "Hide label"
 msgstr ""
 
-#: app/widgets/search-form.php:281
+#: app/widgets/search-form.php:282
 msgid "Hide label for this filter only"
 msgstr ""
 
-#: app/widgets/search-form.php:294
+#: app/widgets/search-form.php:295
 msgid "Visually hide this filter but keep it functional"
 msgstr ""
 
-#: app/widgets/search-form.php:306
+#: app/widgets/search-form.php:307
 msgid "Popup"
 msgstr ""
 
-#: app/widgets/search-form.php:315
+#: app/widgets/search-form.php:316
 msgid "Custom popup style"
 msgstr ""
 
-#: app/widgets/search-form.php:431
+#: app/widgets/search-form.php:432
 msgid "Custom map popup template"
 msgstr ""
 
-#: app/widgets/search-form.php:447
+#: app/widgets/search-form.php:448
 msgid "Buttons"
 msgstr ""
 
-#: app/widgets/search-form.php:455
+#: app/widgets/search-form.php:456
 msgid "Show search button"
 msgstr ""
 
-#: app/widgets/search-form.php:479
+#: app/widgets/search-form.php:480
 msgid "Show reset button"
 msgstr ""
 
-#: app/widgets/search-form.php:494
+#: app/widgets/search-form.php:495
 msgid "Reset"
 msgstr ""
 
-#: app/widgets/search-form.php:521
+#: app/widgets/search-form.php:522
 msgid "Wrap buttons?"
 msgstr ""
 
-#: app/widgets/search-form.php:536
+#: app/widgets/search-form.php:537
 msgid "Responsive behaviour"
 msgstr ""
 
-#: app/widgets/search-form.php:546
+#: app/widgets/search-form.php:547
 msgid "Toggle mode"
 msgstr ""
 
-#: app/widgets/search-form.php:586
+#: app/widgets/search-form.php:592
 msgid "Filter wrapping"
 msgstr ""
 
-#: app/widgets/search-form.php:595
+#: app/widgets/search-form.php:601
 msgid "Wrap settings (Desktop)"
 msgstr ""
 
-#: app/widgets/search-form.php:599, app/widgets/search-form.php:615, app/widgets/search-form.php:631
+#: app/widgets/search-form.php:605, app/widgets/search-form.php:621, app/widgets/search-form.php:637
 msgid "Wrap"
 msgstr ""
 
-#: app/widgets/search-form.php:600, app/widgets/search-form.php:616, app/widgets/search-form.php:632
+#: app/widgets/search-form.php:606, app/widgets/search-form.php:622, app/widgets/search-form.php:638
 msgid "Nowrap"
 msgstr ""
 
-#: app/widgets/search-form.php:611
+#: app/widgets/search-form.php:617
 msgid "Wrap settings (Tablet)"
 msgstr ""
 
-#: app/widgets/search-form.php:627
+#: app/widgets/search-form.php:633
 msgid "Wrap settings (Mobile)"
 msgstr ""
 
-#: app/widgets/search-form.php:644
+#: app/widgets/search-form.php:650
 msgid "Max filter width"
 msgstr ""
 
-#: app/widgets/search-form.php:646
+#: app/widgets/search-form.php:652
 msgid "Useful when filters have auto width"
 msgstr ""
 
-#: app/widgets/search-form.php:672
+#: app/widgets/search-form.php:678
 msgid "Map/Feed Switcher"
 msgstr ""
 
-#: app/widgets/search-form.php:690, app/widgets/search-form.php:714, app/widgets/search-form.php:737
+#: app/widgets/search-form.php:696, app/widgets/search-form.php:720, app/widgets/search-form.php:743
 msgid "Visible by default"
 msgstr ""
 
-#: app/widgets/search-form.php:695, app/widgets/search-form.php:719, app/widgets/search-form.php:742
+#: app/widgets/search-form.php:701, app/widgets/search-form.php:725, app/widgets/search-form.php:748
 msgid "Feed"
 msgstr ""
 
-#: app/widgets/search-form.php:696, app/widgets/search-form.php:720, app/widgets/search-form.php:743
+#: app/widgets/search-form.php:702, app/widgets/search-form.php:726, app/widgets/search-form.php:749
 msgid "Map"
 msgstr ""
 
-#: app/widgets/search-form.php:772
+#: app/widgets/search-form.php:782
 msgid "Search icon (Input)"
 msgstr ""
 
-#: app/widgets/search-form.php:782
+#: app/widgets/search-form.php:792
 msgid "Reset icon"
 msgstr ""
 
-#: app/widgets/search-form.php:792
+#: app/widgets/search-form.php:802
 msgid "Filter toggle icon"
 msgstr ""
 
-#: app/widgets/search-form.php:802
+#: app/widgets/search-form.php:812
 msgid "Location icon"
 msgstr ""
 
-#: app/widgets/search-form.php:812
+#: app/widgets/search-form.php:822
 msgid "My location icon"
 msgstr ""
 
-#: app/widgets/search-form.php:822
+#: app/widgets/search-form.php:832
 msgid "Map view icon"
 msgstr ""
 
-#: app/widgets/search-form.php:832
+#: app/widgets/search-form.php:842
 msgid "List view icon"
 msgstr ""
 
-#: app/widgets/search-form.php:852
+#: app/widgets/search-form.php:862
 msgid "Minus icon"
 msgstr ""
 
-#: app/widgets/search-form.php:862
+#: app/widgets/search-form.php:872
 msgid "Plus icon"
 msgstr ""
 
-#: app/widgets/search-form.php:874
+#: app/widgets/search-form.php:884
 msgid "Down arrow"
 msgstr ""
 
-#: app/widgets/search-form.php:884
+#: app/widgets/search-form.php:894
 msgid "Right arrow"
 msgstr ""
 
-#: app/widgets/search-form.php:894
+#: app/widgets/search-form.php:904
 msgid "Left arrow"
 msgstr ""
 
-#: app/widgets/search-form.php:904
+#: app/widgets/search-form.php:914
 msgid "Close icon"
 msgstr ""
 
-#: app/widgets/search-form.php:914
+#: app/widgets/search-form.php:924
 msgid "Trash icon"
 msgstr ""
 
-#: app/widgets/search-form.php:928
+#: app/widgets/search-form.php:938
 msgid "Search form"
 msgstr ""
 
-#: app/widgets/search-form.php:949
+#: app/widgets/search-form.php:959
 msgid "From margin"
 msgstr ""
 
-#: app/widgets/search-form.php:1029
+#: app/widgets/search-form.php:1039
 msgid "Filters: General"
 msgstr ""
 
-#: app/widgets/search-form.php:1037
+#: app/widgets/search-form.php:1047
 msgid "Filter Margin"
 msgstr ""
 
-#: app/widgets/search-form.php:1058
+#: app/widgets/search-form.php:1068
 msgid "Show label"
 msgstr ""
 
-#: app/widgets/search-form.php:1067, app/widgets/search-form.php:1176
+#: app/widgets/search-form.php:1077, app/widgets/search-form.php:1186
 msgid "Disable on tablet"
 msgstr ""
 
-#: app/widgets/search-form.php:1081, app/widgets/search-form.php:1190
+#: app/widgets/search-form.php:1091, app/widgets/search-form.php:1200
 msgid "Disable on mobile"
 msgstr ""
 
-#: app/widgets/search-form.php:1082
+#: app/widgets/search-form.php:1092
 msgid "Disable label width on mobile"
 msgstr ""
 
-#: app/widgets/search-form.php:1105, app/widgets/work-hours.php:171
+#: app/widgets/search-form.php:1115, app/widgets/work-hours.php:171
 msgid "Label color"
 msgstr ""
 
-#: app/widgets/search-form.php:1117
+#: app/widgets/search-form.php:1127
 msgid "Label Margin"
 msgstr ""
 
-#: app/widgets/search-form.php:1131
+#: app/widgets/search-form.php:1141
 msgid "Double filters"
 msgstr ""
 
-#: app/widgets/search-form.php:1140
+#: app/widgets/search-form.php:1150
 msgid "Double filter spacing"
 msgstr ""
 
-#: app/widgets/search-form.php:1163
+#: app/widgets/search-form.php:1173
 msgid "Equal width"
 msgstr ""
 
-#: app/widgets/search-form.php:1164
+#: app/widgets/search-form.php:1174
 msgid "Force equal width for double filters"
 msgstr ""
 
-#: app/widgets/search-form.php:1177
+#: app/widgets/search-form.php:1187
 msgid "Disable equal width on tablet"
 msgstr ""
 
-#: app/widgets/search-form.php:1191
+#: app/widgets/search-form.php:1201
 msgid "Disable equal width on mobile"
 msgstr ""
 
-#: app/widgets/search-form.php:1744
+#: app/widgets/search-form.php:1754
 msgid "Useful when this filter has auto width"
 msgstr ""
 
-#: app/widgets/search-form.php:1894
+#: app/widgets/search-form.php:1904
 msgid "Icon side margin"
 msgstr ""
 
-#: app/widgets/search-form.php:1971
+#: app/widgets/search-form.php:1981
 msgid "Focus"
 msgstr ""
 
-#: app/widgets/search-form.php:2008
+#: app/widgets/search-form.php:2018
 msgid "Submit & Reset button"
 msgstr ""
 
-#: app/widgets/search-form.php:2061
+#: app/widgets/search-form.php:2071
 msgid "Button spacing"
 msgstr ""
 
-#: app/widgets/search-form.php:2241
+#: app/widgets/search-form.php:2251
 msgid "Reset button"
 msgstr ""
 
-#: app/widgets/search-form.php:2394
+#: app/widgets/search-form.php:2404
 msgid "Search text color"
 msgstr ""
 
-#: app/widgets/search-form.php:2407
+#: app/widgets/search-form.php:2417
 msgid "Search background color"
 msgstr ""
 
-#: app/widgets/search-form.php:2419
+#: app/widgets/search-form.php:2429
 msgid "Search border color"
 msgstr ""
 
-#: app/widgets/search-form.php:2432
+#: app/widgets/search-form.php:2442
 msgid "Search box shadow"
 msgstr ""
 
-#: app/widgets/search-form.php:2441
+#: app/widgets/search-form.php:2451
 msgid "Reset text color"
 msgstr ""
 
-#: app/widgets/search-form.php:2454
+#: app/widgets/search-form.php:2464
 msgid "Reset background color"
 msgstr ""
 
-#: app/widgets/search-form.php:2466
+#: app/widgets/search-form.php:2476
 msgid "Reset border color"
 msgstr ""
 
-#: app/widgets/search-form.php:2479
+#: app/widgets/search-form.php:2489
 msgid "Reset box shadow"
 msgstr ""
 
-#: app/widgets/search-form.php:2497
+#: app/widgets/search-form.php:2507
 msgid "Terms"
 msgstr ""
 
-#: app/widgets/search-form.php:2899
+#: app/widgets/search-form.php:2909
 msgid "User location"
 msgstr ""
 
-#: app/widgets/search-form.php:2978
+#: app/widgets/search-form.php:2988
 msgid "Stepper"
 msgstr ""
 
-#: app/widgets/search-form.php:3023
+#: app/widgets/search-form.php:3033
 msgid "Stepper buttons"
 msgstr ""
 
-#: app/widgets/search-form.php:3325
+#: app/widgets/search-form.php:3335
 msgid "Switcher"
 msgstr ""
 
-#: app/widgets/search-form.php:3385
+#: app/widgets/search-form.php:3395
 msgid "Checkbox"
 msgstr ""
 
-#: app/widgets/search-form.php:3480
+#: app/widgets/search-form.php:3490
 msgid "Radio"
 msgstr ""
 
-#: app/widgets/search-form.php:3577
+#: app/widgets/search-form.php:3587
 msgid "Toggle button"
 msgstr ""
 
-#: app/widgets/search-form.php:3871
+#: app/widgets/search-form.php:3881
 msgid "Toggle popup"
 msgstr ""
 
-#: app/widgets/search-form.php:3966
+#: app/widgets/search-form.php:3976
 msgid "Toggle: Active count"
 msgstr ""
 
-#: app/widgets/search-form.php:4024
+#: app/widgets/search-form.php:4034
 msgid "Map/feed switcher"
 msgstr ""
 
-#: app/widgets/search-form.php:4047
+#: app/widgets/search-form.php:4057
 msgid "Container"
 msgstr ""
 
-#: app/widgets/search-form.php:4057
+#: app/widgets/search-form.php:4067
 msgid "Distance from bottom of the screen"
 msgstr ""
 
-#: app/widgets/search-form.php:4406
+#: app/widgets/search-form.php:4416
 msgid "Enable pointer events for backdrop?"
 msgstr ""
 
-#: app/widgets/search-form.php:4475
+#: app/widgets/search-form.php:4485
 msgid "Autosuggest top margin"
 msgstr ""
 
-#: app/widgets/search-form.php:4654
+#: app/widgets/search-form.php:4665
 msgctxt "search form widget"
 msgid "Post type"
 msgstr ""
@@ -3260,23 +3276,23 @@ msgstr ""
 msgid "Template tabs (VX)"
 msgstr ""
 
-#: app/widgets/template-tabs.php:42
+#: app/widgets/template-tabs.php:43
 msgid "URL key"
 msgstr ""
 
-#: app/widgets/template-tabs.php:48
+#: app/widgets/template-tabs.php:49
 msgid "Render method"
 msgstr ""
 
-#: app/widgets/template-tabs.php:68
+#: app/widgets/template-tabs.php:69
 msgid "Add tabs"
 msgstr ""
 
-#: app/widgets/template-tabs.php:75
+#: app/widgets/template-tabs.php:76
 msgid "Link to a Navbar widget"
 msgstr ""
 
-#: app/widgets/template-tabs.php:84
+#: app/widgets/template-tabs.php:85
 msgid "URL parameter"
 msgstr ""
 
@@ -3528,27 +3544,27 @@ msgstr ""
 msgid "Icon color (Selected)"
 msgstr ""
 
-#: app/widgets/timeline.php:2977
+#: app/widgets/timeline.php:2996
 msgctxt "rating"
 msgid "Excellent"
 msgstr ""
 
-#: app/widgets/timeline.php:2983
+#: app/widgets/timeline.php:3002
 msgctxt "rating"
 msgid "Very good"
 msgstr ""
 
-#: app/widgets/timeline.php:2989
+#: app/widgets/timeline.php:3008
 msgctxt "rating"
 msgid "Good"
 msgstr ""
 
-#: app/widgets/timeline.php:2995
+#: app/widgets/timeline.php:3014
 msgctxt "rating"
 msgid "Fair"
 msgstr ""
 
-#: app/widgets/timeline.php:3001
+#: app/widgets/timeline.php:3020
 msgctxt "rating"
 msgid "Poor"
 msgstr ""
@@ -3699,6 +3715,10 @@ msgstr ""
 
 #: app/widgets/work-hours.php:477
 msgid "Accordion button"
+msgstr ""
+
+#: app/controllers/elementor/document-controller.php:24
+msgid "Post to use in preview"
 msgstr ""
 
 #: app/widgets/option-groups/file-field.php:15

@@ -5,7 +5,7 @@
 				<?= \Voxel\get_icon_markup( $this->get_settings_for_display('ts_arrow_left') ) ?: \Voxel\svg( 'chevron-left.svg' ) ?>
 			</a>
 		</li>
-		<li v-if="orderDetails.mode === 'payment' && orderDetails.role.is_author && orderDetails.status.slug === 'pending_approval'">
+		<li v-if="orderDetails.role.is_author && orderDetails.status.slug === 'pending_approval'">
 			<a href="#" @click.prevent="order.doAction('author.approve')" class="ts-btn ts-btn-2 ts-btn-large ts-approve-btn">
 				<span v-html="$root.config.actions['author.approve'].icon"></span>
 				{{ $root.config.actions['author.approve'].label }}
@@ -35,7 +35,7 @@
 		<li v-if="order.actions.length">
 			<form-group popup-key="actions" ref="actions" :show-save="false" clear-label="<?= esc_attr( _x( 'Close', 'single order', 'voxel' ) ) ?>" @clear="$event.blur()">
 				<template #trigger>
-					<a href="#" @mousedown="$root.activePopup = 'actions'" class="ts-icon-btn ts-popup-target">
+					<a href="#" @click.prevent @mousedown="$root.activePopup = 'actions'" class="ts-icon-btn ts-popup-target">
 						<?= \Voxel\get_icon_markup( $this->get_settings_for_display('ts_sr_more') ) ?: \Voxel\svg( 'menu.svg' ) ?>
 					</a>
 				</template>

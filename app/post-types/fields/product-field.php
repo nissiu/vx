@@ -228,14 +228,18 @@ class Product_Field extends Base_Post_Field {
 		return false;
 	}
 
+	public function check_dependencies() {
+		$product_type = $this->get_product_type();
+		if ( ! $product_type ) {
+			throw new \Exception( 'Product type not set.' );
+		}
+	}
+
 	protected function frontend_props() {
 		wp_enqueue_style( 'pikaday' );
 		wp_enqueue_script( 'pikaday' );
 
-		if ( ! ( $product_type = $this->get_product_type() ) ) {
-			return [];
-		}
-
+		$product_type = $this->get_product_type();
 		$config = $product_type->get_config();
 		$notes = $config['notes'] ?? [];
 		$value = $this->get_value();

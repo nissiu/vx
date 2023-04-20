@@ -15,6 +15,7 @@ abstract class Base_Form_Model {
 			'label' => '',
 			'description' => '',
 			'sublabel' => '',
+			'footnote' => '',
 			'required' => false,
 			'width' => '1/1',
 			'classes' => [],
@@ -82,6 +83,9 @@ abstract class Base_Form_Model {
 				<p class="mt15"><?= $input->args['sublabel'] ?></p>
 			<?php endif ?>
 			<?php $input->template() ?>
+			<?php if ( $input->args['footnote'] ): ?>
+				<p><?= $input->args['footnote'] ?></p>
+			<?php endif ?>
 		</div>
 	<?php }
 }

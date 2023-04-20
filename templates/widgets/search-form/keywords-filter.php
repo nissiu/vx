@@ -27,7 +27,7 @@
 		<template #popup>
 			<div class="">
 				<div class="ts-input-icon flexify">
-					<?= \Voxel\get_icon_markup( $this->get_settings_for_display('ts_sf_form_btn_icon') ) ?: \Voxel\svg( 'search.svg' ) ?>
+					<?= \Voxel\get_icon_markup( $this->get_settings_for_display('ts_sf_form_btn_icon_in') ) ?: \Voxel\svg( 'search.svg' ) ?>
 					<input
 						ref="input"
 						v-model="value"

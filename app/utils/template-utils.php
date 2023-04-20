@@ -173,23 +173,22 @@ function get_related_widget( \Elementor\Widget_Base $widget, $document_id, $rela
 }
 
 function get_post_for_preview( $template_id ) {
-	$post_type = current( array_filter( \Voxel\Post_Type::get_all(), function( $post_type ) use ( $template_id ) {
-		$templates = $post_type->get_templates();
-		$custom_card_templates = array_column( $post_type->repository->get_custom_templates()['card'], 'id' );
-		$custom_single_templates = array_column( $post_type->repository->get_custom_templates()['single'], 'id' );
-		return (
-			in_array( $template_id, [ $templates['single'], $templates['card'] ] )
-			|| in_array( $template_id, $custom_card_templates )
-			|| in_array( $template_id, $custom_single_templates )
-		);
-	} ) );
+	$post_type = \Voxel\get_post_type_for_preview( $template_id );
 
 	if ( $post_type ) {
-		$post = current( get_posts( [
-			'number' => 1,
-			'status' => 'publish',
-			'post_type' => $post_type->get_key(),
-		] ) );
+		$page_settings = (array) get_post_meta( $template_id, '_elementor_page_settings', true );
+		$post_id = $page_settings['voxel_preview_post'] ?? null;
+		if ( is_numeric( $post_id ) && ( $_post = get_post( $post_id ) ) ) {
+			$post = $_post;
+		} else {
+			$post = current( get_posts( [
+				'number' => 1,
+				'status' => 'publish',
+				'post_type' => $post_type->get_key(),
+				'orderby' => 'date',
+				'order' => 'ASC',
+			] ) );
+		}
 
 		// if we're editing the preview card for a post type, pass that information to the
 		// editor frontend so that we can adjust the editing layout
@@ -205,4 +204,17 @@ function get_post_for_preview( $template_id ) {
 	} else {
 		return \Voxel\Post::get( $template_id );
 	}
+}
+
+function get_post_type_for_preview( $template_id ) {
+	return current( array_filter( \Voxel\Post_Type::get_all(), function( $post_type ) use ( $template_id ) {
+		$templates = $post_type->get_templates();
+		$custom_card_templates = array_column( $post_type->repository->get_custom_templates()['card'], 'id' );
+		$custom_single_templates = array_column( $post_type->repository->get_custom_templates()['single'], 'id' );
+		return (
+			in_array( $template_id, [ $templates['single'], $templates['card'] ] )
+			|| in_array( $template_id, $custom_card_templates )
+			|| in_array( $template_id, $custom_single_templates )
+		);
+	} ) );
 }

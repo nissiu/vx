@@ -5,7 +5,7 @@
 				{{ field.label }}
 				<small>{{ field.description }}</small>
 			</label>
-			<div class="ts-input-icon flexify" v-if="terms.length >= 15">
+			<div class="ts-input-icon flexify" v-if="termCount >= 10">
 				<?= \Voxel\get_icon_markup( $this->get_settings_for_display('ts_search_icon') ) ?: \Voxel\svg( 'search.svg' ) ?>
 				<input
 					v-model="search" ref="searchInput" type="text" class="autofocus"
@@ -62,7 +62,7 @@
 			</div>
 		</template>
 		<template #popup>
-			<div class="ts-sticky-top">
+			<div class="ts-sticky-top" v-if="termCount >= 10">
 				<div class="ts-input-icon flexify">
 					<?= \Voxel\get_icon_markup( $this->get_settings_for_display('ts_search_icon') ) ?: \Voxel\svg( 'search.svg' ) ?>
 					<input

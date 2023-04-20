@@ -17,6 +17,11 @@
 					<div class="ts-action-icon"><?php \Voxel\render_icon( $action['ts_acw_initial_icon'] ) ?></div>
 					<?= $action['ts_acw_initial_text'] ?>
 				</a>
+			<?php elseif ($action['ts_action_type'] === 'scroll_to_section'): ?>
+				<a href="#" onclick="Voxel.scrollTo(document.getElementById(<?= esc_attr( wp_json_encode( $action['ts_scroll_to'] ) ) ?>)); return false;" class="ts-action-con">
+					<div class="ts-action-icon"><?php \Voxel\render_icon( $action['ts_acw_initial_icon'] ) ?></div>
+					<?= $action['ts_acw_initial_text'] ?>
+				</a>
 			<?php elseif ($action['ts_action_type'] === 'direct_message'): ?>
 				<?php require locate_template( 'templates/widgets/advanced-list/direct-message-action.php' ) ?>
 			<?php elseif ($action['ts_action_type'] === 'direct_message_user'): ?>

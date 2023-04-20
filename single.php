@@ -15,7 +15,10 @@ if ( ! $post_type->is_managed_by_voxel() || $voxel_post->is_built_with_elementor
 		\Voxel\print_header();
 	}
 
-	the_content();
+	while ( have_posts() ):
+		the_post();
+		the_content();
+	endwhile;
 
 	if ( \Voxel\get_page_setting( 'voxel_hide_footer', $template_id ) !== 'yes' ) {
 		\Voxel\print_footer();

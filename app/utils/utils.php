@@ -811,46 +811,27 @@ function get_visitor_os() {
 	}
 }
 
+// innodb default stopwords
+function get_stopwords() {
+	static $stopwords;
+	if ( $stopwords === null ) {
+		$list = apply_filters(
+			'voxel/search-stopwords',
+			'a about an are as at be by com de en for from how i in is it la of on or that the this to was what when where who will with und the www'
+		);
+
+		$words = preg_split('/\s+/', $list );
+		$stopwords = [];
+		foreach ( $words as $word ) {
+			$stopwords[ $word ] = true;
+		}
+	}
+
+	return $stopwords;
+}
+
 function prepare_keyword_search( $str ) {
-	// innodb default stopwords
-	static $stopwords = [
-		'a' => true,
-		'about' => true,
-		'an' => true,
-		'are' => true,
-		'as' => true,
-		'at' => true,
-		'be' => true,
-		'by' => true,
-		'com' => true,
-		'de' => true,
-		'en' => true,
-		'for' => true,
-		'from' => true,
-		'how' => true,
-		'i' => true,
-		'in' => true,
-		'is' => true,
-		'it' => true,
-		'la' => true,
-		'of' => true,
-		'on' => true,
-		'or' => true,
-		'that' => true,
-		'the' => true,
-		'this' => true,
-		'to' => true,
-		'was' => true,
-		'what' => true,
-		'when' => true,
-		'where' => true,
-		'who' => true,
-		'will' => true,
-		'with' => true,
-		'und' => true,
-		'the' => true,
-		'www' => true,
-	];
+	$stopwords = \Voxel\get_stopwords();
 
 	$keywords = preg_split('/\s+/', str_replace( '@', '', $str ) );
 	$keywords = array_map( function( $word ) use ( $stopwords ) {

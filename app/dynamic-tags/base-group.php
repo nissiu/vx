@@ -193,7 +193,8 @@ abstract class Base_Group {
 				'label' => 'Date',
 				'type' => \Voxel\T_DATE,
 				'callback' => function() {
-					return $this->get_post()->get_date();
+					$wp_post = $this->get_post()->get_wp_post_object();
+					return $wp_post->post_date;
 				},
 			],
 
@@ -201,7 +202,8 @@ abstract class Base_Group {
 				'label' => 'Last modified date',
 				'type' => \Voxel\T_DATE,
 				'callback' => function() {
-					return $this->get_post()->get_modified_date();
+					$wp_post = $this->get_post()->get_wp_post_object();
+					return $wp_post->post_modified;
 				},
 			],
 
@@ -226,6 +228,14 @@ abstract class Base_Group {
 				'type' => \Voxel\T_URL,
 				'callback' => function() {
 					return $this->get_post()->get_edit_link();
+				},
+			],
+
+			':slug' => [
+				'label' => 'Slug',
+				'type' => \Voxel\T_STRING,
+				'callback' => function() {
+					return $this->get_post()->get_slug();
 				},
 			],
 

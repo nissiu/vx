@@ -45,7 +45,7 @@
 				<div>
 					<div class="range-slider-wrapper">
 						<div class="range-value"><?= ( $value['method'] ?? null ) === 'radius'
-							? ( $value['radius'].( $this->props['radius_units'] === 'mi' ? _x( 'mi', 'location filter', 'voxel' ) : _x( 'km', 'location filter', 'voxel' ) ) )
+							? ( $value['radius'].' '.( $this->props['radius_units'] === 'mi' ? _x( 'mi', 'location filter', 'voxel' ) : _x( 'km', 'location filter', 'voxel' ) ) )
 							: _x( 'Distance', 'location filter', 'voxel' ) ?></div>
 						<div class="range-slider noUi-target noUi-ltr noUi-horizontal noUi-txt-dir-ltr">
 							<div class="noUi-base">

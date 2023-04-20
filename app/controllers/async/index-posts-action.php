@@ -50,7 +50,7 @@ class Index_Posts_Action extends \Voxel\Controllers\Base_Controller {
 				$post_ids = $wpdb->get_col( $wpdb->prepare( <<<SQL
 					SELECT ID FROM {$wpdb->posts}
 						WHERE post_type = %s AND post_status IN ({$status_in})
-						ORDER BY post_date ASC LIMIT %d, %d
+						ORDER BY ID ASC LIMIT %d, %d
 					SQL,
 					$post_type->get_key(),
 					$offset,

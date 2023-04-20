@@ -95,18 +95,6 @@ class Subscriptions_Controller extends \Voxel\Controllers\Base_Controller {
 			if ( \Voxel\get( 'settings.membership.cancel.behavior', 'at_period_end' ) === 'immediately' ) {
 				$subscription = $stripe->subscriptions->cancel( $membership->get_subscription_id() );
 				do_action( 'voxel/membership/subscription-updated', $subscription );
-							// Assign the new plan to the user
-$next_plan_key = 'plan-gratuit';
-$meta_key = \Voxel\Stripe::is_test_mode() ? 'voxel:test_plan' : 'voxel:plan';
-				update_user_meta( $user->get_id(), $meta_key, wp_slash( wp_json_encode( [
-					'plan' => $next_plan_key,
-					'type' => 'payment',
-					'status' => 'succeeded',
-					'created' => \Voxel\utc()->format( 'Y-m-d H:i:s' ),
-				] ) ) );
-
-				do_action( 'voxel/membership/pricing-plan-updated', $user, $user->get_membership(), $user->get_membership( $refresh_cache = true ) );
-				// Assign the new plan to the user
 			} else {
 				$subscription = \Stripe\Subscription::update( $membership->get_subscription_id(), [
 					'cancel_at_period_end' => true,

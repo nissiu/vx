@@ -36,7 +36,17 @@ class Nearby_Order extends Base_Search_Order {
 		$lat = $clause_args[0] ?? null;
 		$lng = $clause_args[1] ?? null;
 		$filter = $this->post_type->get_filter( $this->props['source'] );
-		if ( $filter->get_type() === 'location' && $lat !== null && $lng !== null ) {
+		if ( $filter->get_type() === 'location' ) {
+			if ( $lat === null || $lng === null ) {
+				$filter_value = $filter->parse_value( $args[ $filter->get_key() ] ?? null );
+				if ( ! ( $filter_value && $filter_value['method'] === 'radius' ) ) {
+					return;
+				}
+
+				$clause_args[0] = $lat = $filter_value['lat'];
+				$clause_args[1] = $lng = $filter_value['lng'];
+			}
+
 			$filter->orderby_distance( $query, $clause_args );
 		}
 	}

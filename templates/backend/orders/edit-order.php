@@ -15,8 +15,6 @@ $stripe_base_url = \Voxel\Stripe::is_test_mode() ? 'https://dashboard.stripe.com
 ?>
 
 <div class="vx-single-order">
-
-
 	<div class="vx-card-ui vx-order-details">
 		<div class="vx-card no-wp-style">
 			<div class="vx-card-head">
@@ -57,10 +55,10 @@ $stripe_base_url = \Voxel\Stripe::is_test_mode() ? 'https://dashboard.stripe.com
 			</div>
 			<div class="vx-card-content">
 				<div class="vx-group">
-					<?= $customer ? sprintf( '%s<span class="item-title"><a href="%s">%s</a></span>',
-					$customer->get_avatar_markup(32),
-					$customer->get_edit_link(),
-					$customer->get_display_name()
+					<?= $vendor ? sprintf( '%s<span class="item-title"><a href="%s">%s</a></span>',
+					$vendor->get_avatar_markup(32),
+					$vendor->get_edit_link(),
+					$vendor->get_display_name()
 				) : '&mdash;' ?>
 				</div>
 			</div>
@@ -114,14 +112,10 @@ $stripe_base_url = \Voxel\Stripe::is_test_mode() ? 'https://dashboard.stripe.com
 							<th>Catalog mode</th>
 							<td><?= $order->is_catalog_mode() ? 'Yes' : 'No' ?></td>
 						</tr>
-
-
-
 						<tr>
 							<th>Created</th>
 							<td><?= ( $timestamp = strtotime( $order->get_created_at() ) ) ? \Voxel\datetime_format( $timestamp ) : '' ?></td>
 						</tr>
-
 						<tr>
 							<th>Active tag</th>
 							<td><?= $active_tag ? $active_tag->get_label() : 'No active tag' ?></td>
@@ -138,7 +132,6 @@ $stripe_base_url = \Voxel\Stripe::is_test_mode() ? 'https://dashboard.stripe.com
 			<div class="vx-card-content">
 				<table class="form-table">
 					<tbody>
-
 						<tr>
 							<th>Base price</th>
 							<td><?= $pricing['base_price'] ?></td>
@@ -166,7 +159,6 @@ $stripe_base_url = \Voxel\Stripe::is_test_mode() ? 'https://dashboard.stripe.com
 				<div class="vx-card-content">
 					<table class="form-table">
 					<tbody>
-
 						<?php if ( $booking['type'] === 'date_range' ): ?>
 							<tr>
 								<th>Check-in</th>
@@ -205,15 +197,12 @@ $stripe_base_url = \Voxel\Stripe::is_test_mode() ? 'https://dashboard.stripe.com
 				<div class="vx-card-content">
 					<table class="form-table">
 						<tbody>
-
-
 							<?php foreach ( $additions as $addition ): ?>
 								<tr>
 									<th><?= esc_html( $addition['label'] ) ?></th>
 									<td><?= esc_html( $addition['content'] ) ?></td>
 								</tr>
 							<?php endforeach ?>
-
 							<?php foreach ( $custom_additions as $addition ): ?>
 								<tr>
 									<th><?= esc_html( $addition['label'] ) ?></th>
@@ -289,20 +278,6 @@ $stripe_base_url = \Voxel\Stripe::is_test_mode() ? 'https://dashboard.stripe.com
 									<?php endif ?>
 								</td>
 							</tr>
-						<!-- 	<tr>
-								<th>Customer actions</th>
-								<td>
-									<?php if ( $order->get_mode() === 'payment' ): ?>
-										<?php if ( $order->get_status() === 'pending_approval' ): ?>
-											<a href="<?= esc_url( home_url( '/?vx=1&action=orders.admin.cancel&order_id='.$order->get_id() ) ) ?>" class="button">Cancel order</a>
-										<?php elseif ( $order->get_status() === 'completed' && ! ( $order->is_catalog_mode() && ! $product_type->catalog_refunds_allowed() ) ): ?>
-											<a href="<?= esc_url( home_url( '/?vx=1&action=orders.admin.request_refund&order_id='.$order->get_id() ) ) ?>" class="button">Request a refund</a>
-										<?php elseif ( $order->get_status() === 'refund_requested' ): ?>
-											<a href="<?= esc_url( home_url( '/?vx=1&action=orders.admin.cancel_refund_request&order_id='.$order->get_id() ) ) ?>" class="button">Cancel refund request</a>
-										<?php endif ?>
-									<?php endif ?>
-								</td>
-							</tr> -->
 						</tbody>
 					</table>
 
@@ -319,7 +294,6 @@ $stripe_base_url = \Voxel\Stripe::is_test_mode() ? 'https://dashboard.stripe.com
 
 					<table class="form-table">
 						<tbody>
-
 							<tr>
 								<th>Username</th>
 								<td><a href="<?= esc_url( $vendor->get_edit_link() ) ?>"><?= $vendor->get_display_name() ?></a></td>
@@ -345,24 +319,8 @@ $stripe_base_url = \Voxel\Stripe::is_test_mode() ? 'https://dashboard.stripe.com
 									</td>
 								</tr>
 							<?php endif ?>
-							<!-- <tr>
-								<th>Vendor actions</th>
-								<td>
-									<?php if ( $order->get_mode() === 'payment' ): ?>
-										<?php if ( $order->get_status() === 'pending_approval' ): ?>
-											<a href="<?= esc_url( home_url( '/?vx=1&action=orders.admin.approve&order_id='.$order->get_id() ) ) ?>" class="button">Approve order</a>
-											<a href="<?= esc_url( home_url( '/?vx=1&action=orders.admin.decline&order_id='.$order->get_id() ) ) ?>" class="button">Decline order</a>
-										<?php elseif ( $order->get_status() === 'refund_requested' ): ?>
-											<a href="<?= esc_url( home_url( '/?vx=1&action=orders.admin.approve_refund&order_id='.$order->get_id() ) ) ?>" class="button">Approve refund</a>
-											<a href="<?= esc_url( home_url( '/?vx=1&action=orders.admin.decline_refund&order_id='.$order->get_id() ) ) ?>" class="button">Decline refund</a>
-										<?php endif ?>
-									<?php endif ?>
-								</td>
-							</tr> -->
 						</tbody>
 					</table>
-
-
 				</div>
 			</div>
 		<?php endif ?>
@@ -373,10 +331,8 @@ $stripe_base_url = \Voxel\Stripe::is_test_mode() ? 'https://dashboard.stripe.com
 					Stripe
 				</div>
 				<div class="vx-card-content">
-
 					<table class="form-table">
 						<tbody>
-
 							<?php if ( $order->get_mode() === 'subscription' ): ?>
 								<tr>
 									<th>Subscription ID</th>
@@ -405,12 +361,9 @@ $stripe_base_url = \Voxel\Stripe::is_test_mode() ? 'https://dashboard.stripe.com
 							</tr> -->
 						</tbody>
 					</table>
-
-
 				</div>
 			</div>
 		<?php endif ?>
-
 	</div>
 	<div class="vx-card-ui">
 		<?php if ( in_array( get_current_user_id(), [ $order->get_vendor_id(), $order->get_customer_id() ], true ) ): ?>
@@ -418,13 +371,13 @@ $stripe_base_url = \Voxel\Stripe::is_test_mode() ? 'https://dashboard.stripe.com
 				<a href="<?= esc_url( $order->get_link() ) ?>" class="ts-button btn-shadow">Manage in frontend</a>
 			</div>
 		<?php endif ?>
-		<?php if ( $vendor && ( $order->get_mode() === 'payment' && in_array( $order->get_status(), [ 'pending_approval', 'refund_requested' ], true ) ) ): ?>
+		<?php if ( $vendor && in_array( $order->get_status(), [ 'pending_approval', 'refund_requested' ], true ) ): ?>
 			<div class="vx-card ">
 				<div class="vx-card-head">
 					Vendor actions
 				</div>
 				<div class="vx-card-content vx-card-btns">
-					<?php if ( $order->get_mode() === 'payment' ): ?>
+					<?php if ( $order->get_mode() === 'payment' || $order->is_catalog_mode() ): ?>
 						<?php if ( $order->get_status() === 'pending_approval' ): ?>
 							<a class="vx-card-btn ts-button" href="<?= esc_url( home_url( '/?vx=1&action=orders.admin.approve&order_id='.$order->get_id() ) ) ?>" class="button"><?php \Voxel\svg( 'checkmark-circle.svg' ) ?>Approve order</a>
 							<a class="vx-card-btn ts-button" href="<?= esc_url( home_url( '/?vx=1&action=orders.admin.decline&order_id='.$order->get_id() ) ) ?>" class="button"><?php \Voxel\svg( 'cross-circle.svg' ) ?>Decline order</a>
@@ -436,13 +389,13 @@ $stripe_base_url = \Voxel\Stripe::is_test_mode() ? 'https://dashboard.stripe.com
 				</div>
 			</div>
 		<?php endif ?>
-		<?php if ( $customer && ( $order->get_mode() === 'payment' && in_array( $order->get_status(), [ 'pending_approval', 'completed', 'refund_requested' ], true ) ) ): ?>
+		<?php if ( $customer && in_array( $order->get_status(), [ 'pending_approval', 'completed', 'refund_requested' ], true ) ): ?>
 			<div class="vx-card ">
 				<div class="vx-card-head">
 					Customer actions
 				</div>
 				<div class="vx-card-content vx-card-btns">
-					<?php if ( $order->get_mode() === 'payment' ): ?>
+					<?php if ( $order->get_mode() === 'payment' || $order->is_catalog_mode() ): ?>
 						<?php if ( $order->get_status() === 'pending_approval' ): ?>
 							<a class="vx-card-btn ts-button" href="<?= esc_url( home_url( '/?vx=1&action=orders.admin.cancel&order_id='.$order->get_id() ) ) ?>" class="button"><?php \Voxel\svg( 'cross-circle.svg' ) ?>Cancel order</a>
 						<?php elseif ( $order->get_status() === 'completed' && ! ( $order->is_catalog_mode() && ! $product_type->catalog_refunds_allowed() ) ): ?>
@@ -463,30 +416,22 @@ $stripe_base_url = \Voxel\Stripe::is_test_mode() ? 'https://dashboard.stripe.com
 					Apply tag
 				</div>
 				<div class="vx-card-content vx-card-btns">
-
-
-
-							<?php foreach ( $tags as $tag ): ?>
-
-
-								<a class="vx-card-btn ts-button <?= ( $active_tag && $tag->get_key() === $active_tag->get_key() ) ? 'vx-disabled' : '' ?>" href="<?= esc_url( home_url( '/?vx=1&action=orders.admin.apply_tag&order_id='.$order->get_id().'&tag='.$tag->get_key() ) ) ?>"><?= $tag->get_label() ?></a>
-
-
-							<?php endforeach ?>
-
-
+					<?php foreach ( $tags as $tag ): ?>
+						<a class="vx-card-btn ts-button <?= ( $active_tag && $tag->get_key() === $active_tag->get_key() ) ? 'vx-disabled' : '' ?>" href="<?= esc_url( home_url( '/?vx=1&action=orders.admin.apply_tag&order_id='.$order->get_id().'&tag='.$tag->get_key() ) ) ?>"><?= $tag->get_label() ?></a>
+					<?php endforeach ?>
 				</div>
 			</div>
 		<?php endif ?>
-		<div class="vx-card ">
-			<div class="vx-card-head">
-				Other
-			</div>
-			<div class="vx-card-content vx-card-btns">
-				<a class="vx-card-btn ts-button" href="<?= esc_url( home_url( '/?vx=1&action=orders.admin.sync_with_stripe_backend&order_id='.$order->get_id() ) ) ?>" class="button"><?php \Voxel\svg( 'reload.svg' ) ?>Sync with Stripe</a>
-			</div>
-		</div>
 
-
+		<?php if ( ! $order->is_catalog_mode() ): ?>
+			<div class="vx-card ">
+				<div class="vx-card-head">
+					Other
+				</div>
+				<div class="vx-card-content vx-card-btns">
+					<a class="vx-card-btn ts-button" href="<?= esc_url( home_url( '/?vx=1&action=orders.admin.sync_with_stripe_backend&order_id='.$order->get_id() ) ) ?>" class="button"><?php \Voxel\svg( 'reload.svg' ) ?>Sync with Stripe</a>
+				</div>
+			</div>
+		<?php endif ?>
 	</div>
 </div>

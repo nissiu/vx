@@ -131,7 +131,7 @@ class Checkout_Controller extends \Voxel\Controllers\Base_Controller {
 				$trial_days = absint( \Voxel\get( 'settings.membership.trial.period_days', 0 ) );
 
 				// only allow free trial on first plan sign-up
-				$trial_allowed = metadata_exists( 'user', $user->get_id(), \Voxel\Stripe::is_test_mode() ? 'voxel:test_plan' : 'voxel:plan' );
+				$trial_allowed = ! metadata_exists( 'user', $user->get_id(), \Voxel\Stripe::is_test_mode() ? 'voxel:test_plan' : 'voxel:plan' );
 
 				$args = [
 					'customer' => $customer->id,

@@ -123,3 +123,44 @@ function set( $option, $value, $autoload = null ) {
 	// refresh cache
 	\Voxel\get( $option_group, null, true );
 }
+
+function get_license_data( $key = null ) {
+	$network_origin = strtolower( wp_parse_url( network_home_url('/'), PHP_URL_HOST ) );
+	$blog_origin  = strtolower( wp_parse_url( home_url('/'), PHP_URL_HOST ) );
+	$is_same_domain = ( $network_origin === $blog_origin || str_ends_with( $blog_origin, '.'.$network_origin ) );
+
+	if ( is_multisite() && $is_same_domain ) {
+		$data = json_decode( get_site_option( 'voxel:license' ), ARRAY_A );
+	} else {
+		$data = \Voxel\get( 'license' );
+	}
+
+	if ( ! is_array( $data ) ) {
+		return [];
+	}
+
+	if ( $key !== null ) {
+		return $data[ $key ] ?? null;
+	}
+
+	return $data;
+}
+
+function update_license_data( $data ) {
+	$network_origin = strtolower( wp_parse_url( network_home_url('/'), PHP_URL_HOST ) );
+	$blog_origin  = strtolower( wp_parse_url( home_url('/'), PHP_URL_HOST ) );
+	$is_same_domain = ( $network_origin === $blog_origin || str_ends_with( $blog_origin, '.'.$network_origin ) );
+
+	if ( is_multisite() && $is_same_domain ) {
+		update_site_option( 'voxel:license', wp_json_encode( $data ) );
+	} else {
+		\Voxel\set( 'license', $data );
+	}
+}
+
+function get_license_url() {
+	$network_origin = strtolower( wp_parse_url( network_home_url('/'), PHP_URL_HOST ) );
+	$blog_origin  = strtolower( wp_parse_url( home_url('/'), PHP_URL_HOST ) );
+	$is_same_domain = ( $network_origin === $blog_origin || str_ends_with( $blog_origin, '.'.$network_origin ) );
+	return is_multisite() && $is_same_domain ? network_home_url('/') : home_url('/');
+}

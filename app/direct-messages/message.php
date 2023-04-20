@@ -204,14 +204,14 @@ class Message {
 			if ( $is_author ) {
 				return count( $file_ids ) === 1
 					? _x( 'You sent a file', 'messages', 'voxel' )
-					: \Voxel\replace_vars( _x( 'You sent @amount files' ), [
+					: \Voxel\replace_vars( _x( 'You sent @amount files', 'messages', 'voxel' ), [
 						'@amount' => count( $file_ids ),
 					] );
 			}
 
 			return count( $file_ids ) === 1
 				? _x( 'Sent a file', 'messages', 'voxel' )
-				: \Voxel\replace_vars( _x( 'Sent @amount files' ), [
+				: \Voxel\replace_vars( _x( 'Sent @amount files', 'messages', 'voxel' ), [
 					'@amount' => count( $file_ids ),
 				] );
 		}

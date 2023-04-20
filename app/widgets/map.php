@@ -48,6 +48,7 @@ class Map extends Base_Widget {
 			'vx_target' => 'elementor-widget-ts-search-form',
 			'vx_side' => 'right',
 			'condition' => [ 'ts_source' => 'search-form' ],
+			'reload' => 'editor',
 		] );
 
 		$this->add_control( 'ts_drag_search', [
@@ -482,7 +483,36 @@ class Map extends Base_Widget {
 				]
 			);
 
+			$this->add_control(
+				'ts_tm_loading',
+				[
+					'label' => __( 'Loader', 'voxel-elementor' ),
+					'type' => \Elementor\Controls_Manager::HEADING,
+					'separator' => 'before',
+				]
+			);
 
+			$this->add_control(
+				'tm_color1',
+				[
+					'label' => __( 'Color 1', 'voxel-elementor' ),
+					'type' => \Elementor\Controls_Manager::COLOR,
+					'selectors' => [
+						'{{WRAPPER}} .ts-loading-popup .ts-loader' => 'border-color: {{VALUE}}',
+					],
+				]
+			);
+
+			$this->add_control(
+				'tm_color2',
+				[
+					'label' => __( 'Color 2', 'voxel-elementor' ),
+					'type' => \Elementor\Controls_Manager::COLOR,
+					'selectors' => [
+						'{{WRAPPER}} .ts-loading-popup .ts-loader' => 'border-bottom-color: {{VALUE}}',
+					],
+				]
+			);
 
 			$this->add_control(
 				'ts_anchor_custom',
@@ -522,6 +552,11 @@ class Map extends Base_Widget {
 					'return_value' => 'yes',
 				]
 			);
+
+			$this->add_control( 'anchor_toggle_apply', [
+				'type' => \Elementor\Controls_Manager::RAW_HTML,
+				'raw' => '<a href="#" onclick="voxel_reload_editor(); return false;" class="elementor-button">Apply changes</a>',
+			] );
 
 			$this->add_responsive_control(
 				'm_mp_width_anchor',

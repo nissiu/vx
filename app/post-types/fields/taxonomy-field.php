@@ -143,34 +143,37 @@ class Taxonomy_Field extends Base_Post_Field {
 		return $terms;
 	}
 
-	protected function frontend_props() {
+	public function check_dependencies() {
 		$taxonomy = \Voxel\Taxonomy::get( $this->props['taxonomy'] );
 		if ( ! $taxonomy ) {
-			$terms = [];
+			throw new \Exception( 'Taxonomy not set.' );
+		}
+	}
+
+	protected function frontend_props() {
+		$taxonomy = \Voxel\Taxonomy::get( $this->props['taxonomy'] );
+		$args = [
+			'orderby' => 'default',
+		];
+
+		$transient_key = sprintf( 'field:%s.%s.%s', $this->post_type->get_key(), $this->get_key(), $taxonomy->get_key() );
+		$t = get_transient( $transient_key );
+
+		$terms = ( is_array( $t ) && isset( $t['terms'] ) ) ? $t['terms'] : [];
+		$time = ( is_array( $t ) && isset( $t['time'] ) ) ? $t['time'] : 0;
+		$hash = ( is_array( $t ) && isset( $t['hash'] ) ) ? $t['hash'] : false;
+		$new_hash = md5( wp_json_encode( $args ) );
+
+		if ( ! $t || ( $time < $taxonomy->get_version() ) || $hash !== $new_hash ) {
+			$terms = \Voxel\get_terms( $this->props['taxonomy'], $args );
+			set_transient( $transient_key, [
+				'terms' => $terms,
+				'time' => time(),
+				'hash' => $new_hash,
+			], 14 * DAY_IN_SECONDS );
+			// dump('from query');
 		} else {
-			$args = [
-				'orderby' => 'default',
-			];
-
-			$transient_key = sprintf( 'field:%s.%s.%s', $this->post_type->get_key(), $this->get_key(), $taxonomy->get_key() );
-			$t = get_transient( $transient_key );
-
-			$terms = ( is_array( $t ) && isset( $t['terms'] ) ) ? $t['terms'] : [];
-			$time = ( is_array( $t ) && isset( $t['time'] ) ) ? $t['time'] : 0;
-			$hash = ( is_array( $t ) && isset( $t['hash'] ) ) ? $t['hash'] : false;
-			$new_hash = md5( wp_json_encode( $args ) );
-
-			if ( ! $t || ( $time < $taxonomy->get_version() ) || $hash !== $new_hash ) {
-				$terms = \Voxel\get_terms( $this->props['taxonomy'], $args );
-				set_transient( $transient_key, [
-					'terms' => $terms,
-					'time' => time(),
-					'hash' => $new_hash,
-				], 14 * DAY_IN_SECONDS );
-				// dump('from query');
-			} else {
-				// dump('from cache');
-			}
+			// dump('from cache');
 		}
 
 		$selected = [];

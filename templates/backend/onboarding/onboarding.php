@@ -1,5 +1,5 @@
 <div id="voxel-onboarding" v-cloak class="ts-container ts-theme-options" data-config="<?= esc_attr( wp_json_encode( [
-	'license' => \Voxel\get( 'license', [] ),
+	'license' => \Voxel\get_license_data(),
 	'tab' => $_GET['tab'] ?? 'welcome',
 ] ) ) ?>">
 	<div class="inner-tab ts-row wrap-row all-center">

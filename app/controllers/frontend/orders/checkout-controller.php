@@ -70,6 +70,7 @@ class Checkout_Controller extends \Voxel\Controllers\Base_Controller {
 						'post_author' => $session->customer->get_id(),
 					] );
 					$session->post->set_verified(true);
+					\Voxel\cache_user_post_stats( $session->customer->get_id() );
 				}
 
 				( new \Voxel\Events\Orders\Customer_Order_Placed_Event )->dispatch( $order->get_id() );

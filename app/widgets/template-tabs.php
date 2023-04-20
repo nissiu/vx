@@ -36,6 +36,7 @@ class Template_Tabs extends Base_Widget {
 			'label' => __( 'Template', 'voxel-elementor' ),
 			'description' => 'Select the template that will be used to render the contents of this tab',
 			'type' => 'voxel-post-select',
+			'post_type' => [ 'page', 'elementor_library' ],
 		] );
 
 		$repeater->add_control( 'url_key', [

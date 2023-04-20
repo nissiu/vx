@@ -14,6 +14,9 @@ class Search_Controller extends \Voxel\Controllers\Base_Controller {
 
 		$this->on( 'voxel_ajax_quick_search', '@quick_search' );
 		$this->on( 'voxel_ajax_nopriv_quick_search', '@quick_search' );
+
+		$this->on( 'voxel_ajax_get_preview_card', '@get_preview_card' );
+		$this->on( 'voxel_ajax_nopriv_get_preview_card', '@get_preview_card' );
 	}
 
 	protected function search_posts() {
@@ -22,7 +25,6 @@ class Search_Controller extends \Voxel\Controllers\Base_Controller {
 		$results = \Voxel\get_search_results( $_GET, [
 			'limit' => $limit,
 			'template_id' => is_numeric( $_GET['__template_id'] ?? null ) ? (int) $_GET['__template_id'] : null,
-			'map_template_id' => is_numeric( $_GET['__map_template_id'] ?? null ) ? (int) $_GET['__map_template_id'] : null,
 			'get_total_count' => ! empty( $_GET['__get_total_count'] ),
 		] );
 		echo $results['render'];
@@ -142,6 +144,32 @@ class Search_Controller extends \Voxel\Controllers\Base_Controller {
 			return wp_send_json( [
 				'success' => false,
 				'message' => $e->getMessage(),
+			] );
+		}
+	}
+
+	protected function get_preview_card() {
+		try {
+			$post = \Voxel\Post::get( $_GET['post_id'] ?? null );
+			if ( ! ( $post && $post->post_type && $post->post_type->is_managed_by_voxel() ) ) {
+				throw new \Exception( 'Invalid request.', 101 );
+			}
+
+			$template_id = absint( $_GET['template_id'] ?? null );
+			$templates = $post->post_type->get_templates();
+			$custom_card_templates = array_column( $post->post_type->repository->get_custom_templates()['card'], 'id' );
+			if ( ! ( $template_id === $templates['card'] || in_array( $template_id, $custom_card_templates ) ) ) {
+				throw new \Exception( 'Invalid request.', 102 );
+			}
+
+			\Voxel\set_current_post( $post );
+			\Voxel\print_template( $template_id );
+			exit;
+		} catch ( \Exception $e ) {
+			return wp_send_json( [
+				'success' => false,
+				'message' => $e->getMessage(),
+				'code' => $e->getCode(),
 			] );
 		}
 	}

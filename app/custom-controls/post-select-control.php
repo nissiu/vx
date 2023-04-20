@@ -16,7 +16,7 @@ class Post_Select_Control extends \Elementor\Base_Data_Control {
 		return [
 			'label' => '',
 			'label_block' => true,
-			'post_type' => [ 'page', 'elementor_library' ],
+			'post_type' => [],
 		];
 	}
 

@@ -56,7 +56,7 @@ class Order_List_Table extends \WP_List_Table {
 				$post->get_logo_markup(),
 				get_edit_post_link( $post->get_id() ),
 				$post->get_title()
-			) : '&mdash';
+			) : '&mdash;';
 		} elseif ( $column_name === 'amount' ) {
 			if ( $order->get_price()['amount'] ) {
 				return sprintf( '<span class="price-amount">%s</span> %s', $order->get_price_for_display(), $order->get_price_period_for_display() );

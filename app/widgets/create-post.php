@@ -5873,6 +5873,7 @@ class Create_Post extends Base_Widget {
 		$config = [
 			'is_admin_mode' => $is_admin_mode,
 			'admin_mode_nonce' => $this->get_settings('_ts_admin_mode_nonce'),
+			'autocomplete' => $this->_get_autocomplete_config(),
 		];
 
 		$config['post_type'] = [
@@ -5900,10 +5901,18 @@ class Create_Post extends Base_Widget {
 
 		$config['fields'] = [];
 		$config['steps'] = [];
+		$config['errors'] = [];
 		$hidden_steps = [];
 		foreach ( $post_type->get_fields() as $field ) {
 			if ( $post ) {
 				$field->set_post( $post );
+			}
+
+			try {
+				$field->check_dependencies();
+			} catch ( \Exception $e ) {
+				$config['errors'][] = sprintf( '[VX_CONFIG_ERROR] %s: %s', $field->get_key(), $e->getMessage() );
+				continue;
 			}
 
 			if ( isset( $hidden_steps[ $field->get_step() ] ) || ! $field->passes_visibility_rules() ) {
@@ -5945,4 +5954,18 @@ class Create_Post extends Base_Widget {
 
 	protected function content_template() {}
 	public function render_plain_content( $instance = [] ) {}
+
+	public function _get_autocomplete_config() {
+		if ( \Voxel\get( 'settings.maps.provider' ) === 'mapbox' ) {
+			return [
+				'countries' => array_filter( (array) \Voxel\get( 'settings.maps.mapbox.autocomplete.countries' ) ),
+				'feature_types' => array_filter( (array) \Voxel\get( 'settings.maps.mapbox.autocomplete.feature_types_in_submission' ) ),
+			];
+		} else {
+			return [
+				'countries' => array_filter( (array) \Voxel\get( 'settings.maps.google_maps.autocomplete.countries' ) ),
+				'feature_types' => array_filter( (array) \Voxel\get( 'settings.maps.google_maps.autocomplete.feature_types_in_submission' ) ),
+			];
+		}
+	}
 }

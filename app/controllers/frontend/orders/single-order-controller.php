@@ -56,6 +56,10 @@ class Single_Order_Controller extends \Voxel\Controllers\Base_Controller {
 				],
 				'subscription' => $order->get_subscription_details(),
 				'is_free' => $order->is_free(),
+				'price' => [
+					'amount' => $order->get_price_for_display(),
+					'period' => $order->get_price_period_for_display(),
+				],
 				'pricing' => $order->get_pricing_details(),
 				'booking' => $order->get_booking_details(),
 				'additions' => $order->get_additions_details(),
@@ -147,7 +151,7 @@ class Single_Order_Controller extends \Voxel\Controllers\Base_Controller {
 		$is_customer = \Voxel\current_user()->is_customer_of( $order->get_id() );
 
 		$actions = [];
-		if ( $order->get_mode() === 'payment' ) {
+		if ( $order->get_mode() === 'payment' || $order->is_catalog_mode() ) {
 			if ( $is_author ) {
 				if ( $order->get_status() === \Voxel\Order::STATUS_PENDING_APPROVAL ) {
 					$actions[] = 'author.decline';

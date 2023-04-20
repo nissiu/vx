@@ -10,7 +10,7 @@ if ( ! defined('ABSPATH') ) {
 }
 
 $accent = Voxel\get_accent_color();
-$logo = wp_get_attachment_image_url( get_option('site_logo') );
+$logo_height = 50; // px
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes() ?>>
@@ -116,11 +116,6 @@ $logo = wp_get_attachment_image_url( get_option('site_logo') );
 			border-top: 1px solid #b3bdc2;
 			margin-top: 50px;
 			padding-top: 20px;
-		}
-
-		.ts-email-top img {
-			height: 50px;
-			width: 50px;
 		}
 
 		/* BUTTONS */
@@ -234,9 +229,9 @@ $logo = wp_get_attachment_image_url( get_option('site_logo') );
 								<table role="presentation" border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td class="ts-email-content">
-											<?php if ( $logo ): ?>
+											<?php if ( $logo = wp_get_attachment_image_src( get_option('site_logo'), 'medium' ) ): ?>
 												<div class="ts-email-top">
-													<img src="<?= esc_attr( $logo ) ?>" height="50">
+													<img src="<?= esc_attr( $logo[0] ) ?>" height="<?= intval( $logo_height ) ?>" width="<?= intval( ( $logo_height * $logo[1] ) / $logo[2] ) ?>">
 												</div>
 											<?php endif ?>
 											<?= $message ?>

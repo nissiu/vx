@@ -18,6 +18,7 @@ class Relation_Control extends \Elementor\Base_Data_Control {
 			'vx_group' => '',
 			'vx_target' => '',
 			'vx_side' => 'left',
+			'reload' => 'preview',
 		];
 	}
 
@@ -26,6 +27,11 @@ class Relation_Control extends \Elementor\Base_Data_Control {
 		<div class="elementor-control-field">
 			<label class="elementor-control-title">{{{ data.label }}}</label>
 			<div class="vx-relation-list elementor-control-input-wrapper"></div>
+			<# if ( data.reload === 'editor' ) { #>
+				<a href="#" onclick="voxel_reload_editor(); return false;" class="elementor-button">Apply changes</a>
+			<# } else { #>
+				<a href="#" onclick="voxel_reload_preview(); return false;" class="elementor-button">Apply changes</a>
+			<# } #>
 			<div class="elementor-control-field-description">{{{ data.description }}}</div>
 		</div>
 		<?php

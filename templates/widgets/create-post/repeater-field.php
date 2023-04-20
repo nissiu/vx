@@ -13,7 +13,7 @@
 					</label>
 					<div class="ts-repeater-controller">
 						<a href="#" @click.prevent="deleteRow(row)" class="ts-icon-btn ts-smaller">
-							<?= \Voxel\get_icon_markup( $this->get_settings_for_display('trash_icon') ) ?: \Voxel\svg( 'minus.svg' ) ?>
+							<?= \Voxel\get_icon_markup( $this->get_settings_for_display('trash_icon') ) ?: \Voxel\svg( 'trash-can.svg' ) ?>
 						</a>
 						<a href="#" class="ts-icon-btn ts-smaller" @click.prevent="row['meta:state'].collapsed = !row['meta:state'].collapsed">
 							<?= \Voxel\get_icon_markup( $this->get_settings_for_display('down_icon') ) ?: \Voxel\svg( 'chevron-down.svg' ) ?>

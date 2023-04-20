@@ -67,11 +67,13 @@ class Terms_Filter extends Base_Filter {
 		$ids_string = join( ',', $ids );
 
 		$query->join( "
-			LEFT JOIN {$wpdb->term_relationships} AS `{$join_key}`
-				ON ( `{$query->table->get_escaped_name()}`.post_id = `{$join_key}`.object_id )
+			LEFT JOIN {$wpdb->term_relationships} AS `{$join_key}_tr`
+				ON ( `{$query->table->get_escaped_name()}`.post_id = `{$join_key}_tr`.object_id )
+			LEFT JOIN {$wpdb->term_taxonomy} AS `{$join_key}_tt`
+				ON ( `{$join_key}_tr`.term_taxonomy_id = `{$join_key}_tt`.term_taxonomy_id )
 		" );
 
-		$query->where( "`{$join_key}`.term_taxonomy_id IN ({$ids_string})" );
+		$query->where( "`{$join_key}_tt`.term_id IN ({$ids_string})" );
 	}
 
 	protected function _get_taxonomy() {

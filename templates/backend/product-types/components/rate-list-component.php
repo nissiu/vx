@@ -7,6 +7,11 @@ if ( ! defined('ABSPATH') ) {
 		<div v-for="rate in modelValue" class="single-field wide">
 			<div class="field-head">
 				<p class="field-name">{{ rate }}</p>
+				<div class="field-actions">
+					<a href="#" @click.prevent="remove(rate)" class="field-action all-center">
+						<i class="las la-trash"></i>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>

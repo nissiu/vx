@@ -102,8 +102,22 @@ class Gallery extends Base_Widget {
 					'max' => 6,
 					'step' => 1,
 					'default' => 3,
+					'condition' => [ 'ts_gl_autofit' => '' ],
 					'selectors' => [
 						'{{WRAPPER}} .ts-gallery-grid' => 'grid-template-columns: repeat({{VALUE}}, minmax(0, 1fr));',
+					],
+				]
+			);
+
+			$this->add_control(
+				'ts_gl_autofit',
+				[
+					'label' => __( 'Auto fit?', 'voxel-elementor' ),
+
+					'type' => \Elementor\Controls_Manager::SWITCHER,
+					'return_value' => 'yes',
+					'selectors' => [
+						'{{WRAPPER}} .ts-gallery-grid' => 'grid-template-columns: repeat(auto-fit, minmax(0, 1fr));',
 					],
 				]
 			);

@@ -6,7 +6,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-03-19 22:27+0000\n"
+"POT-Creation-Date: 2023-04-08 19:04+0000\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -538,35 +538,35 @@ msgctxt "orders table"
 msgid "Search vendor"
 msgstr ""
 
-#: app/widgets/map.php:57
+#: app/widgets/map.php:58
 msgid "Yes"
 msgstr ""
 
-#: app/widgets/map.php:58
+#: app/widgets/map.php:59
 msgid "No"
 msgstr ""
 
-#: app/widgets/map.php:162
+#: app/widgets/map.php:163
 msgctxt "Explore map"
 msgid "Default latitude"
 msgstr ""
 
-#: app/widgets/map.php:172
+#: app/widgets/map.php:173
 msgctxt "Explore map"
 msgid "Default longitude"
 msgstr ""
 
-#: app/widgets/map.php:182
+#: app/widgets/map.php:183
 msgctxt "Explore map"
 msgid "Default zoom level"
 msgstr ""
 
-#: app/widgets/map.php:190
+#: app/widgets/map.php:191
 msgctxt "Explore map"
 msgid "Minimum zoom level"
 msgstr ""
 
-#: app/widgets/map.php:200
+#: app/widgets/map.php:201
 msgctxt "Explore map"
 msgid "Maximum zoom level"
 msgstr ""
@@ -671,11 +671,11 @@ msgstr ""
 msgid "Enable on desktop"
 msgstr ""
 
-#: app/controllers/elementor/container-controller.php:41, app/controllers/elementor/container-controller.php:58, app/controllers/elementor/container-controller.php:75, app/controllers/elementor/document-controller.php:46, app/controllers/elementor/document-controller.php:62, app/controllers/elementor/document-controller.php:78, app/controllers/elementor/widget-controller.php:124, app/controllers/elementor/widget-controller.php:141, app/controllers/elementor/widget-controller.php:158
+#: app/controllers/elementor/container-controller.php:41, app/controllers/elementor/container-controller.php:58, app/controllers/elementor/container-controller.php:75, app/controllers/elementor/document-controller.php:59, app/controllers/elementor/document-controller.php:75, app/controllers/elementor/document-controller.php:91, app/controllers/elementor/widget-controller.php:124, app/controllers/elementor/widget-controller.php:141, app/controllers/elementor/widget-controller.php:158
 msgid "Enable"
 msgstr ""
 
-#: app/controllers/elementor/container-controller.php:42, app/controllers/elementor/container-controller.php:59, app/controllers/elementor/container-controller.php:76, app/controllers/elementor/document-controller.php:47, app/controllers/elementor/document-controller.php:63, app/controllers/elementor/document-controller.php:79, app/controllers/elementor/widget-controller.php:125, app/controllers/elementor/widget-controller.php:142, app/controllers/elementor/widget-controller.php:159
+#: app/controllers/elementor/container-controller.php:42, app/controllers/elementor/container-controller.php:59, app/controllers/elementor/container-controller.php:76, app/controllers/elementor/document-controller.php:60, app/controllers/elementor/document-controller.php:76, app/controllers/elementor/document-controller.php:92, app/controllers/elementor/widget-controller.php:125, app/controllers/elementor/widget-controller.php:142, app/controllers/elementor/widget-controller.php:159
 msgid "Disable"
 msgstr ""
 
@@ -687,19 +687,19 @@ msgstr ""
 msgid "Enable on mobile"
 msgstr ""
 
-#: app/controllers/elementor/container-controller.php:89, app/controllers/elementor/document-controller.php:90, app/controllers/elementor/widget-controller.php:172
+#: app/controllers/elementor/container-controller.php:89, app/controllers/elementor/document-controller.php:103, app/controllers/elementor/widget-controller.php:172
 msgid "Top"
 msgstr ""
 
-#: app/controllers/elementor/container-controller.php:106, app/controllers/elementor/document-controller.php:106, app/controllers/elementor/widget-controller.php:189
+#: app/controllers/elementor/container-controller.php:106, app/controllers/elementor/document-controller.php:119, app/controllers/elementor/widget-controller.php:189
 msgid "Left"
 msgstr ""
 
-#: app/controllers/elementor/container-controller.php:123, app/controllers/elementor/document-controller.php:122, app/controllers/elementor/widget-controller.php:206
+#: app/controllers/elementor/container-controller.php:123, app/controllers/elementor/document-controller.php:135, app/controllers/elementor/widget-controller.php:206
 msgid "Right"
 msgstr ""
 
-#: app/controllers/elementor/container-controller.php:140, app/controllers/elementor/document-controller.php:138, app/controllers/elementor/widget-controller.php:223
+#: app/controllers/elementor/container-controller.php:140, app/controllers/elementor/document-controller.php:151, app/controllers/elementor/widget-controller.php:223
 msgid "Bottom"
 msgstr ""
 
@@ -743,11 +743,11 @@ msgstr ""
 msgid "Calculate min height?"
 msgstr ""
 
-#: app/controllers/elementor/container-controller.php:242, app/controllers/elementor/container-controller.php:270, app/controllers/elementor/container-controller.php:310, app/controllers/elementor/container-controller.php:336, app/controllers/elementor/document-controller.php:27, app/controllers/elementor/document-controller.php:35
+#: app/controllers/elementor/container-controller.php:242, app/controllers/elementor/container-controller.php:270, app/controllers/elementor/container-controller.php:310, app/controllers/elementor/container-controller.php:336, app/controllers/elementor/document-controller.php:40, app/controllers/elementor/document-controller.php:48
 msgid "Show"
 msgstr ""
 
-#: app/controllers/elementor/container-controller.php:243, app/controllers/elementor/container-controller.php:271, app/controllers/elementor/container-controller.php:311, app/controllers/elementor/container-controller.php:337, app/controllers/elementor/document-controller.php:26, app/controllers/elementor/document-controller.php:34
+#: app/controllers/elementor/container-controller.php:243, app/controllers/elementor/container-controller.php:271, app/controllers/elementor/container-controller.php:311, app/controllers/elementor/container-controller.php:337, app/controllers/elementor/document-controller.php:39, app/controllers/elementor/document-controller.php:47
 msgid "Hide"
 msgstr ""
 
@@ -839,43 +839,43 @@ msgstr ""
 msgid "Voxel Settings ✨"
 msgstr ""
 
-#: app/controllers/elementor/document-controller.php:23
+#: app/controllers/elementor/document-controller.php:36
 msgid "Hide header on this page"
 msgstr ""
 
-#: app/controllers/elementor/document-controller.php:31
+#: app/controllers/elementor/document-controller.php:44
 msgid "Hide footer on this page"
 msgstr ""
 
-#: app/controllers/elementor/document-controller.php:43
+#: app/controllers/elementor/document-controller.php:56
 msgid "Sticky on desktop"
 msgstr ""
 
-#: app/controllers/elementor/document-controller.php:59
+#: app/controllers/elementor/document-controller.php:72
 msgid "Sticky on tablet"
 msgstr ""
 
-#: app/controllers/elementor/document-controller.php:75
+#: app/controllers/elementor/document-controller.php:88
 msgid "Sticky on mobile"
 msgstr ""
 
-#: app/controllers/elementor/document-controller.php:154
+#: app/controllers/elementor/document-controller.php:167
 msgid "Z-index"
 msgstr ""
 
-#: app/controllers/elementor/document-controller.php:172, app/controllers/elementor/visibility-controller.php:29
+#: app/controllers/elementor/document-controller.php:185, app/controllers/elementor/visibility-controller.php:29
 msgid "Visibility"
 msgstr ""
 
-#: app/controllers/elementor/document-controller.php:177
+#: app/controllers/elementor/document-controller.php:190
 msgid "Document visibility"
 msgstr ""
 
-#: app/controllers/elementor/document-controller.php:192
+#: app/controllers/elementor/document-controller.php:205
 msgid "When document is restricted, display:"
 msgstr ""
 
-#: app/controllers/elementor/document-controller.php:206
+#: app/controllers/elementor/document-controller.php:219
 msgid "Template ID"
 msgstr ""
 
@@ -967,7 +967,7 @@ msgstr ""
 msgid "Widget options"
 msgstr ""
 
-#: app/controllers/onboarding/demo-import-controller.php:142, app/controllers/onboarding/onboarding-controller.php:118
+#: app/controllers/onboarding/demo-import-controller.php:142, app/controllers/onboarding/onboarding-controller.php:121
 msgctxt "onboarding"
 msgid "Verification request failed, please try again."
 msgstr ""
@@ -987,7 +987,7 @@ msgctxt "onboarding"
 msgid "Unpacking..."
 msgstr ""
 
-#: app/controllers/onboarding/demo-import-controller.php:186, app/controllers/onboarding/onboarding-controller.php:62
+#: app/controllers/onboarding/demo-import-controller.php:186, app/controllers/onboarding/onboarding-controller.php:65
 msgctxt "onboarding"
 msgid "Unpacking failed: "
 msgstr ""
@@ -1047,22 +1047,22 @@ msgctxt "onboarding"
 msgid "Finishing up..."
 msgstr ""
 
-#: app/controllers/onboarding/onboarding-controller.php:52
+#: app/controllers/onboarding/onboarding-controller.php:55
 msgctxt "onboarding"
 msgid "Couldn't download Elementor: "
 msgstr ""
 
-#: app/controllers/onboarding/onboarding-controller.php:92, app/controllers/onboarding/onboarding-controller.php:96
+#: app/controllers/onboarding/onboarding-controller.php:95, app/controllers/onboarding/onboarding-controller.php:99
 msgctxt "onboarding"
 msgid "Invalid license key."
 msgstr ""
 
-#: app/controllers/onboarding/onboarding-controller.php:101
+#: app/controllers/onboarding/onboarding-controller.php:104
 msgctxt "onboarding"
 msgid "Site environment not provided."
 msgstr ""
 
-#: app/controllers/onboarding/onboarding-controller.php:122
+#: app/controllers/onboarding/onboarding-controller.php:125
 msgctxt "onboarding"
 msgid "Could not verify license."
 msgstr ""
@@ -1417,17 +1417,17 @@ msgctxt "field conditions"
 msgid "Not equals"
 msgstr ""
 
-#: app/post-types/filters/availability-filter.php:320, app/post-types/filters/availability-filter.php:329, app/post-types/filters/keywords-filter.php:167, app/post-types/filters/traits/date-filter-helpers.php:90, app/post-types/filters/traits/date-filter-helpers.php:99
+#: app/post-types/filters/availability-filter.php:322, app/post-types/filters/availability-filter.php:331, app/post-types/filters/keywords-filter.php:167, app/post-types/filters/traits/date-filter-helpers.php:92, app/post-types/filters/traits/date-filter-helpers.php:101
 msgctxt "date filter"
 msgid "Default value"
 msgstr ""
 
-#: app/post-types/filters/availability-filter.php:338, app/post-types/filters/traits/date-filter-helpers.php:108
+#: app/post-types/filters/availability-filter.php:340, app/post-types/filters/traits/date-filter-helpers.php:110
 msgctxt "date filter"
 msgid "Default start date"
 msgstr ""
 
-#: app/post-types/filters/availability-filter.php:344, app/post-types/filters/traits/date-filter-helpers.php:114
+#: app/post-types/filters/availability-filter.php:346, app/post-types/filters/traits/date-filter-helpers.php:116
 msgctxt "date filter"
 msgid "Default end date"
 msgstr ""
@@ -1602,47 +1602,47 @@ msgctxt "switcher filter"
 msgid "Unchecked"
 msgstr ""
 
-#: app/post-types/filters/terms-filter.php:170
+#: app/post-types/filters/terms-filter.php:172
 msgctxt "terms filter"
 msgid "Default value"
 msgstr ""
 
-#: app/post-types/filters/terms-filter.php:175
+#: app/post-types/filters/terms-filter.php:177
 msgctxt "terms_filter"
 msgid "Display as"
 msgstr ""
 
-#: app/post-types/filters/terms-filter.php:178
+#: app/post-types/filters/terms-filter.php:180
 msgctxt "terms_filter"
 msgid "Popup"
 msgstr ""
 
-#: app/post-types/filters/terms-filter.php:179
+#: app/post-types/filters/terms-filter.php:181
 msgctxt "terms_filter"
 msgid "Inline"
 msgstr ""
 
-#: app/post-types/filters/terms-filter.php:184
+#: app/post-types/filters/terms-filter.php:186
 msgid "Additional settings"
 msgstr ""
 
-#: app/post-types/filters/terms-filter.php:191
+#: app/post-types/filters/terms-filter.php:193
 msgid "Multi column list"
 msgstr ""
 
-#: app/post-types/filters/terms-filter.php:199
+#: app/post-types/filters/terms-filter.php:201
 msgid "Menu columns"
 msgstr ""
 
-#: app/post-types/filters/terms-filter.php:200
+#: app/post-types/filters/terms-filter.php:202
 msgid "We recommend increasing popup min width before if you plan to display the menu in multiple columns"
 msgstr ""
 
-#: app/post-types/filters/terms-filter.php:214
+#: app/post-types/filters/terms-filter.php:216
 msgid "Row gap"
 msgstr ""
 
-#: app/post-types/filters/terms-filter.php:232
+#: app/post-types/filters/terms-filter.php:234
 msgid "Column gap"
 msgstr ""
 

@@ -127,9 +127,9 @@ class Demo_Import_Controller extends \Voxel\Controllers\Base_Controller {
 			$request_url = add_query_arg( [
 				'action' => 'voxel_licenses.verify',
 				'mode' => 'installing',
-				'environment' => \Voxel\get( 'license.env' ),
-				'license_key' => \Voxel\get( 'license.key' ),
-				'site_url' => home_url('/'),
+				'environment' => \Voxel\get_license_data('env'),
+				'license_key' => \Voxel\get_license_data('key'),
+				'site_url' => \Voxel\get_license_url(),
 				'demo' => sanitize_text_field( $_GET['demo'] ?? 'stays' ),
 			], 'https://getvoxel.io/?vx=1' );
 

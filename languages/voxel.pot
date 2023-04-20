@@ -6,7 +6,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-03-19 22:27+0000\n"
+"POT-Creation-Date: 2023-04-08 19:04+0000\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -269,36 +269,166 @@ msgctxt "addition enabled"
 msgid "Yes"
 msgstr ""
 
-#: app/controllers/assets-controller.php:236
+#: app/controllers/assets-controller.php:238
 msgid "There was a problem. Please try again."
 msgstr ""
 
-#: app/controllers/assets-controller.php:237
+#: app/controllers/assets-controller.php:239
 msgid "Are you sure you want to proceed with this action?"
 msgstr ""
 
-#: app/controllers/assets-controller.php:238
+#: app/controllers/assets-controller.php:240
 msgid "An account is required to perform this action"
 msgstr ""
 
-#: app/controllers/assets-controller.php:239
+#: app/controllers/assets-controller.php:241
 msgid "Log-in"
 msgstr ""
 
-#: app/controllers/assets-controller.php:240
+#: app/controllers/assets-controller.php:242
 msgid "Register"
 msgstr ""
 
-#: app/controllers/assets-controller.php:241
+#: app/controllers/assets-controller.php:243
 msgid "Copied to clipboard"
 msgstr ""
 
-#: app/controllers/assets-controller.php:242
+#: app/controllers/assets-controller.php:244
 msgid "Could not determine your location."
 msgstr ""
 
-#: app/controllers/assets-controller.php:243
+#: app/controllers/assets-controller.php:245
 msgid "Could not determine your address."
+msgstr ""
+
+#: app/controllers/assets-controller.php:247
+msgctxt "months"
+msgid "January"
+msgstr ""
+
+#: app/controllers/assets-controller.php:248
+msgctxt "months"
+msgid "February"
+msgstr ""
+
+#: app/controllers/assets-controller.php:249
+msgctxt "months"
+msgid "March"
+msgstr ""
+
+#: app/controllers/assets-controller.php:250
+msgctxt "months"
+msgid "April"
+msgstr ""
+
+#: app/controllers/assets-controller.php:251
+msgctxt "months"
+msgid "May"
+msgstr ""
+
+#: app/controllers/assets-controller.php:252
+msgctxt "months"
+msgid "June"
+msgstr ""
+
+#: app/controllers/assets-controller.php:253
+msgctxt "months"
+msgid "July"
+msgstr ""
+
+#: app/controllers/assets-controller.php:254
+msgctxt "months"
+msgid "August"
+msgstr ""
+
+#: app/controllers/assets-controller.php:255
+msgctxt "months"
+msgid "September"
+msgstr ""
+
+#: app/controllers/assets-controller.php:256
+msgctxt "months"
+msgid "October"
+msgstr ""
+
+#: app/controllers/assets-controller.php:257
+msgctxt "months"
+msgid "November"
+msgstr ""
+
+#: app/controllers/assets-controller.php:258
+msgctxt "months"
+msgid "December"
+msgstr ""
+
+#: app/controllers/assets-controller.php:261, app/utils/utils.php:204
+msgctxt "weekdays"
+msgid "Sunday"
+msgstr ""
+
+#: app/controllers/assets-controller.php:262, app/utils/utils.php:198
+msgctxt "weekdays"
+msgid "Monday"
+msgstr ""
+
+#: app/controllers/assets-controller.php:263, app/utils/utils.php:199
+msgctxt "weekdays"
+msgid "Tuesday"
+msgstr ""
+
+#: app/controllers/assets-controller.php:264, app/utils/utils.php:200
+msgctxt "weekdays"
+msgid "Wednesday"
+msgstr ""
+
+#: app/controllers/assets-controller.php:265, app/utils/utils.php:201
+msgctxt "weekdays"
+msgid "Thursday"
+msgstr ""
+
+#: app/controllers/assets-controller.php:266, app/utils/utils.php:202
+msgctxt "weekdays"
+msgid "Friday"
+msgstr ""
+
+#: app/controllers/assets-controller.php:267, app/utils/utils.php:203
+msgctxt "weekdays"
+msgid "Saturday"
+msgstr ""
+
+#: app/controllers/assets-controller.php:270
+msgctxt "weekdays short"
+msgid "Sun"
+msgstr ""
+
+#: app/controllers/assets-controller.php:271
+msgctxt "weekdays short"
+msgid "Mon"
+msgstr ""
+
+#: app/controllers/assets-controller.php:272
+msgctxt "weekdays short"
+msgid "Tue"
+msgstr ""
+
+#: app/controllers/assets-controller.php:273
+msgctxt "weekdays short"
+msgid "Wed"
+msgstr ""
+
+#: app/controllers/assets-controller.php:274
+msgctxt "weekdays short"
+msgid "Thu"
+msgstr ""
+
+#: app/controllers/assets-controller.php:275
+msgctxt "weekdays short"
+msgid "Fri"
+msgstr ""
+
+#: app/controllers/assets-controller.php:276
+msgctxt "weekdays short"
+msgid "Sat"
 msgstr ""
 
 #: app/controllers/post-controller.php:166
@@ -331,9 +461,19 @@ msgctxt "messages"
 msgid "You sent a file"
 msgstr ""
 
+#: app/direct-messages/message.php:207
+msgctxt "messages"
+msgid "You sent @amount files"
+msgstr ""
+
 #: app/direct-messages/message.php:213
 msgctxt "messages"
 msgid "Sent a file"
+msgstr ""
+
+#: app/direct-messages/message.php:214
+msgctxt "messages"
+msgid "Sent @amount files"
 msgstr ""
 
 #: app/direct-messages/message.php:219
@@ -411,7 +551,7 @@ msgctxt "auth"
 msgid "Your confirmation code is %s"
 msgstr ""
 
-#: app/users/security-trait.php:34, app/users/security-trait.php:65, app/users/security-trait.php:97, app/controllers/frontend/inbox-controller.php:287, app/controllers/frontend/inbox-controller.php:563, app/controllers/frontend/inbox-controller.php:622, app/controllers/frontend/inbox-controller.php:671, app/controllers/frontend/inbox-controller.php:675, app/controllers/frontend/tabs-controller.php:26, app/controllers/frontend/tabs-controller.php:32, app/controllers/frontend/tabs-controller.php:40, app/controllers/frontend/tabs-controller.php:95, app/controllers/frontend/tabs-controller.php:109, app/controllers/frontend/user-controller.php:91, app/controllers/frontend/user-controller.php:230, app/controllers/onboarding/onboarding-controller.php:87, app/controllers/frontend/orders/orders-controller.php:505, app/controllers/frontend/orders/reservations-controller.php:117
+#: app/users/security-trait.php:34, app/users/security-trait.php:65, app/users/security-trait.php:97, app/controllers/frontend/inbox-controller.php:287, app/controllers/frontend/inbox-controller.php:563, app/controllers/frontend/inbox-controller.php:622, app/controllers/frontend/inbox-controller.php:671, app/controllers/frontend/inbox-controller.php:675, app/controllers/frontend/tabs-controller.php:26, app/controllers/frontend/tabs-controller.php:32, app/controllers/frontend/tabs-controller.php:40, app/controllers/frontend/tabs-controller.php:95, app/controllers/frontend/tabs-controller.php:109, app/controllers/frontend/user-controller.php:91, app/controllers/frontend/user-controller.php:230, app/controllers/onboarding/onboarding-controller.php:90, app/controllers/frontend/orders/orders-controller.php:506, app/controllers/frontend/orders/reservations-controller.php:117
 msgid "Invalid request."
 msgstr ""
 
@@ -490,41 +630,6 @@ msgstr ""
 #: app/utils/security-utils.php:48
 msgctxt "validate password"
 msgid "Password must contain at least one letter."
-msgstr ""
-
-#: app/utils/utils.php:198
-msgctxt "weekdays"
-msgid "Monday"
-msgstr ""
-
-#: app/utils/utils.php:199
-msgctxt "weekdays"
-msgid "Tuesday"
-msgstr ""
-
-#: app/utils/utils.php:200
-msgctxt "weekdays"
-msgid "Wednesday"
-msgstr ""
-
-#: app/utils/utils.php:201
-msgctxt "weekdays"
-msgid "Thursday"
-msgstr ""
-
-#: app/utils/utils.php:202
-msgctxt "weekdays"
-msgid "Friday"
-msgstr ""
-
-#: app/utils/utils.php:203
-msgctxt "weekdays"
-msgid "Saturday"
-msgstr ""
-
-#: app/utils/utils.php:204
-msgctxt "weekdays"
-msgid "Sunday"
 msgstr ""
 
 #: app/utils/utils.php:348
@@ -607,22 +712,22 @@ msgctxt "range presets"
 msgid "Next month"
 msgstr ""
 
-#: app/utils/utils.php:882
+#: app/utils/utils.php:863
 msgctxt "post feed"
 msgid "Showing @count out of @total results"
 msgstr ""
 
-#: app/utils/utils.php:878
+#: app/utils/utils.php:859
 msgctxt "post feed"
 msgid "@count results"
 msgstr ""
 
-#: app/utils/utils.php:876
+#: app/utils/utils.php:857
 msgctxt "post feed"
 msgid "One result"
 msgstr ""
 
-#: app/utils/utils.php:874
+#: app/utils/utils.php:855
 msgctxt "post feed"
 msgid "No results"
 msgstr ""
@@ -766,7 +871,7 @@ msgctxt "single order"
 msgid "Sync with Stripe"
 msgstr ""
 
-#: app/widgets/search-form.php:391
+#: app/widgets/search-form.php:392
 msgid "Switch position to center of screen"
 msgstr ""
 
@@ -863,27 +968,27 @@ msgctxt "create post"
 msgid "Back to editing"
 msgstr ""
 
-#: templates/widgets/create-post.php:113
+#: templates/widgets/create-post.php:119
 msgctxt "create post"
 msgid "Previous step"
 msgstr ""
 
-#: templates/widgets/create-post.php:118
+#: templates/widgets/create-post.php:124
 msgctxt "create post"
 msgid "Next step"
 msgstr ""
 
-#: templates/widgets/create-post.php:134, templates/widgets/create-post.php:146
+#: templates/widgets/create-post.php:140, templates/widgets/create-post.php:152
 msgctxt "create post"
 msgid "Please wait"
 msgstr ""
 
-#: templates/widgets/create-post.php:137
+#: templates/widgets/create-post.php:143
 msgctxt "create post"
 msgid "Publish"
 msgstr ""
 
-#: templates/widgets/create-post.php:150
+#: templates/widgets/create-post.php:156
 msgctxt "create post"
 msgid "Save changes"
 msgstr ""
@@ -1548,22 +1653,22 @@ msgctxt "search form"
 msgid "Filter results"
 msgstr ""
 
-#: templates/widgets/search-form.php:50
+#: templates/widgets/search-form.php:60
 msgctxt "search form"
 msgid "Clear"
 msgstr ""
 
-#: templates/widgets/search-form.php:53
+#: templates/widgets/search-form.php:63
 msgctxt "search form"
 msgid "Search"
 msgstr ""
 
-#: templates/widgets/search-form.php:176
+#: templates/widgets/search-form.php:186
 msgctxt "search form"
 msgid "List view"
 msgstr ""
 
-#: templates/widgets/search-form.php:189
+#: templates/widgets/search-form.php:199
 msgctxt "search form"
 msgid "Map view"
 msgstr ""
@@ -1755,7 +1860,7 @@ msgctxt "notifications"
 msgid "Notification not found."
 msgstr ""
 
-#: app/controllers/frontend/search-controller.php:50
+#: app/controllers/frontend/search-controller.php:52
 msgctxt "quick search"
 msgid "Post type not found."
 msgstr ""
@@ -1818,7 +1923,7 @@ msgstr ""
 msgid "Permission denied."
 msgstr ""
 
-#: app/controllers/onboarding/onboarding-controller.php:25, app/controllers/onboarding/onboarding-controller.php:26
+#: app/controllers/onboarding/onboarding-controller.php:28, app/controllers/onboarding/onboarding-controller.php:29
 msgid "Onboarding"
 msgstr ""
 
@@ -1832,22 +1937,22 @@ msgctxt "field validation"
 msgid "@field_name cannot be more than @length"
 msgstr ""
 
-#: app/post-types/fields/product-field.php:266
+#: app/post-types/fields/product-field.php:270
 msgctxt "product field"
 msgid "Day(s)"
 msgstr ""
 
-#: app/post-types/fields/product-field.php:267
+#: app/post-types/fields/product-field.php:271
 msgctxt "product field"
 msgid "Week(s)"
 msgstr ""
 
-#: app/post-types/fields/product-field.php:268
+#: app/post-types/fields/product-field.php:272
 msgctxt "product field"
 msgid "Month(s)"
 msgstr ""
 
-#: app/post-types/fields/product-field.php:276
+#: app/post-types/fields/product-field.php:280
 msgctxt "product field"
 msgid "Downloads"
 msgstr ""
@@ -2974,12 +3079,12 @@ msgctxt "pricing plans"
 msgid "Subscription has been reactivated."
 msgstr ""
 
-#: app/controllers/frontend/orders/checkout-controller.php:108
+#: app/controllers/frontend/orders/checkout-controller.php:109
 msgctxt "checkout"
 msgid "Redirecting to checkout..."
 msgstr ""
 
-#: app/controllers/frontend/orders/checkout-controller.php:115
+#: app/controllers/frontend/orders/checkout-controller.php:116
 msgctxt "checkout"
 msgid "Something went wrong"
 msgstr ""

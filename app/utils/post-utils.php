@@ -61,7 +61,6 @@ function get_search_results( $request, $options = [] ) {
 		'render' => true,
 		'ids' => null,
 		'template_id' => null,
-		'map_template_id' => null,
 		'get_total_count' => false,
 		'exclude' => [],
 	], $options );
@@ -86,14 +85,6 @@ function get_search_results( $request, $options = [] ) {
 		$custom_card_templates = array_column( $post_type->repository->get_custom_templates()['card'], 'id' );
 		if ( in_array( $options['template_id'], $custom_card_templates ) ) {
 			$template_id = $options['template_id'];
-		}
-	}
-
-	$map_template_id = $template_id;
-	if ( is_numeric( $options['map_template_id'] ) ) {
-		$custom_card_templates = array_column( $post_type->repository->get_custom_templates()['card'], 'id' );
-		if ( in_array( $options['map_template_id'], $custom_card_templates ) ) {
-			$map_template_id = $options['map_template_id'];
 		}
 	}
 
@@ -180,6 +171,12 @@ function get_search_results( $request, $options = [] ) {
 			$current_request_post = \Voxel\get_current_post();
 
 			$has_results = false;
+
+			// needs to be a closure to avoid issues with nested post feeds
+			$_return_false = function() {
+				return false;
+			};
+
 			foreach ( $results['ids'] as $i => $post_id ) {
 				$post = \Voxel\Post::get( $post_id );
 				if ( ! $post ) {
@@ -187,7 +184,7 @@ function get_search_results( $request, $options = [] ) {
 				}
 
 				if ( $i !== 0 ) {
-					add_filter( 'elementor/frontend/builder_content/before_print_css', '__return_false' );
+					add_filter( 'elementor/frontend/builder_content/before_print_css', $_return_false );
 				}
 
 				if ( is_admin() ) {
@@ -204,17 +201,11 @@ function get_search_results( $request, $options = [] ) {
 					echo '<div class="ts-marker-wrapper hidden">';
 					echo _post_get_marker( $post );
 					echo '</div>';
-
-					if ( $template_id !== $map_template_id && \Voxel\template_exists( $map_template_id ) ) {
-						echo '<div class="ts-preview-popup-wrapper hidden"><div class="ts-preview ts-preview-popup">';
-						\Voxel\print_template( $map_template_id );
-						echo '</div></div>';
-					}
 				}
 
 				echo '</div>';
 
-				remove_filter( 'elementor/frontend/builder_content/before_print_css', '__return_false' );
+				remove_filter( 'elementor/frontend/builder_content/before_print_css', $_return_false );
 
 				do_action( 'qm/lap', 'render_search_results' );
 			}
@@ -223,6 +214,7 @@ function get_search_results( $request, $options = [] ) {
 			if ( $current_request_post ) {
 				\Voxel\set_current_post( $current_request_post );
 			}
+
 			if ( \Voxel\is_dev_mode() ) { ?>
 				<script type="text/javascript">
 					<?php if ( ! is_array( $options['ids'] ) ): ?>

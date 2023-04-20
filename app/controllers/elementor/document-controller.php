@@ -19,6 +19,19 @@ class Document_Controller extends \Voxel\Controllers\Base_Controller {
 			'tab' => 'tab_voxel',
 		] );
 
+		if ( $post_type = \Voxel\get_post_type_for_preview( $document->get_main_id() ) ) {
+			$document->add_control( 'voxel_preview_post', [
+				'label' => __( 'Post to use in preview', 'voxel-elementor' ),
+				'type' => 'voxel-post-select',
+				'post_type' => [ $post_type->get_key() ],
+			] );
+
+			$document->add_control( 'voxel_preview_post_apply', [
+				'type' => \Elementor\Controls_Manager::RAW_HTML,
+				'raw' => '<a href="#" onclick="voxel_reload_editor(); return false;" class="elementor-button">Apply changes</a>',
+			] );
+		}
+
 		$document->add_control( 'voxel_hide_header', [
 			'label' => __( 'Hide header on this page', 'voxel-backend' ),
 			'type' => \Elementor\Controls_Manager::SWITCHER,

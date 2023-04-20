@@ -278,15 +278,17 @@ class Availability_Filter extends Base_Filter {
 		}
 
 		$value = $this->parse_value( $this->get_value() );
+		$start_stamp = strtotime( $value['start'] ?? '' );
+		$end_stamp = strtotime( $value['end'] ?? '' );
 		return [
 			'inputMode' => $this->props['input_mode'],
 			'value' => [
-				'start' => is_array( $value ) ? $value['start'] : null,
-				'end' => is_array( $value ) ? $value['end'] : null,
+				'start' => $start_stamp ? date( 'Y-m-d', $start_stamp ) : null,
+				'end' => $end_stamp ? date( 'Y-m-d', $end_stamp ) : null,
 			],
 			'displayValue' => [
-				'start' => is_array( $value ) ? \Voxel\date_format( strtotime( $value['start'] ) ) : null,
-				'end' => is_array( $value ) ? \Voxel\date_format( strtotime( $value['end'] ) ) : null,
+				'start' => $start_stamp ? \Voxel\date_format( $start_stamp ) : null,
+				'end' => $end_stamp ? \Voxel\date_format( $end_stamp ) : null,
 			],
 			'presets' => $this->get_chosen_presets(),
 			'l10n' => [

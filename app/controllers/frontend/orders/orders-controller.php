@@ -458,6 +458,7 @@ class Orders_Controller extends \Voxel\Controllers\Base_Controller {
 						'post_author' => $customer->get_id(),
 					] );
 					$post->set_verified(true);
+					\Voxel\cache_user_post_stats( $customer->get_id() );
 					// \Voxel\log( 'Transferring ownership from vendor to customer' );
 				}
 			}

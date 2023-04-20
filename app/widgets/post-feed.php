@@ -1574,7 +1574,6 @@ class Post_Feed extends Base_Widget {
 			$results = \Voxel\get_search_results( $args, [
 				'limit' => $posts_per_page,
 				'template_id' => $config['template_id'],
-				'map_template_id' => $config['map_template_id'],
 				'get_total_count' => $this->get_settings_for_display('ts_show_total_count') === 'yes',
 			] );
 

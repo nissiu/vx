@@ -32,7 +32,7 @@ class Post_Controller extends Base_Controller {
 		$this->on( 'voxel_ajax_admin.get_fields_form', '@get_fields_form' );
 		$this->on( 'add_meta_boxes', '@remove_taxonomy_metaboxes' );
 
-		$this->filter( 'wp_revisions_to_keep', '@limit_revision_count' );
+		$this->filter( 'wp_revisions_to_keep', '@limit_revision_count', 10, 2 );
 
 		add_theme_support( 'title-tag' );
 		add_theme_support( 'post-thumbnails' );
@@ -341,7 +341,7 @@ class Post_Controller extends Base_Controller {
 		}
 	}
 
-	protected function limit_revision_count( $post ) {
+	protected function limit_revision_count( $num, $post ) {
 		if ( ! ( $post instanceof \WP_Post && $post->post_type && post_type_supports( $post->post_type, 'revisions' ) ) ) {
 			return 0;
 		}

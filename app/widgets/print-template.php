@@ -35,6 +35,7 @@ class Print_Template extends Base_Widget {
 		$this->add_control( 'ts_template_id', [
 			'label' => __( 'Template', 'voxel-elementor' ),
 			'type' => 'voxel-post-select',
+			'post_type' => [ 'page', 'elementor_library' ],
 		] );
 
 		$this->end_controls_section();

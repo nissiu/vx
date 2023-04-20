@@ -2820,7 +2820,26 @@ class Timeline extends Base_Widget {
 
 
 
+			$this->add_control(
+				'cs_pg_width',
+				[
+					'label' => __( 'Min width', 'voxel-elementor' ),
+					'type' => \Elementor\Controls_Manager::SLIDER,
+					'description' => __( 'Does not affect mobile', 'voxel-elementor' ),
+					'size_units' => [ 'px' ],
+					'range' => [
+						'px' => [
+							'min' => 200,
+							'max' => 800,
+							'step' => 1,
+						],
+					],
 
+					'selectors' => [
+						'{{WRAPPER}} .ts-field-popup' => 'min-width: {{SIZE}}{{UNIT}};',
+					],
+				]
+			);
 
 			$this->add_group_control(
 				\Elementor\Group_Control_Box_Shadow::get_type(),

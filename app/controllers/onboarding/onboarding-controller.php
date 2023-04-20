@@ -18,6 +18,9 @@ class Onboarding_Controller extends \Voxel\Controllers\Base_Controller {
 		$this->on( 'voxel_ajax_onboarding.verify_license', '@verify_license' );
 		$this->on( 'voxel_ajax_onboarding.prepare_install', '@prepare_install' );
 		$this->on( 'voxel_ajax_onboarding.start_blank', '@start_blank' );
+		$this->on( 'update_themes_getvoxel.io', '@check_for_updates', 10, 4 );
+		$this->on( 'http_request_args', '@update_request_headers', 10, 2 );
+		$this->on( 'upgrader_pre_download', '@check_update_permissions', 10, 4 );
 	}
 
 	protected function add_menu_page() {
@@ -106,7 +109,7 @@ class Onboarding_Controller extends \Voxel\Controllers\Base_Controller {
 				'mode' => 'update',
 				'environment' => $environment,
 				'license_key' => $license_key,
-				'site_url' => home_url('/'),
+				'site_url' => \Voxel\get_license_url(),
 			], 'https://getvoxel.io/?vx=1' );
 
 			$request = wp_remote_get( $request_url, [
@@ -122,7 +125,7 @@ class Onboarding_Controller extends \Voxel\Controllers\Base_Controller {
 				throw new \Exception( $response['message'] ?? _x( 'Could not verify license.', 'onboarding', 'voxel-backend' ) );
 			}
 
-			\Voxel\set( 'license', [
+			\Voxel\update_license_data( [
 				'key' => $license_key,
 				'env' => $environment,
 				'active' => true,
@@ -153,5 +156,59 @@ class Onboarding_Controller extends \Voxel\Controllers\Base_Controller {
 			wp_redirect( admin_url( 'admin.php?page=voxel-onboarding&tab=welcome' ) );
 			exit;
 		}
+	}
+
+	protected function check_for_updates( $update, $theme_data, $theme_stylesheet, $locales ) {
+		if ( $theme_stylesheet === 'voxel' && ! ( \Voxel\is_dev_mode() || locate_template('.git/index') ) ) {
+			$request = wp_remote_get( 'https://getvoxel.io/?vx=1&action=voxel_releases.get_latest_version', [
+				'timeout' => 5,
+			] );
+
+			$response = (array) json_decode( wp_remote_retrieve_body( $request ) );
+			if ( isset( $response['version'] ) && isset( $response['url'] ) ) {
+				$package_url = add_query_arg( [
+					'environment' => \Voxel\get_license_data('env'),
+					'license_key' => \Voxel\get_license_data('key'),
+					'site_url' => \Voxel\get_license_url(),
+				], 'https://getvoxel.io/?vx=1&action=voxel_releases.download_external' );
+
+				$response['package'] = $package_url;
+				return $response;
+			}
+		}
+
+		return $update;
+	}
+
+	protected function update_request_headers( $parsed_args, $url ) {
+		if ( str_starts_with( $url, 'https://getvoxel.io/?vx=1&action=voxel_releases.download_external' ) ) {
+			if ( ! is_array( $parsed_args['headers'] ) ) {
+				$parsed_args['headers'] = [];
+			}
+
+			$parsed_args['headers']['Voxel-License-Key'] = \Voxel\get_license_data('key');
+			return $parsed_args;
+		}
+
+		return $parsed_args;
+	}
+
+	protected function check_update_permissions( $reply, $package, $upgrader, $hook_extra ) {
+		if ( str_starts_with( $package, 'https://getvoxel.io/?vx=1&action=voxel_releases.download_external' ) ) {
+			$request_url = add_query_arg( [
+				'environment' => \Voxel\get_license_data('env'),
+				'license_key' => \Voxel\get_license_data('key'),
+				'site_url' => \Voxel\get_license_url(),
+				'mode' => 'check_permissions',
+			], 'https://getvoxel.io/?vx=1&action=voxel_releases.download_external' );
+
+			$request = wp_remote_get( $request_url, [ 'timeout' => 5 ] );
+			$response = (array) json_decode( wp_remote_retrieve_body( $request ) );
+			if ( empty( $response['success'] ) ) {
+				return new \WP_Error( 'download_failed', $response['message'] ?? 'Could not retrieve package.' );
+			}
+		}
+
+		return $reply;
 	}
 }

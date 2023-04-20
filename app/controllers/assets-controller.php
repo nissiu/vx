@@ -109,20 +109,22 @@ class Assets_Controller extends Base_Controller {
 		// vendor styles
 		$suffix = \Voxel\is_dev_mode() ? '' : '.prod';
 		wp_register_style( 'nouislider', $vendor.'nouislider/nouislider'.$suffix.'.css', [], '14.6.3' );
-		wp_register_style( 'pikaday', $vendor.'pikaday/pikaday'.$suffix.'.css', [], '1.8.9' );
+		wp_register_style( 'pikaday', $vendor.'pikaday/pikaday'.$suffix.'.css', [], '1.8.11' );
 
 		// vendor scripts
 		wp_register_script( 'vue', $vendor.'vue/vue'.$suffix.'.js', [], '3.2.37', true );
 		wp_register_script( 'sortable', $vendor.'sortable/sortable'.$suffix.'.js', [], '1.10.2', true );
 		wp_register_script( 'vue-draggable', $vendor.'vue-draggable/vue-draggable'.$suffix.'.js', [], '4.0.1', true );
 		wp_register_script( 'nouislider', $vendor.'nouislider/nouislider'.$suffix.'.js', ['jquery'], '14.6.3', true );
-		wp_register_script( 'pikaday', $vendor.'pikaday/pikaday'.$suffix.'.js', ['jquery'], '1.8.5', true );
+		wp_register_script( 'pikaday', $vendor.'pikaday/pikaday'.$suffix.'.js', ['jquery'], '1.8.11', true );
 		wp_register_script( 'google-recaptcha', 'https://www.google.com/recaptcha/api.js?render='.\Voxel\get('settings.recaptcha.key'), [], false, true );
 		wp_register_script( 'google-maps', sprintf( 'https://maps.googleapis.com/maps/api/js?%s', http_build_query( [
 			'key' => \Voxel\get( 'settings.maps.google_maps.api_key' ),
 			'libraries' => 'places',
 			'v' => 3,
 			'callback' => 'Voxel.Maps.GoogleMaps',
+			'language' => \Voxel\get( 'settings.maps.google_maps.language' ) ?: null,
+			'region' => \Voxel\get( 'settings.maps.google_maps.region' ) ?: null,
 		] ) ), ['vx:commons.js'], false, true );
 		wp_register_script( 'mapbox-gl', 'https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js', ['vx:commons.js'], '2.12.0', true );
 		wp_register_style( 'mapbox-gl', 'https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css', [], '2.12.0' );
@@ -241,11 +243,45 @@ class Assets_Controller extends Base_Controller {
 				'copied' => __( 'Copied to clipboard', 'voxel' ),
 				'positionFail' => __( 'Could not determine your location.', 'voxel' ),
 				'addressFail' => __( 'Could not determine your address.', 'voxel' ),
+				'months' => [
+					_x( 'January', 'months', 'voxel' ),
+					_x( 'February', 'months', 'voxel' ),
+					_x( 'March', 'months', 'voxel' ),
+					_x( 'April', 'months', 'voxel' ),
+					_x( 'May', 'months', 'voxel' ),
+					_x( 'June', 'months', 'voxel' ),
+					_x( 'July', 'months', 'voxel' ),
+					_x( 'August', 'months', 'voxel' ),
+					_x( 'September', 'months', 'voxel' ),
+					_x( 'October', 'months', 'voxel' ),
+					_x( 'November', 'months', 'voxel' ),
+					_x( 'December', 'months', 'voxel' ),
+				],
+				'weekdays' => [
+					_x( 'Sunday', 'weekdays', 'voxel' ),
+					_x( 'Monday', 'weekdays', 'voxel' ),
+					_x( 'Tuesday', 'weekdays', 'voxel' ),
+					_x( 'Wednesday', 'weekdays', 'voxel' ),
+					_x( 'Thursday', 'weekdays', 'voxel' ),
+					_x( 'Friday', 'weekdays', 'voxel' ),
+					_x( 'Saturday', 'weekdays', 'voxel' ),
+				],
+				'weekdaysShort' => [
+					_x( 'Sun', 'weekdays short', 'voxel' ),
+					_x( 'Mon', 'weekdays short', 'voxel' ),
+					_x( 'Tue', 'weekdays short', 'voxel' ),
+					_x( 'Wed', 'weekdays short', 'voxel' ),
+					_x( 'Thu', 'weekdays short', 'voxel' ),
+					_x( 'Fri', 'weekdays short', 'voxel' ),
+					_x( 'Sat', 'weekdays short', 'voxel' ),
+				],
 			],
 			'locale' => get_locale(),
 			'currency' => \Voxel\get('settings.stripe.currency', 'usd'),
 			'maps' => [
 				'provider' => \Voxel\get( 'settings.maps.provider' ),
+				'default_lat' => \Voxel\get( 'settings.maps.default_location.lat' ) ?: 42.5,
+				'default_lng' => \Voxel\get( 'settings.maps.default_location.lng' ) ?: 21,
 			],
 		];
 
@@ -253,6 +289,7 @@ class Assets_Controller extends Base_Controller {
 			$config['mapbox'] = [
 				'api_key' => \Voxel\get( 'settings.maps.mapbox.api_key' ),
 				'skin' => \Voxel\get( 'settings.maps.mapbox.skin' ),
+				'language' => \Voxel\get( 'settings.maps.mapbox.language' ),
 			];
 		} elseif ( \Voxel\get( 'settings.maps.provider' ) === 'google_maps' ) {
 			$map_skin_json = \Voxel\get( 'settings.maps.google_maps.skin' );

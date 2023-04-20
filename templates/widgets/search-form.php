@@ -46,7 +46,17 @@ $deferred_templates = [];
 								</div>
 								<div class="ts-popup-controller">
 									<ul class="flexify simplify-ul">
-										<li class="flexify">
+										<li class="flexify ts-popup-close">
+											<a @click.prevent="portal.active = false;" href="#" class="ts-icon-btn" role="button" rel="nofollow">
+												<?= \Voxel\svg( 'close.svg' ) ?>
+											</a>
+										</li>
+										<li class="flexify hide-d" @click.prevent="$emit('clear')">
+											<a href="#" @click.prevent="clearAll" class="ts-icon-btn">
+												<?= \Voxel\svg( 'reload.svg' ) ?>
+											</a>
+										</li>
+										<li class="flexify hide-m">
 											<a @click.prevent="clearAll" href="#" class="ts-btn ts-btn-1"><?= _x( 'Clear', 'search form', 'voxel' ) ?></a>
 										</li>
 										<li class="flexify">

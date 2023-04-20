@@ -67,6 +67,7 @@ class Advanced_List extends Base_Widget {
 						'share_post' => __( 'Share post', 'voxel-elementor' ),
 						'select_addition' => __( 'Select addition', 'voxel-elementor' ),
 						'back_to_top' => __( 'Back to top', 'voxel-elementor' ),
+						'scroll_to_section' => __( 'Scroll to section', 'voxel-elementor' ),
 					],
 				]
 			);
@@ -92,6 +93,12 @@ class Advanced_List extends Base_Widget {
 					],
 				]
 			);
+
+			$repeater->add_control( 'ts_scroll_to', [
+				'label' => __( 'Section ID', 'voxel-elementor' ),
+				'type' => \Elementor\Controls_Manager::TEXT,
+				'condition' => [ 'ts_action_type' => 'scroll_to_section' ],
+			] );
 
 			$repeater->add_control(
 				'ts_acw_initial_text',

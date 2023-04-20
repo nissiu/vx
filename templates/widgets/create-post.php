@@ -70,6 +70,12 @@ $deferred_templates[] = locate_template( 'templates/widgets/create-post/_media-p
 			<?php
 			$hidden_steps = [];
 			foreach ( $post_type->get_fields() as $field ):
+				try {
+					$field->check_dependencies();
+				} catch ( \Exception $e ) {
+					continue;
+				}
+
 				if ( isset( $hidden_steps[ $field->get_step() ] ) || ! $field->passes_visibility_rules() ) {
 					if ( $field->get_type() === 'ui-step' ) {
 						$hidden_steps[ $field->get_key() ] = true;

@@ -225,7 +225,7 @@
         maxDate: null,
 
         // number of years either side, or array of upper/lower range
-        yearRange: 10,
+        yearRange: {upper: 10, lower: 50},
 
         // show week numbers at head of row
         showWeekNumber: false,
@@ -273,9 +273,9 @@
         i18n: {
             previousMonth : '',
             nextMonth     : '',
-            months        : ['January','February','March','April','May','June','July','August','September','October','November','December'],
-            weekdays      : ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
-            weekdaysShort : ['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
+            months        : Voxel_Config.l10n.months,
+            weekdays      : Voxel_Config.l10n.weekdays,
+            weekdaysShort : Voxel_Config.l10n.weekdaysShort
         },
 
         // Theme Classname
@@ -430,12 +430,21 @@
 
         monthHtml = '<div class="pika-label">' + opts.i18n.months[month] + '<select class="pika-select pika-select-month" tabindex="-1">' + arr.join('') + '</select></div>';
 
-        if (isArray(opts.yearRange)) {
+        let loadMore = true;
+        if ( opts.yearRange?.upper && opts.yearRange?.lower ) {
+            i = year - opts.yearRange.lower;
+            j = 1 + year + opts.yearRange.upper;
+        } else if (isArray(opts.yearRange)) {
             i = opts.yearRange[0];
             j = opts.yearRange[1] + 1;
+            loadMore = false;
         } else {
             i = year - opts.yearRange;
             j = 1 + year + opts.yearRange;
+        }
+
+        if ( loadMore ) {
+        	var loadPrev = '<option value="'+(i-1)+'">&#x2191;</option>';
         }
 
         for (arr = []; i < j && i <= opts.maxYear; i++) {
@@ -443,6 +452,12 @@
                 arr.push('<option value="' + i + '"' + (i === year ? ' selected="selected"': '') + '>' + (i) + '</option>');
             }
         }
+
+        if ( loadMore ) {
+        	arr.unshift(loadPrev);
+        	arr.push('<option value="'+i+'">&#x2193;</option>');
+        }
+
         yearHtml = '<div class="pika-label">' + year + opts.yearSuffix + '<select class="pika-select pika-select-year" tabindex="-1">' + arr.join('') + '</select></div>';
 
         if (opts.showMonthAfterYear) {
@@ -761,12 +776,14 @@
                 this.setMaxDate(opts.maxDate);
             }
 
-            if (isArray(opts.yearRange)) {
+        	if ( opts.yearRange?.upper && opts.yearRange?.lower ) {
+                //
+            } else if (isArray(opts.yearRange)) {
                 var fallback = new Date().getFullYear() - 10;
                 opts.yearRange[0] = parseInt(opts.yearRange[0], 10) || fallback;
                 opts.yearRange[1] = parseInt(opts.yearRange[1], 10) || fallback;
             } else {
-                opts.yearRange = Math.abs(parseInt(opts.yearRange, 10)) || defaults.yearRange;
+                opts.yearRange = Math.abs(parseInt(opts.yearRange, 10)) || 10;
                 if (opts.yearRange > 100) {
                     opts.yearRange = 100;
                 }

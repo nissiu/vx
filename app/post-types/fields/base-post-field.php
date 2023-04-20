@@ -226,6 +226,10 @@ abstract class Base_Post_Field extends \Voxel\Object_Fields\Base_Field {
 		return [];
 	}
 
+	public function check_dependencies() {
+		//
+	}
+
 	protected function editing_value() {
 		return $this->post ? $this->get_value() : null;
 	}

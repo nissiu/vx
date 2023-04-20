@@ -107,13 +107,30 @@ class Settings_Controller extends Base_Controller {
 					],
 					'maps' => [
 						'provider' => 'google_maps',
+						'default_location' => [
+							'lat' => null,
+							'lng' => null,
+						],
 						'google_maps' => [
 							'api_key' => null,
 							'skin' => null,
+							'language' => '',
+							'region' => '',
+							'autocomplete' => [
+								'feature_types' => '',
+								'feature_types_in_submission' => '',
+								'countries' => [],
+							],
 						],
 						'mapbox' => [
 							'api_key' => null,
 							'skin' => null,
+							'language' => '',
+							'autocomplete' => [
+								'feature_types' => [],
+								'feature_types_in_submission' => [],
+								'countries' => [],
+							],
 						],
 					],
 					'timeline' => [
@@ -312,13 +329,30 @@ class Settings_Controller extends Base_Controller {
 
 			'maps' => [
 				'provider' => $maps['provider'] ?? null,
+				'default_location' => [
+					'lat' => $maps['default_location']['lat'] ?? null,
+					'lng' => $maps['default_location']['lng'] ?? null,
+				],
 				'google_maps' => [
 					'api_key' => $maps['google_maps']['api_key'] ?? null,
 					'skin' => ( $maps['google_maps']['skin'] ?? null ) ? wp_json_encode( json_decode( $maps['google_maps']['skin'] ) ) : null,
+					'language' => $maps['google_maps']['language'] ?? null,
+					'region' => $maps['google_maps']['region'] ?? null,
+					'autocomplete' => [
+						'feature_types' => $maps['google_maps']['autocomplete']['feature_types'] ?? null,
+						'feature_types_in_submission' => $maps['google_maps']['autocomplete']['feature_types_in_submission'] ?? null,
+						'countries' => (array) ( $maps['google_maps']['autocomplete']['countries'] ?? [] ),
+					],
 				],
 				'mapbox' => [
 					'api_key' => $maps['mapbox']['api_key'] ?? null,
 					'skin' => $maps['mapbox']['skin'] ?? null,
+					'language' => $maps['mapbox']['language'] ?? null,
+					'autocomplete' => [
+						'feature_types' => (array) ( $maps['mapbox']['autocomplete']['feature_types'] ?? [] ),
+						'feature_types_in_submission' => (array) ( $maps['mapbox']['autocomplete']['feature_types_in_submission'] ?? [] ),
+						'countries' => (array) ( $maps['mapbox']['autocomplete']['countries'] ?? [] ),
+					],
 				],
 			],
 
